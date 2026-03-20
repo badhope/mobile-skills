@@ -299,7 +299,7 @@ https://raw.githubusercontent.com/badhope/mobile-skills/main/agents/lifestyle-co
 **用户发送**：
 ```
 请读取：
-https://raw.githubusercontent.com/badhope/mobile-skills/main/agents/writing/writer.md
+https://raw.githubusercontent.com/badhope/mobile-skills/main/agents/writing-creative/writer.md
 ```
 
 **用户提问**：
