@@ -255,6 +255,6 @@ MIT License
 
 ---
 
-**[中文](./README_zh.md)**
+**[中文](./README.zh-CN.md)**
 
 **Last updated:** 2026-03-20
