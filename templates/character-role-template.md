@@ -170,5 +170,5 @@
 ## 激活方式
 
 ```
-https://raw.githubusercontent.com/badhope/mobile-skills/main/agents/entertainment/[role-name].md
+https://raw.githubusercontent.com/badhope/mobile-skills/main/agents/entertainment-character/[role-name].md
 ```

@@ -183,5 +183,5 @@ activation_prompt: 请读取以下文件并切换到私人导师模式：[Raw链
 ## 激活方式
 
 ```
-https://raw.githubusercontent.com/badhope/mobile-skills/main/agents/education/tutor.md
+https://raw.githubusercontent.com/badhope/mobile-skills/main/agents/learning-education/tutor.md
 ```

@@ -15,19 +15,19 @@
 | Functional | `agents/functional/` | 任务执行、计划、总结 |
 | Professional | `agents/professional/` | 法律、金融、医疗等专业咨询 |
 | Design & Build | `agents/design-build/` | 架构、设计、技术方案 |
-| Research | `agents/research/` | 调研、分析、报告 |
-| Writing | `agents/writing/` | 文案、创意、内容 |
-| Education | `agents/education/` | 教学、辅导、学习 |
-| Lifestyle | `agents/lifestyle/` | 陪伴、生活、情感 |
-| Entertainment | `agents/entertainment/` | 角色扮演、动漫互动 |
+| Research Analysis | `agents/research-analysis/` | 调研、分析、报告 |
+| Writing Creative | `agents/writing-creative/` | 文案、创意、内容 |
+| Learning Education | `agents/learning-education/` | 教学、辅导、学习 |
+| Lifestyle Companion | `agents/lifestyle-companion/` | 陪伴、生活、情感 |
+| Entertainment Character | `agents/entertainment-character/` | 角色扮演、动漫互动 |
 
 ### Step 2: 选择模板
 
 | 角色类型 | 模板文件 |
 |:---|:---|
 | 通用角色 | `templates/role-template.md` |
-| 专业角色 | `templates/professional-template.md` |
-| 娱乐角色 | `templates/entertainment-template.md` |
+| 专业角色 | `templates/professional-role-template.md` |
+| 角色扮演 | `templates/character-role-template.md` |
 
 ### Step 3: 创建角色文件
 

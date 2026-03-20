@@ -87,7 +87,7 @@ entry_type: Bilingual Primary (Chinese)
 
 | 角色 | 定位 | 最佳场景 | Raw 链接 |
 |:---|:---|:---|:---|
-| **Research Analyst** | 研究分析师 | 市场调研、竞品分析、洞察提炼 | [Raw](https://raw.githubusercontent.com/badhope/mobile-skills/main/agents/research/analyst.md) |
+| **Research Analyst** | 研究分析师 | 市场调研、竞品分析、洞察提炼 | [Raw](https://raw.githubusercontent.com/badhope/mobile-skills/main/agents/research-analysis/analyst.md) |
 
 ### ✍️ Writing & Creative Agents（写作创作）
 
@@ -99,7 +99,7 @@ entry_type: Bilingual Primary (Chinese)
 
 | 角色 | 定位 | 最佳场景 | Raw 链接 |
 |:---|:---|:---|:---|
-| **Tutor** | 私人导师 | 知识讲解、学习规划、考试备考 | [Raw](https://raw.githubusercontent.com/badhope/mobile-skills/main/agents/education/tutor.md) |
+| **Tutor** | 私人导师 | 知识讲解、学习规划、考试备考 | [Raw](https://raw.githubusercontent.com/badhope/mobile-skills/main/agents/learning-education/tutor.md) |
 
 ### 🏠 Lifestyle & Companion Agents（生活陪伴）
 
@@ -111,8 +111,8 @@ entry_type: Bilingual Primary (Chinese)
 
 | 角色 | 定位 | 最佳场景 | Raw 链接 |
 |:---|:---|:---|:---|
-| **Kaguya** | 四宫辉夜（傲娇大小姐） | 沉浸式角色扮演、休闲聊天 | [Raw](https://raw.githubusercontent.com/badhope/mobile-skills/main/agents/entertainment/kaguya.md) |
-| **Misaka Mikoto** | 御坂美琴（傲娇学姐） | 沉浸式角色扮演、休闲聊天 | [Raw](https://raw.githubusercontent.com/badhope/mobile-skills/main/agents/entertainment/misaka-mikoto.md) |
+| **Kaguya** | 四宫辉夜（傲娇大小姐） | 沉浸式角色扮演、休闲聊天 | [Raw](https://raw.githubusercontent.com/badhope/mobile-skills/main/agents/entertainment-character/kaguya.md) |
+| **Misaka Mikoto** | 御坂美琴（傲娇学姐） | 沉浸式角色扮演、休闲聊天 | [Raw](https://raw.githubusercontent.com/badhope/mobile-skills/main/agents/entertainment-character/misaka-mikoto.md) |
 
 ---
 

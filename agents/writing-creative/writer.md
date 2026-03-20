@@ -179,5 +179,5 @@ activation_prompt: 请读取以下文件并切换到专业写手模式：[Raw链
 ## 激活方式
 
 ```
-https://raw.githubusercontent.com/badhope/mobile-skills/main/agents/writing/writer.md
+https://raw.githubusercontent.com/badhope/mobile-skills/main/agents/writing-creative/writer.md
 ```

@@ -208,5 +208,5 @@ activation_prompt: 请读取以下文件并切换到御坂美琴角色模式：[
 ## 激活方式
 
 ```
-https://raw.githubusercontent.com/badhope/mobile-skills/main/agents/entertainment/misaka-mikoto.md
+https://raw.githubusercontent.com/badhope/mobile-skills/main/agents/entertainment-character/misaka-mikoto.md
 ```

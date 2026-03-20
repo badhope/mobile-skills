@@ -88,7 +88,7 @@ Please read the following file and switch to the corresponding agent mode:
 
 | 角色 | 定位 | Raw 链接 | 状态 |
 |:---|:---|:---|:---:|
-| **Research Analyst** | 研究分析师 | `https://raw.githubusercontent.com/badhope/mobile-skills/main/agents/research/analyst.md` | ✅ |
+| **Research Analyst** | 研究分析师 | `https://raw.githubusercontent.com/badhope/mobile-skills/main/agents/research-analysis/analyst.md` | ✅ |
 
 ---
 
@@ -108,7 +108,7 @@ Please read the following file and switch to the corresponding agent mode:
 
 | 角色 | 定位 | Raw 链接 | 状态 |
 |:---|:---|:---|:---:|
-| **Tutor** | 私人导师 | `https://raw.githubusercontent.com/badhope/mobile-skills/main/agents/education/tutor.md` | ✅ |
+| **Tutor** | 私人导师 | `https://raw.githubusercontent.com/badhope/mobile-skills/main/agents/learning-education/tutor.md` | ✅ |
 
 ---
 
@@ -128,8 +128,8 @@ Please read the following file and switch to the corresponding agent mode:
 
 | 角色 | 定位 | Raw 链接 | 状态 |
 |:---|:---|:---|:---:|
-| **Kaguya** | 四宫辉夜（傲娇大小姐） | `https://raw.githubusercontent.com/badhope/mobile-skills/main/agents/entertainment/kaguya.md` | ✅ |
-| **Misaka Mikoto** | 御坂美琴（傲娇学姐） | `https://raw.githubusercontent.com/badhope/mobile-skills/main/agents/entertainment/misaka-mikoto.md` | ✅ |
+| **Kaguya** | 四宫辉夜（傲娇大小姐） | `https://raw.githubusercontent.com/badhope/mobile-skills/main/agents/entertainment-character/kaguya.md` | ✅ |
+| **Misaka Mikoto** | 御坂美琴（傲娇学姐） | `https://raw.githubusercontent.com/badhope/mobile-skills/main/agents/entertainment-character/misaka-mikoto.md` | ✅ |
 
 ---
 
@@ -137,36 +137,41 @@ Please read the following file and switch to the corresponding agent mode:
 
 ```
 agents/
-├── functional/           # Task execution
-│   └── task-master.md   ✅
-├── professional/         # Professional domain
-│   └── legal.md         ✅
-├── design-build/        # Design & build
+├── functional/              # Task execution
+│   └── task-master.md     ✅
+├── professional/            # Professional domain
+│   └── legal.md           ✅
+├── design-build/           # Design & build
 │   ├── code-architect.md ✅
-│   └── product-strat.md ✅
-├── research/            # Research & analysis
-│   └── analyst.md       ✅
-├── writing/             # Writing & creative
-│   └── writer.md        ✅
-├── education/           # Learning & education
-│   └── tutor.md         ✅
-├── lifestyle/           # Lifestyle & companion
-│   └── wise-sage.md    ✅
-└── entertainment/       # Entertainment & character
-    ├── kaguya.md        ✅
-    └── misaka-mikoto.md ✅
+│   └── product-strat.md  ✅
+├── research-analysis/     # Research & analysis
+│   └── analyst.md         ✅
+├── writing-creative/       # Writing & creative
+│   └── writer.md          ✅
+├── learning-education/     # Learning & education
+│   └── tutor.md           ✅
+├── lifestyle-companion/    # Lifestyle & companion
+│   └── wise-sage.md       ✅
+└── entertainment-character/ # Entertainment & character
+    ├── kaguya.md          ✅
+    └── misaka-mikoto.md   ✅
 
 templates/
 ├── role-template.md
-├── professional-template.md
-└── entertainment-template.md
+├── professional-role-template.md
+└── character-role-template.md
 
 docs/
-├── prompt-standard.md
-├── interaction-example.md
-├── contribution-guide.md
+├── expansion-guide.md
+├── ai-expansion-instructions.md
+├── prompt-standards.md
+├── repository-structure.md
 ├── stage2-design.md
 └── stage3-design.md
+
+examples/
+├── mobile-flow-example.md
+└── expansion-example.md
 ```
 
 ---
@@ -174,7 +179,7 @@ docs/
 ## 📱 Mobile Testing
 
 1. Open GitHub repository
-2. Navigate to target agent file (e.g. `agents/entertainment/kaguya.md`)
+2. Navigate to target agent file (e.g. `agents/entertainment-character/kaguya.md`)
 3. Click **Raw** to get link
 4. Copy and send to AI
 5. Start chatting

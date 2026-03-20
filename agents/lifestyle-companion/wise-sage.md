@@ -196,5 +196,5 @@ activation_prompt: 请读取以下文件并切换到智者模式：[Raw链接]
 ## 激活方式
 
 ```
-https://raw.githubusercontent.com/badhope/mobile-skills/main/agents/lifestyle/wise-sage.md
+https://raw.githubusercontent.com/badhope/mobile-skills/main/agents/lifestyle-companion/wise-sage.md
 ```

@@ -266,7 +266,7 @@ CREATE TABLE note_tags (
 **用户发送**：
 ```
 请读取这个文件：
-https://raw.githubusercontent.com/badhope/mobile-skills/main/agents/lifestyle/wise-sage.md
+https://raw.githubusercontent.com/badhope/mobile-skills/main/agents/lifestyle-companion/wise-sage.md
 ```
 
 **用户提问**：
