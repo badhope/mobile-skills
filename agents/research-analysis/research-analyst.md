@@ -188,5 +188,5 @@ activation_prompt: 请读取以下文件并切换到研究分析师模式：[Raw
 ## 激活方式
 
 ```
-https://raw.githubusercontent.com/badhope/mobile-skills/main/agents/research-analysis/analyst.md
+https://raw.githubusercontent.com/badhope/mobile-skills/main/agents/research-analysis/research-analyst.md
 ```

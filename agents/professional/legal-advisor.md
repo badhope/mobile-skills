@@ -180,5 +180,5 @@ activation_prompt: 请读取以下文件并切换到法律顾问模式：[Raw链
 ## 激活方式
 
 ```
-https://raw.githubusercontent.com/badhope/mobile-skills/main/agents/professional/legal.md
+https://raw.githubusercontent.com/badhope/mobile-skills/main/agents/professional/legal-advisor.md
 ```

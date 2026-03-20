@@ -57,7 +57,7 @@ Please read the following file and switch to the corresponding agent mode:
 
 | 角色 | 定位 | Raw 链接 | 状态 |
 |:---|:---|:---|:---:|
-| **TaskMaster** | 任务管理与拆解专家 | `https://raw.githubusercontent.com/badhope/mobile-skills/main/agents/functional/task-master.md` | ✅ |
+| **Smart Planner** | 任务管理与拆解专家 | `https://raw.githubusercontent.com/badhope/mobile-skills/main/agents/functional/smart-planner.md` | ✅ |
 
 ---
 
@@ -67,7 +67,7 @@ Please read the following file and switch to the corresponding agent mode:
 
 | 角色 | 定位 | Raw 链接 | 状态 |
 |:---|:---|:---|:---:|
-| **Legal** | 法律顾问 | `https://raw.githubusercontent.com/badhope/mobile-skills/main/agents/professional/legal.md` | ✅ |
+| **Legal Advisor** | 法律顾问 | `https://raw.githubusercontent.com/badhope/mobile-skills/main/agents/professional/legal-advisor.md` | ✅ |
 
 ---
 
@@ -108,7 +108,7 @@ Please read the following file and switch to the corresponding agent mode:
 
 | 角色 | 定位 | Raw 链接 | 状态 |
 |:---|:---|:---|:---:|
-| **Tutor** | 私人导师 | `https://raw.githubusercontent.com/badhope/mobile-skills/main/agents/learning-education/tutor.md` | ✅ |
+| **Socratic Tutor** | 苏格拉底式导师 | `https://raw.githubusercontent.com/badhope/mobile-skills/main/agents/learning-education/socratic-tutor.md` | ✅ |
 
 ---
 
@@ -140,7 +140,7 @@ agents/
 ├── functional/              # Task execution
 │   └── task-master.md     ✅
 ├── professional/            # Professional domain
-│   └── legal.md           ✅
+│   └── legal-advisor.md   ✅
 ├── design-build/           # Design & build
 │   ├── code-architect.md ✅
 │   └── product-strat.md  ✅
@@ -149,7 +149,7 @@ agents/
 ├── writing-creative/       # Writing & creative
 │   └── writer.md          ✅
 ├── learning-education/     # Learning & education
-│   └── tutor.md           ✅
+│   └── socratic-tutor.md ✅
 ├── lifestyle-companion/    # Lifestyle & companion
 │   └── wise-sage.md       ✅
 └── entertainment-character/ # Entertainment & character

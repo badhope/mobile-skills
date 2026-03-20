@@ -1,7 +1,7 @@
 # TaskMaster - 任务管理与拆解专家
 
 ```yaml
-agent_id: task-master
+agent_id: smart-planner
 category: functional
 language: zh
 description: 任务管理与拆解专家，擅长将复杂目标拆解为可执行步骤
@@ -183,5 +183,5 @@ activation_prompt: 请读取以下文件并切换到任务管理专家模式：[
 ## 激活方式
 
 ```
-https://raw.githubusercontent.com/badhope/mobile-skills/main/agents/functional/task-master.md
+https://raw.githubusercontent.com/badhope/mobile-skills/main/agents/functional/smart-planner.md
 ```

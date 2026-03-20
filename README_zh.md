@@ -68,13 +68,13 @@ entry_type: Bilingual Primary (Chinese)
 
 | 角色 | 定位 | 最佳场景 | Raw 链接 |
 |:---|:---|:---|:---|
-| **TaskMaster** | 任务管理与拆解专家 | 计划制定、任务拆解、GTD | [Raw](https://raw.githubusercontent.com/badhope/mobile-skills/main/agents/functional/task-master.md) |
+| **Smart Planner** | 任务管理与拆解专家 | 计划制定、任务拆解、GTD | [Raw](https://raw.githubusercontent.com/badhope/mobile-skills/main/agents/functional/smart-planner.md) |
 
 ### 💼 Professional Domain Agents（专业领域）
 
 | 角色 | 定位 | 最佳场景 | Raw 链接 |
 |:---|:---|:---|:---|
-| **Legal** | 法律顾问 | 合同审查、风险评估、合规建议 | [Raw](https://raw.githubusercontent.com/badhope/mobile-skills/main/agents/professional/legal.md) |
+| **Legal Advisor** | 法律顾问 | 合同审查、风险评估、合规建议 | [Raw](https://raw.githubusercontent.com/badhope/mobile-skills/main/agents/professional/legal-advisor.md) |
 
 ### 🎨 Design & Build Agents（设计构建）
 
@@ -99,7 +99,7 @@ entry_type: Bilingual Primary (Chinese)
 
 | 角色 | 定位 | 最佳场景 | Raw 链接 |
 |:---|:---|:---|:---|
-| **Tutor** | 私人导师 | 知识讲解、学习规划、考试备考 | [Raw](https://raw.githubusercontent.com/badhope/mobile-skills/main/agents/learning-education/tutor.md) |
+| **Socratic Tutor** | 苏格拉底式导师 | 知识讲解、学习规划、考试备考 | [Raw](https://raw.githubusercontent.com/badhope/mobile-skills/main/agents/learning-education/socratic-tutor.md) |
 
 ### 🏠 Lifestyle & Companion Agents（生活陪伴）
 
@@ -136,36 +136,41 @@ entry_type: Bilingual Primary (Chinese)
 
 ```
 agents/
-├── functional/           # 功能执行
-│   └── task-master.md   ✅
-├── professional/         # 专业领域
-│   └── legal.md         ✅
-├── design-build/        # 设计构建
+├── functional/              # 功能执行
+│   └── smart-planner.md  ✅
+├── professional/            # 专业领域
+│   └── legal-advisor.md  ✅
+├── design-build/           # 设计构建
 │   ├── code-architect.md ✅
-│   └── product-strat.md ✅
-├── research/            # 研究分析
-│   └── analyst.md       ✅
-├── writing/             # 写作创作
-│   └── writer.md        ✅
-├── education/           # 学习教育
-│   └── tutor.md         ✅
-├── lifestyle/           # 生活陪伴
-│   └── wise-sage.md    ✅
-└── entertainment/       # 娱乐角色
-    ├── kaguya.md        ✅
-    └── misaka-mikoto.md ✅
+│   └── product-strat.md  ✅
+├── research-analysis/     # 研究分析
+│   └── research-analyst.md ✅
+├── writing-creative/       # 写作创作
+│   └── writer.md          ✅
+├── learning-education/     # 学习教育
+│   └── socratic-tutor.md ✅
+├── lifestyle-companion/    # 生活陪伴
+│   └── wise-sage.md       ✅
+└── entertainment-character/ # 娱乐角色
+    ├── kaguya.md          ✅
+    └── misaka-mikoto.md   ✅
 
 templates/
 ├── role-template.md
-├── professional-template.md
-└── entertainment-template.md
+├── professional-role-template.md
+└── character-role-template.md
 
 docs/
-├── prompt-standard.md
-├── interaction-example.md
-├── contribution-guide.md
+├── expansion-guide.md
+├── ai-expansion-instructions.md
+├── prompt-standards.md
+├── repository-structure.md
 ├── stage2-design.md
 └── stage3-design.md
+
+examples/
+├── mobile-flow-example.md
+└── expansion-example.md
 ```
 
 ---
@@ -173,7 +178,7 @@ docs/
 ## 手机端测试
 
 1. 打开 GitHub 仓库
-2. 进入目标角色文件（如 `agents/entertainment/kaguya.md`）
+2. 进入目标角色文件（如 `agents/entertainment-character/kaguya.md`）
 3. 点击 **Raw** 获取链接
 4. 复制并发送给 AI
 5. 开始对话
@@ -184,12 +189,12 @@ docs/
 
 | 类别 | 说明 | 代表角色 | 数量 |
 |:---|:---|:---|:---:|
-| 🛠️ Functional | 功能执行 | TaskMaster | 1 |
-| 💼 Professional | 专业领域 | Legal | 1 |
+| 🛠️ Functional | 功能执行 | Smart Planner | 1 |
+| 💼 Professional | 专业领域 | Legal Advisor | 1 |
 | 🎨 Design & Build | 设计构建 | Code Architect, ProductStrat | 2 |
 | 🔬 Research | 研究分析 | Research Analyst | 1 |
 | ✍️ Writing | 写作创作 | Writer | 1 |
-| 📚 Education | 学习教育 | Tutor | 1 |
+| 📚 Education | 学习教育 | Socratic Tutor | 1 |
 | 🏠 Lifestyle | 生活陪伴 | Wise Sage | 1 |
 | 🎭 Entertainment | 娱乐角色 | Kaguya, Misaka | 2 |
 
