@@ -26,7 +26,7 @@
 
 | 角色 | 定位 | Raw 链接 | 状态 |
 |:---|:---|:---|:---:|
-| **TaskMaster** | 任务管理与拆解专家 | `https://raw.githubusercontent.com/USERNAME/REPO/BRANCH/agents/functional/task-master.md` | ✅ |
+| **TaskMaster** | 任务管理与拆解专家 | `https://raw.githubusercontent.com/badhope/mobile-skills/main/agents/functional/task-master.md` | ✅ |
 
 ---
 
@@ -36,7 +36,7 @@
 
 | 角色 | 定位 | Raw 链接 | 状态 |
 |:---|:---|:---|:---:|
-| **Legal** | 法律顾问 | `https://raw.githubusercontent.com/USERNAME/REPO/BRANCH/agents/professional/legal.md` | ✅ |
+| **Legal** | 法律顾问 | `https://raw.githubusercontent.com/badhope/mobile-skills/main/agents/professional/legal.md` | ✅ |
 
 ---
 
@@ -46,8 +46,8 @@
 
 | 角色 | 定位 | Raw 链接 | 状态 |
 |:---|:---|:---|:---:|
-| **Code Architect** | 系统架构师 | `https://raw.githubusercontent.com/USERNAME/REPO/BRANCH/agents/design-build/code-architect.md` | ✅ |
-| **ProductStrat** | 产品策略师 | `https://raw.githubusercontent.com/USERNAME/REPO/BRANCH/agents/design-build/product-strat.md` | ✅ |
+| **Code Architect** | 系统架构师 | `https://raw.githubusercontent.com/badhope/mobile-skills/main/agents/design-build/code-architect.md` | ✅ |
+| **ProductStrat** | 产品策略师 | `https://raw.githubusercontent.com/badhope/mobile-skills/main/agents/design-build/product-strat.md` | ✅ |
 
 ---
 
@@ -57,7 +57,7 @@
 
 | 角色 | 定位 | Raw 链接 | 状态 |
 |:---|:---|:---|:---:|
-| **Research Analyst** | 研究分析师 | `https://raw.githubusercontent.com/USERNAME/REPO/BRANCH/agents/research/analyst.md` | ✅ |
+| **Research Analyst** | 研究分析师 | `https://raw.githubusercontent.com/badhope/mobile-skills/main/agents/research/analyst.md` | ✅ |
 
 ---
 
@@ -67,7 +67,7 @@
 
 | 角色 | 定位 | Raw 链接 | 状态 |
 |:---|:---|:---|:---:|
-| **Writer** | 专业写手 | `https://raw.githubusercontent.com/USERNAME/REPO/BRANCH/agents/writing/writer.md` | ✅ |
+| **Writer** | 专业写手 | `https://raw.githubusercontent.com/badhope/mobile-skills/main/agents/writing/writer.md` | ✅ |
 
 ---
 
@@ -77,7 +77,7 @@
 
 | 角色 | 定位 | Raw 链接 | 状态 |
 |:---|:---|:---|:---:|
-| **Tutor** | 私人导师 | `https://raw.githubusercontent.com/USERNAME/REPO/BRANCH/agents/education/tutor.md` | ✅ |
+| **Tutor** | 私人导师 | `https://raw.githubusercontent.com/badhope/mobile-skills/main/agents/education/tutor.md` | ✅ |
 
 ---
 
@@ -87,7 +87,7 @@
 
 | 角色 | 定位 | Raw 链接 | 状态 |
 |:---|:---|:---|:---:|
-| **Wise Sage** | 智者/贤者 | `https://raw.githubusercontent.com/USERNAME/REPO/BRANCH/agents/lifestyle/wise-sage.md` | ✅ |
+| **Wise Sage** | 智者/贤者 | `https://raw.githubusercontent.com/badhope/mobile-skills/main/agents/lifestyle/wise-sage.md` | ✅ |
 
 ---
 
@@ -97,8 +97,8 @@
 
 | 角色 | 定位 | Raw 链接 | 状态 |
 |:---|:---|:---|:---:|
-| **Kaguya** | 四宫辉夜（傲娇大小姐） | `https://raw.githubusercontent.com/USERNAME/REPO/BRANCH/agents/entertainment/kaguya.md` | ✅ |
-| **Misaka Mikoto** | 御坂美琴（傲娇学姐） | `https://raw.githubusercontent.com/USERNAME/REPO/BRANCH/agents/entertainment/misaka-mikoto.md` | ✅ |
+| **Kaguya** | 四宫辉夜（傲娇大小姐） | `https://raw.githubusercontent.com/badhope/mobile-skills/main/agents/entertainment/kaguya.md` | ✅ |
+| **Misaka Mikoto** | 御坂美琴（傲娇学姐） | `https://raw.githubusercontent.com/badhope/mobile-skills/main/agents/entertainment/misaka-mikoto.md` | ✅ |
 
 ---
 

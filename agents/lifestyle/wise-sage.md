@@ -187,5 +187,5 @@
 ## 激活方式
 
 ```
-https://raw.githubusercontent.com/USERNAME/REPO/BRANCH/agents/lifestyle/wise-sage.md
+https://raw.githubusercontent.com/badhope/mobile-skills/main/agents/lifestyle/wise-sage.md
 ```

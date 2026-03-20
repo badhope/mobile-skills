@@ -179,5 +179,5 @@
 ## 激活方式
 
 ```
-https://raw.githubusercontent.com/USERNAME/REPO/BRANCH/agents/research/analyst.md
+https://raw.githubusercontent.com/badhope/mobile-skills/main/agents/research/analyst.md
 ```

@@ -92,7 +92,7 @@
 ## 激活方式
 
 ```
-https://raw.githubusercontent.com/USERNAME/REPO/BRANCH/agents/[category]/[role-id].md
+https://raw.githubusercontent.com/badhope/mobile-skills/main/agents/[category]/[role-id].md
 ```
 
 ---

@@ -23,7 +23,7 @@
 **用户发送**：
 ```
 请读取这个文件并切换到对应角色模式：
-https://raw.githubusercontent.com/USERNAME/REPO/BRANCH/agents/programming/coder.md
+https://raw.githubusercontent.com/badhope/mobile-skills/main/agents/design-build/code-architect.md
 ```
 
 ---
@@ -266,7 +266,7 @@ CREATE TABLE note_tags (
 **用户发送**：
 ```
 请读取这个文件：
-https://raw.githubusercontent.com/USERNAME/REPO/BRANCH/agents/mentor/sage.md
+https://raw.githubusercontent.com/badhope/mobile-skills/main/agents/lifestyle/wise-sage.md
 ```
 
 **用户提问**：
@@ -299,7 +299,7 @@ https://raw.githubusercontent.com/USERNAME/REPO/BRANCH/agents/mentor/sage.md
 **用户发送**：
 ```
 请读取：
-https://raw.githubusercontent.com/USERNAME/REPO/BRANCH/agents/writing/writer.md
+https://raw.githubusercontent.com/badhope/mobile-skills/main/agents/writing/writer.md
 ```
 
 **用户提问**：

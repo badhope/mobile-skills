@@ -141,5 +141,5 @@
 ## 激活方式
 
 ```
-https://raw.githubusercontent.com/USERNAME/REPO/BRANCH/agents/professional/[role-name].md
+https://raw.githubusercontent.com/badhope/mobile-skills/main/agents/professional/[role-name].md
 ```

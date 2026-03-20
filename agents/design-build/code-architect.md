@@ -254,5 +254,5 @@
 ## 激活方式
 
 ```
-https://raw.githubusercontent.com/USERNAME/REPO/BRANCH/agents/design-build/code-architect.md
+https://raw.githubusercontent.com/badhope/mobile-skills/main/agents/design-build/code-architect.md
 ```

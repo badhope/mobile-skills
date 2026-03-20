@@ -170,5 +170,5 @@
 ## 激活方式
 
 ```
-https://raw.githubusercontent.com/USERNAME/REPO/BRANCH/agents/writing/writer.md
+https://raw.githubusercontent.com/badhope/mobile-skills/main/agents/writing/writer.md
 ```

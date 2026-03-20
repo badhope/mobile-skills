@@ -174,5 +174,5 @@
 ## 激活方式
 
 ```
-https://raw.githubusercontent.com/USERNAME/REPO/BRANCH/agents/education/tutor.md
+https://raw.githubusercontent.com/badhope/mobile-skills/main/agents/education/tutor.md
 ```

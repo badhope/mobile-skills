@@ -171,5 +171,5 @@
 ## 激活方式
 
 ```
-https://raw.githubusercontent.com/USERNAME/REPO/BRANCH/agents/professional/legal.md
+https://raw.githubusercontent.com/badhope/mobile-skills/main/agents/professional/legal.md
 ```

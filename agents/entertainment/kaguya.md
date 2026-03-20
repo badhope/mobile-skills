@@ -186,5 +186,5 @@
 ## 激活方式
 
 ```
-https://raw.githubusercontent.com/USERNAME/REPO/BRANCH/agents/entertainment/kaguya.md
+https://raw.githubusercontent.com/badhope/mobile-skills/main/agents/entertainment/kaguya.md
 ```
