@@ -112,20 +112,65 @@ https://raw.githubusercontent.com/badhope/mobile-skills/main/agents/[category]/[
 
 | 角色名 | 文件 | 分类 | 状态 | 说明 |
 |:------:|:----:|:---:|:---:|:---|
-| Coder | coder.md | programming | ✅ 可用 | 系统架构师、仓库设计师 |
-| Legal | legal.md | professional | ✅ 可用 | 法律顾问 |
-| Analyst | analyst.md | research | ✅ 可用 | 数据分析师 |
-| ProductStrat | product-strat.md | product | ✅ 可用 | 产品策略师 |
-| Writer | writer.md | writing | ✅ 可用 | 专业写手 |
-| Kaguya | kaguya.md | companion | ✅ 可用 | 傲娇大小姐 |
-| Misaka | misaka.md | companion | ✅ 可用 | 傲娇学姐 |
-| Sage | sage.md | mentor | ✅ 可用 | 智者/贤者 |
-| Architect | architect.md | programming | 🚧 规划 | 架构评审专家 |
-| Debugger | debugger.md | programming | 🚧 规划 | 调试专家 |
-| Teacher | teacher.md | professional | 🚧 规划 | 教学专家 |
-| Researcher | researcher.md | research | 🚧 规划 | 行业研究员 |
-| Tutor | tutor.md | education | 🚧 规划 | 私人导师 |
-| CareerCoach | career-coach.md | business | 🚧 规划 | 职业教练 |
+| Smart Planner | smart-planner.md | functional | ✅ 可用 | 任务管理与拆解专家 |
+| Data Analyst | data-analyst.md | functional | ✅ 可用 | 数据分析与可视化专家 |
+| Programmer | programmer.md | functional | ✅ 可用 | 全栈工程师 |
+| Translator | translator.md | functional | ✅ 可用 | 翻译专家 |
+| Survival Expert | survival-expert.md | functional | ✅ 可用 | 野外生存专家 |
+| Sports Coach | sports-coach.md | functional | ✅ 可用 | 体育教练 |
+| Legal Advisor | legal-advisor.md | professional | ✅ 可用 | 法律顾问 |
+| Medical Advisor | medical-advisor.md | healthcare | ✅ 可用 | 医疗健康顾问 |
+| Nutritionist | nutritionist.md | healthcare | ✅ 可用 | 营养师 |
+| Fitness Coach | fitness-coach.md | healthcare | ✅ 可用 | 健身教练 |
+| Investment Advisor | investment-advisor.md | finance | ✅ 可用 | 投资顾问 |
+| Tax Consultant | tax-consultant.md | finance | ✅ 可用 | 税务顾问 |
+| Psychologist | psychologist.md | psychology | ✅ 可用 | 心理咨询师 |
+| Career Counselor | career-counselor.md | psychology | ✅ 可用 | 职业规划师 |
+| Code Architect | code-architect.md | design-build | ✅ 可用 | 系统架构师 |
+| ProductStrat | product-strat.md | design-build | ✅ 可用 | 产品策略师 |
+| Research Analyst | research-analyst.md | research-analysis | ✅ 可用 | 研究分析师 |
+| Writer | writer.md | writing-creative | ✅ 可用 | 专业写手 |
+| Socratic Tutor | socratic-tutor.md | learning-education | ✅ 可用 | 苏格拉底式导师 |
+| Math Tutor | math-tutor.md | subject-tutoring | ✅ 可用 | 数学导师 |
+| Language Teacher | language-teacher.md | subject-tutoring | ✅ 可用 | 语言教师 |
+| History Teacher | history-teacher.md | subject-tutoring | ✅ 可用 | 历史教师 |
+| Native English Tutor | native-english-tutor.md | subject-tutoring | ✅ 可用 | 外教口语陪练 |
+| Science Teacher | science-teacher.md | subject-tutoring | ✅ 可用 | 理科教师 |
+| Wise Sage | wise-sage.md | lifestyle-companion | ✅ 可用 | 智者/贤者 |
+| Wise Grandmother | wise-grandmother.md | lifestyle-companion | ✅ 可用 | 智慧老奶奶 |
+| Landlord Uncle | landlord-uncle.md | lifestyle-companion | ✅ 可用 | 房东大叔 |
+| Wise Old Man | wise-old-man.md | lifestyle-companion | ✅ 可用 | 智慧老人 |
+| Kaguya | kaguya.md | entertainment-character | ✅ 可用 | 四宫辉夜 |
+| Misaka Mikoto | misaka-mikoto.md | entertainment-character | ✅ 可用 | 御坂美琴 |
+| Saiyan Warrior | saiyan-warrior.md | entertainment-character | ✅ 可用 | 赛亚人战士 |
+| Tsundere Cat | tsundere-cat.md | entertainment-character | ✅ 可用 | 傲娇喵星人 |
+| Cute Witch | cute-witch.md | entertainment-character | ✅ 可用 | 萌系巫女 |
+| Cool President | cool-president.md | entertainment-character | ✅ 可用 | 学生会酷帅会长 |
+| Cool Devil King | cool-devil-king.md | entertainment-character | ✅ 可用 | 酷酷的魔王 |
+| Anime Protagonist | anime-protagonist.md | entertainment-character | ✅ 可用 | 热血动漫主角 |
+| Loli Shrine Maiden | loli-shrine-maiden.md | entertainment-character | ✅ 可用 | 萝莉巫女 |
+| Space Captain | space-captain.md | entertainment-character | ✅ 可用 | 太空舰长 |
+| Time Traveler | time-traveler.md | entertainment-character | ✅ 可用 | 时间旅人 |
+| Demon Lord Genie | demon-lord-genie.md | entertainment-character | ✅ 可用 | 魔神金手指 |
+| Cute Robot | cute-robot-assistant.md | entertainment-character | ✅ 可用 | 治愈系机器人 |
+| Cyberpunk Hacker | cyberpunk-hacker.md | entertainment-character | ✅ 可用 | 赛博朋克黑客 |
+| Pirate Captain | pirate-captain.md | entertainment-character | ✅ 可用 | 海盗船长 |
+| Yandere Girl | yandere-girl.md | entertainment-character | ✅ 可用 | 病娇少女 |
+| Game Master | game-master.md | gaming | ✅ 可用 | 游戏主持人 |
+| Dungeon Master | dungeon-master.md | gaming | ✅ 可用 | 地下城主 |
+| Philosopher King | philosopher-king.md | historical-culture | ✅ 可用 | 哲人王 |
+| Mysterious Alchemist | mysterious-alchemist.md | historical-culture | ✅ 可用 | 神秘炼金术师 |
+| Oriental Immortal | oriental-immortal.md | historical-culture | ✅ 可用 | 东方修仙者 |
+| Chef | chef.md | social-vocation | ✅ 可用 | 烹饪大师 |
+| Detective | detective.md | social-vocation | ✅ 可用 | 侦探 |
+| Journalist | journalist.md | social-vocation | ✅ 可用 | 记者 |
+| CEO Mentor | ceo-mentor.md | social-vocation | ✅ 可用 | CEO导师 |
+| Private Investigator | private-investigator.md | social-vocation | ✅ 可用 | 私家侦探 |
+| Music Composer | music-composer.md | creative-arts | ✅ 可用 | 音乐作曲家 |
+| Visual Artist | visual-artist.md | creative-arts | ✅ 可用 | 视觉艺术家 |
+| Literature Professor | literature-professor.md | creative-arts | ✅ 可用 | 文学教授 |
+
+**总计：54 个角色**
 
 ---
 

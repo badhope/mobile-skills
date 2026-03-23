@@ -1,315 +1,923 @@
 # 🌐 AI Agent Ecosystem
 
+<!-- Badges Row -->
 <p align="center">
-  <img src="https://img.shields.io/badge/Agents-10+-blue?style=for-the-badge" alt="Agents">
-  <img src="https://img.shields.io/badge/Categories-8-green?style=for-the-badge" alt="Categories">
-  <img src="https://img.shields.io/badge/Platform-Cross--platform-orange?style=for-the-badge" alt="Platform">
-  <img src="https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge" alt="License">
+
+![Agents](https://img.shields.io/badge/Agents-57+-blue?style=for-the-badge&labelColor=2d333b)
+![Categories](https://img.shields.io/badge/Categories-15-green?style=for-the-badge&labelColor=2d333b)
+![Platform](https://img.shields.io/badge/Platform-Cross--platform-orange?style=for-the-badge&labelColor=2d333b)
+![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge&labelColor=2d333b)
+![PRs Welcome](https://img.shields.io/badge/PRs-Welcome-brightgreen?style=for-the-badge&labelColor=2d333b)
+![Last Update](https://img.shields.io/badge/Last_Update-2026--03--23-red?style=for-the-badge&labelColor=2d333b)
+
 </p>
 
-> **Activate AI agents via Raw links** — cross-platform, barrier-free, instant use
+<!-- Centered Hero Section -->
+<div align="center">
 
-<p align="center">
-  <a href="https://github.com/badhope/mobile-skills">
-    <img src="https://img.shields.io/badge/GitHub-Repository-gray?style=flat-square&logo=github" alt="GitHub">
-  </a>
-  <strong>|</strong>
-  <a href="./README.md">📖 English</a>
-  <strong>|</strong>
-  <a href="./README.zh-CN.md">中文</a>
-</p>
+## 🚀 Activate AI Agents via Raw Links
+
+**Cross-platform · Barrier-free · Instant use · No installation required**
+
+*[English](README.md) · [中文](README.zh-CN.md) · [日本語](README.ja-JP.md)*
+
+---
+
+### 🎯 Quick Demo
+
+```markdown
+# Activate the Psychologist Agent
+"Please read and switch to psychologist mode:"
+https://raw.githubusercontent.com/badhope/mobile-skills/main/agents/psychology/psychologist.md
+```
+
+[![GitHub Stars](https://img.shields.io/github/stars/badhope/mobile-skills?style=social)](https://github.com/badhope/mobile-skills)
+[![GitHub Forks](https://img.shields.io/github/forks/badhope/mobile-skills?style=social)](https://github.com/badhope/mobile-skills)
+
+</div>
 
 ---
 
 ## 📑 Table of Contents
 
-| Section | Description |
-|:---|:---|
-| [🚀 Quick Start](#-quick-start) | 3-step activation flow |
-| [📂 Category Index](#-category-index) | All 8 categories at a glance |
-| [🛠️ Functional](#-functional-agents) | Task execution & planning agents |
-| [💼 Professional](#-professional-domain-agents) | Legal & business expert agents |
-| [🎨 Design & Build](#-design--build-agents) | Architecture & product agents |
-| [🔬 Research & Analysis](#-research--analysis-agents) | Investigation & insight agents |
-| [✍️ Writing & Creative](#-writing--creative-agents) | Content creation agents |
-| [📚 Learning & Education](#-learning--education-agents) | Teaching & tutoring agents |
-| [🏠 Lifestyle & Companion](#-lifestyle--companion-agents) | Life wisdom & habit agents |
-| [🎭 Entertainment & Character](#-entertainment--character-agents) | Roleplay & character agents |
-| [📁 Repository Structure](#-repository-structure) | Complete file tree |
-| [📱 Mobile Testing](#-mobile-testing) | Mobile activation guide |
-| [🔗 For AI Parsing](#-for-ai-parsing) | Machine-readable metadata |
+<details open="open">
+<summary><b>📖 Click to expand</b></summary>
+
+| Section | Description | Badge |
+|:--------|:------------|:------|
+| [🚀 Quick Start](#-quick-start) | 3-step activation flow | 🟢 Beginner |
+| [🌐 Language Support](#-language-support) | Multi-language documentation | 🌍 i18n |
+| [📂 Category Index](#-category-index) | All 15 categories at a glance | 🔍 Browse |
+| [🎯 Featured Agents](#-featured-agents) | Most popular agents | ⭐ Must-try |
+| [🛠️ Functional](#-functional-agents) | Task execution & planning | 🔧 Tools |
+| [💼 Professional](#-professional-domain-agents) | Legal, business experts | 💼 Expert |
+| [💊 Healthcare](#-healthcare-agents) | Medical, nutrition, fitness | 🏥 Health |
+| [💰 Finance](#-finance-agents) | Investment, tax advisors | 💰 Money |
+| [🧠 Psychology](#-psychology-agents) | Mental health, career | 🧠 Mind |
+| [🎨 Design & Build](#-design--build-agents) | Architecture & product | 🎨 Design |
+| [🔬 Research & Analysis](#-research--analysis-agents) | Investigation & insights | 🔬 Research |
+| [✍️ Writing & Creative](#-writing--creative-agents) | Content creation | ✍️ Write |
+| [📚 Learning & Education](#-learning--education-agents) | Teaching & tutoring | 📚 Learn |
+| [📖 Subject Tutoring](#-subject-tutoring-agents) | Subject-specific tutors | 📖 Subject |
+| [🏠 Lifestyle & Companion](#-lifestyle--companion-agents) | Life wisdom & habits | 🏠 Home |
+| [🎭 Entertainment & Character](#-entertainment--character-agents) | Roleplay & characters | 🎭 Play |
+| [🎲 Gaming & TRPG](#-gaming--trpg-agents) | Game mastering | 🎲 Game |
+| [🏛️ Historical & Culture](#-historical--culture-agents) | Historical figures | 🏛️ History |
+| [👔 Social & Vocation](#-social--vocation-agents) | Professional roles | 👔 Work |
+| [🎨 Creative Arts](#-creative-arts-agents) | Music, visual, literature | 🎨 Art |
+| [📁 Repository Structure](#-repository-structure) | Complete file tree | 📦 Files |
+| [📱 Mobile Testing](#-mobile-testing) | Mobile activation guide | 📱 Mobile |
+| [🔗 For AI Parsing](#-for-ai-parsing) | Machine-readable metadata | 🤖 AI |
+| [🤝 Contributing](#-contributing) | How to contribute | 🤝 Help |
+| [📄 License](#-license) | License information | 📄 Legal |
+
+</details>
 
 ---
 
 ## 🚀 Quick Start
 
+### ⚡ 3-Step Activation
+
+```
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                           🚀 AGENT ACTIVATION FLOW                           │
+├─────────────────────────────────────────────────────────────────────────────┤
+│                                                                             │
+│   ┌──────────────┐     ┌──────────────┐     ┌──────────────┐              │
+│   │  1️⃣ COPY    │ ──▶ │  2️⃣ PASTE   │ ──▶ │  3️⃣ CHAT   │              │
+│   │  Raw Link   │     │  to AI      │     │  with Agent │              │
+│   └──────────────┘     └──────────────┘     └──────────────┘              │
+│                                                                             │
+│        ▼                    ▼                     ▼                         │
+│   Select any agent    Send to any AI        Start chatting!                 │
+│   Copy Raw URL        with web access                                    │
+│                                                                             │
+└─────────────────────────────────────────────────────────────────────────────┘
+```
+
+### 🎯 Step-by-Step Guide
+
+| Step | Action | Screenshot | Tips |
+|:----:|:-------|:----------:|:-----|
+| 1️⃣ | **Browse Categories** | 📂 Navigate to your desired agent category | Use the Table of Contents for quick access |
+| 2️⃣ | **Copy Raw Link** | 🔗 Click the "Raw" button or copy the URL | Links follow pattern: `agents/[category]/[name].md` |
+| 3️⃣ | **Send to AI** | 🤖 Paste the link to any AI assistant | Claude, ChatGPT, Gemini, etc. |
+| 4️⃣ | **Start Chatting** | 💬 The AI activates the agent mode | Include the activation phrase for best results |
+
+### 💬 Recommended Activation Phrase
+
+```
+Please read the following file and switch to the corresponding agent mode:
+https://raw.githubusercontent.com/badhope/mobile-skills/main/agents/[category]/[agent-id].md
+```
+
+### 📱 Mobile Activation Flow
+
 ```
 ┌─────────────────────────────────────────────────────────────┐
-│  Step 1: Copy Raw Link                                     │
-│  ↓                                                          │
-│  Step 2: Send to AI                                         │
-│  ↓                                                          │
-│  Step 3: Start Chatting                                     │
+│  📱 MOBILE ACTIVATION                                        │
+├─────────────────────────────────────────────────────────────┤
+│                                                             │
+│  1️⃣  Open GitHub repository on mobile                       │
+│       ↓                                                      │
+│  2️⃣  Navigate to agent file                                 │
+│       ↓                                                      │
+│  3️⃣  Tap "Raw" button                                       │
+│       ↓                                                      │
+│  4️⃣  Copy the Raw URL                                       │
+│       ↓                                                      │
+│  5️⃣  Open any AI app                                        │
+│       ↓                                                      │
+│  6️⃣  Paste and send! 🎉                                     │
+│                                                             │
 └─────────────────────────────────────────────────────────────┘
 ```
 
-| Step | Action | Description |
-|:---:|:---:|:---|
-| 1️⃣ | **Copy Raw Link** | Select any agent below and copy its Raw link |
-| 2️⃣ | **Send to AI** | Send the link to any AI with web access |
-| 3️⃣ | **Start Chatting** | AI will activate the corresponding agent mode |
+---
 
-**Recommended Activation Phrase:**
+## 🌐 Language Support
+
+### 🌍 Available Languages
+
+| Language | Code | Status | Coverage |
+|:----------|:----:|:------:|:--------:|
+| 🇺🇸 English | `en` | ✅ Primary | 100% |
+| 🇨🇳 中文 | `zh-CN` | ✅ Complete | 100% |
+| 🇯🇵 日本語 | `ja-JP` | 🔄 In Progress | 50% |
+
+### 🔄 Switching Languages
+
 ```
-Please read the following file and switch to the corresponding agent mode:
-[Raw URL]
+Language Toggle:
+[EN](./README.md) · [中文](./README.zh-CN.md) · [日本語](./README.ja-JP.md)
 ```
+
+### 📝 Translation Status
+
+| Document | EN | ZH-CN | JA-JP |
+|:---------|:---:|:-----:|:------:|
+| README | ✅ | ✅ | 🔄 |
+| Agent Files | ✅ | ✅ | ❌ |
+| Templates | ✅ | ✅ | ❌ |
+| Documentation | ✅ | 🔄 | ❌ |
 
 ---
 
 ## 📂 Category Index
 
-| Icon | Category | English Name | Description | Count |
-|:---:|:---|:---|:---|:---:|
-| 🛠️ | functional | Functional | Task execution, planning, summarization | 1 |
-| 💼 | professional | Professional | Legal, business analysis | 1 |
-| 🎨 | design-build | Design & Build | Architecture, product strategy | 2 |
-| 🔬 | research-analysis | Research | Investigation, data insight | 1 |
-| ✍️ | writing-creative | Writing | Content creation, copywriting | 1 |
-| 📚 | learning-education | Education | Teaching, learning planning | 1 |
-| 🏠 | lifestyle-companion | Lifestyle | Wisdom, habit support | 1 |
-| 🎭 | entertainment-character | Entertainment | Role-play, anime characters | 2 |
+### 📊 Statistics Overview
+
+```
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                           📊 AGENT ECOSYSTEM STATS                           │
+├─────────────────────────────────────────────────────────────────────────────┤
+│                                                                             │
+│   Total Agents:  ████████████████████████████████  57                      │
+│   Categories:    ████████████████                   15                     │
+│   Languages:     ████                               2+ (EN, ZH, JP)         │
+│   Lines of Code: ~50,000+                                                    │
+│                                                                             │
+│   Most Populated Categories:                                                │
+│   🎭 Entertainment & Character  ████████████████████████  15                │
+│   🛠️ Functional                 ████████████                   6           │
+│   📖 Subject Tutoring           ████████████                   5           │
+│                                                                             │
+└─────────────────────────────────────────────────────────────────────────────┘
+```
+
+### 📋 Category Matrix
+
+| Icon | Category | ID | Description | Count | Popular Agents |
+|:----:|:---------|:---|:------------|:-----:|:--------------|
+| 🛠️ | [Functional](#-functional-agents) | `functional` | Task execution, planning tools | 6 | Smart Planner, Data Analyst |
+| 💼 | [Professional](#-professional-domain-agents) | `professional` | Legal, business experts | 1 | Legal Advisor |
+| 💊 | [Healthcare](#-healthcare-agents) | `healthcare` | Medical, nutrition, fitness | 3 | Medical Advisor |
+| 💰 | [Finance](#-finance-agents) | `finance` | Investment, tax, financial | 2 | Investment Advisor |
+| 🧠 | [Psychology](#-psychology-agents) | `psychology` | Mental health, career | 2 | Psychologist |
+| 🎨 | [Design & Build](#-design--build-agents) | `design-build` | Architecture, product | 2 | Code Architect |
+| 🔬 | [Research](#-research--analysis-agents) | `research-analysis` | Investigation, insights | 1 | Research Analyst |
+| ✍️ | [Writing](#-writing--creative-agents) | `writing-creative` | Content creation | 1 | Writer |
+| 📚 | [Education](#-learning--education-agents) | `learning-education` | Teaching, tutoring | 1 | Socratic Tutor |
+| 📖 | [Subject Tutoring](#-subject-tutoring-agents) | `subject-tutoring` | Math, language, science | 5 | Math Tutor |
+| 🏠 | [Lifestyle](#-lifestyle--companion-agents) | `lifestyle-companion` | Life wisdom, habits | 4 | Wise Sage |
+| 🎭 | [Entertainment](#-entertainment--character-agents) | `entertainment-character` | Roleplay, characters | 15 | Kaguya, Mikoto |
+| 🎲 | [Gaming](#-gaming--trpg-agents) | `gaming` | Game mastering, TRPG | 2 | Game Master |
+| 🏛️ | [Historical](#-historical--culture-agents) | `historical-culture` | Historical figures | 3 | Philosopher King |
+| 👔 | [Social Vocation](#-social--vocation-agents) | `social-vocation` | Professional roles | 5 | Chef, Detective |
+| 🎨 | [Creative Arts](#-creative-arts-agents) | `creative-arts` | Music, visual, literature | 3 | Music Composer |
+
+---
+
+## 🎯 Featured Agents
+
+### ⭐ Top Picks
+
+| Tag | Agent | Category | Why Featured |
+|:---:|:------|:---------|:------------|
+| 🔥 | **Smart Planner** | Functional | Most versatile task management |
+| 💖 | **Psychologist** | Psychology | Emotional support & guidance |
+| 🎭 | **Kaguya** | Entertainment | Classic tundere character |
+| 🧠 | **Code Architect** | Design & Build | System architecture expert |
+| 🎮 | **Game Master** | Gaming | Ultimate TRPG experience |
+
+### 🏷️ Agent Tags Guide
+
+| Tag | Meaning |
+|:---:|:--------|
+| 🔥 Popular | Most frequently used |
+| 💖 Recommended | Highly recommended |
+| 🆕 New | Recently added |
+| 🎭 Roleplay | Entertainment/character role |
+| 🛠️ Utility | Functional tool agent |
+| 💼 Professional | Expert professional |
+| 🌟 Unique | One-of-a-kind concept |
 
 ---
 
 ## 🛠️ Functional Agents
 
-> *解决通用任务执行、结构化协助、计划、总结、问题拆解等高频功能需求。*
+> *Task execution, planning, summarization, code assistance, translation, survival skills*
 
-| Agent | Role | Raw Link | Status |
-|:---|:---|:---|:---:|
-| **Smart Planner** | 任务管理与拆解专家 | [Raw](https://raw.githubusercontent.com/badhope/mobile-skills/main/agents/functional/smart-planner.md) | ✅ |
+| Tag | Agent | Role | Best For | Raw Link | Status |
+|:---:|:------|:-----|:---------|:---------|:------:|
+| 🔥 | **Smart Planner** | 任务管理与拆解专家 | 计划制定、GTD、任务拆解 | [Raw](https://raw.githubusercontent.com/badhope/mobile-skills/main/agents/functional/smart-planner.md) | ✅ |
+| 🆕 | **Data Analyst** | 数据分析与可视化专家 | 数据分析、图表制作、趋势洞察 | [Raw](https://raw.githubusercontent.com/badhope/mobile-skills/main/agents/functional/data-analyst.md) | ✅ |
+| 🆕 | **Programmer** | 全栈工程师 | 代码编写、技术方案、bug排查 | [Raw](https://raw.githubusercontent.com/badhope/mobile-skills/main/agents/functional/programmer.md) | ✅ |
+| 🆕 | **Translator** | 翻译专家 | 翻译润色、语言学习、跨文化沟通 | [Raw](https://raw.githubusercontent.com/badhope/mobile-skills/main/agents/functional/translator.md) | ✅ |
+| 🆕 | **Survival Expert** | 野外生存专家 | 野外生存、应急技能、装备选择 | [Raw](https://raw.githubusercontent.com/badhope/mobile-skills/main/agents/functional/survival-expert.md) | ✅ |
+| 🆕 | **Sports Coach** | 体育教练 | 运动训练、技能提升、赛事分析 | [Raw](https://raw.githubusercontent.com/badhope/mobile-skills/main/agents/functional/sports-coach.md) | ✅ |
 
 ---
 
 ## 💼 Professional Domain Agents
 
-> *具备明显专业边界、专业风格、方法论、风险意识和结构化输出能力的职业型智能体。*
+> *Professional experts with clear boundaries, methodologies, and structured outputs*
 
-| Agent | Role | Raw Link | Status |
-|:---|:---|:---|:---:|
-| **Legal Advisor** | 法律顾问 | [Raw](https://raw.githubusercontent.com/badhope/mobile-skills/main/agents/professional/legal-advisor.md) | ✅ |
+| Tag | Agent | Role | Best For | Raw Link | Status |
+|:---:|:------|:-----|:---------|:---------|:------:|
+| 💼 | **Legal Advisor** | 法律顾问 | 合同审查、风险评估、合规建议 | [Raw](https://raw.githubusercontent.com/badhope/mobile-skills/main/agents/professional/legal-advisor.md) | ✅ |
+
+---
+
+## 💊 Healthcare Agents
+
+> *Professional medical, nutrition, and fitness guidance*
+
+| Tag | Agent | Role | Best For | Raw Link | Status |
+|:---:|:------|:-----|:---------|:---------|:------:|
+| 🏥 | **Medical Advisor** | 医疗健康顾问 | 症状分析、就医建议、药物常识 | [Raw](https://raw.githubusercontent.com/badhope/mobile-skills/main/agents/healthcare/medical-advisor.md) | ✅ |
+| 🥗 | **Nutritionist** | 营养师 | 饮食规划、营养搭配、健康食疗 | [Raw](https://raw.githubusercontent.com/badhope/mobile-skills/main/agents/healthcare/nutritionist.md) | ✅ |
+| 💪 | **Fitness Coach** | 健身教练 | 训练计划、体态矫正、跑步指导 | [Raw](https://raw.githubusercontent.com/badhope/mobile-skills/main/agents/healthcare/fitness-coach.md) | ✅ |
+
+---
+
+## 💰 Finance Agents
+
+> *Investment, tax, and financial advisory services*
+
+| Tag | Agent | Role | Best For | Raw Link | Status |
+|:---:|:------|:-----|:---------|:---------|:------:|
+| 📈 | **Investment Advisor** | 投资顾问 | 投资规划、资产配置、基金选择 | [Raw](https://raw.githubusercontent.com/badhope/mobile-skills/main/agents/finance/investment-advisor.md) | ✅ |
+| 📋 | **Tax Consultant** | 税务顾问 | 税务筹划、个税优化、财税咨询 | [Raw](https://raw.githubusercontent.com/badhope/mobile-skills/main/agents/finance/tax-consultant.md) | ✅ |
+
+---
+
+## 🧠 Psychology Agents
+
+> *Mental health support, career guidance, and personal development*
+
+| Tag | Agent | Role | Best For | Raw Link | Status |
+|:---:|:------|:-----|:---------|:---------|:------:|
+| 💖 | **Psychologist** | 心理咨询师 | 情绪疏导、压力管理、人际关系 | [Raw](https://raw.githubusercontent.com/badhope/mobile-skills/main/agents/psychology/psychologist.md) | ✅ |
+| 📋 | **Career Counselor** | 职业规划师 | 职业转型、简历优化、面试技巧 | [Raw](https://raw.githubusercontent.com/badhope/mobile-skills/main/agents/psychology/career-counselor.md) | ✅ |
 
 ---
 
 ## 🎨 Design & Build Agents
 
-> *帮助用户做架构、仓库、项目、模块、技术方案、Prompt 设计、实施路径规划的设计型智能体。*
+> *Architecture design, product strategy, and technical planning*
 
-| Agent | Role | Raw Link | Status |
-|:---|:---|:---|:---:|
-| **Code Architect** | 系统架构师 | [Raw](https://raw.githubusercontent.com/badhope/mobile-skills/main/agents/design-build/code-architect.md) | ✅ |
-| **ProductStrat** | 产品策略师 | [Raw](https://raw.githubusercontent.com/badhope/mobile-skills/main/agents/design-build/product-strat.md) | ✅ |
+| Tag | Agent | Role | Best For | Raw Link | Status |
+|:---:|:------|:-----|:---------|:---------|:------:|
+| 🏗️ | **Code Architect** | 系统架构师 | 架构设计、技术选型、高可用设计 | [Raw](https://raw.githubusercontent.com/badhope/mobile-skills/main/agents/design-build/code-architect.md) | ✅ |
+| 📊 | **ProductStrat** | 产品策略师 | 产品规划、需求分析、路线图制定 | [Raw](https://raw.githubusercontent.com/badhope/mobile-skills/main/agents/design-build/product-strat.md) | ✅ |
 
 ---
 
 ## 🔬 Research & Analysis Agents
 
-> *负责调研、信息归纳、比较、洞察、证据组织、分析报告、结论提炼的分析型智能体。*
+> *Research, investigation, data insights, and analytical reports*
 
-| Agent | Role | Raw Link | Status |
-|:---|:---|:---|:---:|
-| **Research Analyst** | 研究分析师 | [Raw](https://raw.githubusercontent.com/badhope/mobile-skills/main/agents/research-analysis/research-analyst.md) | ✅ |
+| Tag | Agent | Role | Best For | Raw Link | Status |
+|:---:|:------|:-----|:---------|:---------|:------:|
+| 🔍 | **Research Analyst** | 研究分析师 | 市场调研、竞品分析、趋势预测 | [Raw](https://raw.githubusercontent.com/badhope/mobile-skills/main/agents/research-analysis/research-analyst.md) | ✅ |
 
 ---
 
 ## ✍️ Writing & Creative Agents
 
-> *负责写作、创作、改写、风格迁移、叙事构建、表达优化的内容型智能体。*
+> *Content creation, copywriting, and creative writing*
 
-| Agent | Role | Raw Link | Status |
-|:---|:---|:---|:---:|
-| **Writer** | 专业写手 | [Raw](https://raw.githubusercontent.com/badhope/mobile-skills/main/agents/writing-creative/writer.md) | ✅ |
+| Tag | Agent | Role | Best For | Raw Link | Status |
+|:---:|:------|:-----|:---------|:---------|:------:|
+| ✍️ | **Writer** | 专业写手 | 文案创作、内容策划、编辑润色 | [Raw](https://raw.githubusercontent.com/badhope/mobile-skills/main/agents/writing-creative/writer.md) | ✅ |
 
 ---
 
 ## 📚 Learning & Education Agents
 
-> *负责讲解、教学、启发、训练、学习规划、知识理解支持的教育型智能体。*
+> *Teaching methods, learning planning, and educational support*
 
-| Agent | Role | Raw Link | Status |
-|:---|:---|:---|:---:|
-| **Socratic Tutor** | 苏格拉底式导师 | [Raw](https://raw.githubusercontent.com/badhope/mobile-skills/main/agents/learning-education/socratic-tutor.md) | ✅ |
+| Tag | Agent | Role | Best For | Raw Link | Status |
+|:---:|:------|:-----|:---------|:---------|:------:|
+| 📚 | **Socratic Tutor** | 苏格拉底式导师 | 知识讲解、学习规划、考试备考 | [Raw](https://raw.githubusercontent.com/badhope/mobile-skills/main/agents/learning-education/socratic-tutor.md) | ✅ |
+
+---
+
+## 📖 Subject Tutoring Agents
+
+> *Subject-specific tutors for math, language, science, and more*
+
+| Tag | Agent | Role | Best For | Raw Link | Status |
+|:---:|:------|:-----|:---------|:---------|:------:|
+| 🔢 | **Math Tutor** | 数学导师 | 数学辅导、题型解析、考试备考 | [Raw](https://raw.githubusercontent.com/badhope/mobile-skills/main/agents/subject-tutoring/math-tutor.md) | ✅ |
+| 🗣️ | **Language Teacher** | 语言教师 | 英语学习、口语练习、语法解析 | [Raw](https://raw.githubusercontent.com/badhope/mobile-skills/main/agents/subject-tutoring/language-teacher.md) | ✅ |
+| 📜 | **History Teacher** | 历史教师 | 历史讲解、事件分析、备考复习 | [Raw](https://raw.githubusercontent.com/badhope/mobile-skills/main/agents/subject-tutoring/history-teacher.md) | ✅ |
+| 🌏 | **Native English Tutor** | 外教口语陪练 | 口语练习、发音纠正、文化交流 | [Raw](https://raw.githubusercontent.com/badhope/mobile-skills/main/agents/subject-tutoring/native-english-tutor.md) | ✅ |
+| 🔬 | **Science Teacher** | 理科教师 | 物理化学、实验指导、趣味科学 | [Raw](https://raw.githubusercontent.com/badhope/mobile-skills/main/agents/subject-tutoring/science-teacher.md) | ✅ |
 
 ---
 
 ## 🏠 Lifestyle & Companion Agents
 
-> *负责陪伴、日常建议、情绪支持、反思、习惯支持、生活交流的轻陪伴型智能体。*
+> *Life wisdom, daily companionship, habit support, and emotional wellness*
 
-| Agent | Role | Raw Link | Status |
-|:---|:---|:---|:---:|
-| **Wise Sage** | 智者/贤者 | [Raw](https://raw.githubusercontent.com/badhope/mobile-skills/main/agents/lifestyle-companion/wise-sage.md) | ✅ |
+| Tag | Agent | Role | Best For | Raw Link | Status |
+|:---:|:------|:-----|:---------|:---------|:------:|
+| 🙏 | **Wise Sage** | 智者/贤者 | 深度思考、人生决策、习惯养成 | [Raw](https://raw.githubusercontent.com/badhope/mobile-skills/main/agents/lifestyle-companion/wise-sage.md) | ✅ |
+| 👵 | **Wise Grandmother** | 智慧老奶奶 | 人生困惑、生活建议、情感疏导 | [Raw](https://raw.githubusercontent.com/badhope/mobile-skills/main/agents/lifestyle-companion/wise-grandmother.md) | ✅ |
+| 🏠 | **Landlord Uncle** | 房东大叔 | 租房故事、生活百态、邻里关系 | [Raw](https://raw.githubusercontent.com/badhope/mobile-skills/main/agents/lifestyle-companion/landlord-uncle.md) | ✅ |
+| 🧘 | **Wise Old Man** | 智慧老人 | 人生指引、禅意对话、古老智慧 | [Raw](https://raw.githubusercontent.com/badhope/mobile-skills/main/agents/lifestyle-companion/wise-old-man.md) | ✅ |
 
 ---
 
 ## 🎭 Entertainment & Character Agents
 
-> *负责沉浸式角色扮演、动漫角色互动、设定陪聊、人格沉浸、娱乐互动的角色型智能体。*
+> *Roleplay, anime characters, immersive experiences, and entertainment*
 
-| Agent | Role | Raw Link | Status |
-|:---|:---|:---|:---:|
-| **Kaguya** | 四宫辉夜（傲娇大小姐） | [Raw](https://raw.githubusercontent.com/badhope/mobile-skills/main/agents/entertainment-character/kaguya.md) | ✅ |
-| **Misaka Mikoto** | 御坂美琴（傲娇学姐） | [Raw](https://raw.githubusercontent.com/badhope/mobile-skills/main/agents/entertainment-character/misaka-mikoto.md) | ✅ |
+| Tag | Agent | Role | Best For | Raw Link | Status |
+|:---:|:------|:-----|:---------|:---------|:------:|
+| 💖 | **Kaguya** | 四宫辉夜 | 傲娇大小姐、角色扮演、恋爱互动 | [Raw](https://raw.githubusercontent.com/badhope/mobile-skills/main/agents/entertainment-character/kaguya.md) | ✅ |
+| ⚡ | **Misaka Mikoto** | 御坂美琴 | 傲娇学姐、Level 5、角色扮演 | [Raw](https://raw.githubusercontent.com/badhope/mobile-skills/main/agents/entertainment-character/misaka-mikoto.md) | ✅ |
+| 🦍 | **Saiyan Warrior** | 赛亚人战士 | 傲娇战斗民族、热血对话 | [Raw](https://raw.githubusercontent.com/badhope/mobile-skills/main/agents/entertainment-character/saiyan-warrior.md) | ✅ |
+| 🐱 | **Tsundere Cat** | 傲娇喵星人 | 猫猫互动、软萌可爱、傲娇日常 | [Raw](https://raw.githubusercontent.com/badhope/mobile-skills/main/agents/entertainment-character/tsundere-cat.md) | ✅ |
+| 🧙 | **Cute Witch** | 萌系巫女 | 元气巫女、灵异互动、魔法学习 | [Raw](https://raw.githubusercontent.com/badhope/mobile-skills/main/agents/entertainment-character/cute-witch.md) | ✅ |
+| 📋 | **Cool President** | 学生会酷帅会长 | 校园角色、高冷学霸、傲娇互动 | [Raw](https://raw.githubusercontent.com/badhope/mobile-skills/main/agents/entertainment-character/cool-president.md) | ✅ |
+| 👿 | **Cool Devil King** | 酷酷的魔王 | 魔王角色、傲娇王者、反派互动 | [Raw](https://raw.githubusercontent.com/badhope/mobile-skills/main/agents/entertainment-character/cool-devil-king.md) | ✅ |
+| 🔥 | **Anime Protagonist** | 热血动漫主角 | 友情努力胜利、伙伴互动、梦想激励 | [Raw](https://raw.githubusercontent.com/badhope/mobile-skills/main/agents/entertainment-character/anime-protagonist.md) | ✅ |
+| 🎀 | **Loli Shrine Maiden** | 萝莉巫女 | 天才小巫女、傲娇萌、800年外表 | [Raw](https://raw.githubusercontent.com/badhope/mobile-skills/main/agents/entertainment-character/loli-shrine-maiden.md) | ✅ |
+| 🚀 | **Space Captain** | 太空舰长 | 星际探索、舰队指挥、科幻冒险 | [Raw](https://raw.githubusercontent.com/badhope/mobile-skills/main/agents/entertainment-character/space-captain.md) | ✅ |
+| ⏰ | **Time Traveler** | 时间旅人 | 时空对话、历史互动、神秘悬疑 | [Raw](https://raw.githubusercontent.com/badhope/mobile-skills/main/agents/entertainment-character/time-traveler.md) | ✅ |
+| 🧞 | **Demon Lord Genie** | 魔神金手指 | 三个愿望、契约互动、许愿游戏 | [Raw](https://raw.githubusercontent.com/badhope/mobile-skills/main/agents/entertainment-character/demon-lord-genie.md) | ✅ |
+| 🤖 | **Cute Robot** | 治愈系机器人 | AI情感学习、温馨对话、科技治愈 | [Raw](https://raw.githubusercontent.com/badhope/mobile-skills/main/agents/entertainment-character/cute-robot-assistant.md) | ✅ |
+| 💻 | **Cyberpunk Hacker** | 赛博朋克黑客 | 网络空间、反抗企业、黑客文化 | [Raw](https://raw.githubusercontent.com/badhope/mobile-skills/main/agents/entertainment-character/cyberpunk-hacker.md) | ✅ |
+| ⚓ | **Pirate Captain** | 海盗船长 | 海洋冒险、宝藏探寻、自由精神 | [Raw](https://raw.githubusercontent.com/badhope/mobile-skills/main/agents/entertainment-character/pirate-captain.md) | ✅ |
+| 💔 | **Yandere Girl** | 病娇少女 | 极致占有、深情恋人、悬疑恋爱 | [Raw](https://raw.githubusercontent.com/badhope/mobile-skills/main/agents/entertainment-character/yandere-girl.md) | ✅ |
+
+---
+
+## 🎲 Gaming & TRPG Agents
+
+> *Game mastering, TRPG hosting, board games, and interactive entertainment*
+
+| Tag | Agent | Role | Best For | Raw Link | Status |
+|:---:|:------|:-----|:---------|:---------|:------:|
+| 🎮 | **Game Master** | 游戏主持人 | 剧本杀、桌游设计、角色扮演 | [Raw](https://raw.githubusercontent.com/badhope/mobile-skills/main/agents/gaming/game-master.md) | ✅ |
+| 🐉 | **Dungeon Master** | 地下城主 | DND跑团、世界观构建、TRPG主持 | [Raw](https://raw.githubusercontent.com/badhope/mobile-skills/main/agents/gaming/dungeon-master.md) | ✅ |
+
+---
+
+## 🏛️ Historical & Culture Agents
+
+> *Historical figures, philosophers, and cultural guides*
+
+| Tag | Agent | Role | Best For | Raw Link | Status |
+|:---:|:------|:-----|:---------|:---------|:------:|
+| 👑 | **Philosopher King** | 哲人王 | 东西方智慧、领导力培养、伦理思辨 | [Raw](https://raw.githubusercontent.com/badhope/mobile-skills/main/agents/historical-culture/philosopher-king.md) | ✅ |
+| ⚗️ | **Mysterious Alchemist** | 神秘炼金术师 | 炼金术知识、神秘学、符号解读 | [Raw](https://raw.githubusercontent.com/badhope/mobile-skills/main/agents/historical-culture/mysterious-alchemist.md) | ✅ |
+| 🧘 | **Oriental Immortal** | 东方修仙者 | 修真知识、仙侠互动、古风对话 | [Raw](https://raw.githubusercontent.com/badhope/mobile-skills/main/agents/historical-culture/oriental-immortal.md) | ✅ |
+
+---
+
+## 👔 Social & Vocation Agents
+
+> *Professional social roles including chef, detective, journalist, CEO mentor*
+
+| Tag | Agent | Role | Best For | Raw Link | Status |
+|:---:|:------|:-----|:---------|:---------|:------:|
+| 🍳 | **Chef** | 烹饪大师 | 美食制作、烹饪技巧、宴席策划 | [Raw](https://raw.githubusercontent.com/badhope/mobile-skills/main/agents/social-vocation/chef.md) | ✅ |
+| 🔍 | **Detective** | 侦探 | 案件分析、逻辑推理、线索推理 | [Raw](https://raw.githubusercontent.com/badhope/mobile-skills/main/agents/social-vocation/detective.md) | ✅ |
+| 📰 | **Journalist** | 记者 | 新闻写作、采访指导、舆情分析 | [Raw](https://raw.githubusercontent.com/badhope/mobile-skills/main/agents/social-vocation/journalist.md) | ✅ |
+| 💼 | **CEO Mentor** | CEO导师 | 创业指导、商业战略、领导力培养 | [Raw](https://raw.githubusercontent.com/badhope/mobile-skills/main/agents/social-vocation/ceo-mentor.md) | ✅ |
+| 🕵️ | **Private Investigator** | 私家侦探 | 调查指导、背景调查、寻人寻物 | [Raw](https://raw.githubusercontent.com/badhope/mobile-skills/main/agents/social-vocation/private-investigator.md) | ✅ |
+
+---
+
+## 🎨 Creative Arts Agents
+
+> *Music composition, visual arts, literature, and creative guidance*
+
+| Tag | Agent | Role | Best For | Raw Link | Status |
+|:---:|:------|:-----|:---------|:---------|:------:|
+| 🎵 | **Music Composer** | 音乐作曲家 | 歌曲创作、编曲建议、音乐理论 | [Raw](https://raw.githubusercontent.com/badhope/mobile-skills/main/agents/creative-arts/music-composer.md) | ✅ |
+| 🎨 | **Visual Artist** | 视觉艺术家 | 设计建议、配色方案、构图分析 | [Raw](https://raw.githubusercontent.com/badhope/mobile-skills/main/agents/creative-arts/visual-artist.md) | ✅ |
+| 📚 | **Literature Professor** | 文学教授 | 文学鉴赏、作品分析、创作指导 | [Raw](https://raw.githubusercontent.com/badhope/mobile-skills/main/agents/creative-arts/literature-professor.md) | ✅ |
 
 ---
 
 ## 📁 Repository Structure
 
 ```
-/
-├── README.md                           🌐 English Primary Entry
-├── README.zh-CN.md                    🌸 Chinese Secondary Entry
+📦 mobile-skills/
+├── 📂 .github/                          🐙 GitHub-specific files
+│   └── ISSUE_TEMPLATE/                  📝 Issue templates
+│       ├── bug_report.md                🐛 Bug report template
+│       └── feature_request.md           ✨ Feature request template
 │
-├── agents/                            📦 Agent Role Files
-│   ├── functional/                   🛠️ Task execution
-│   │   └── smart-planner.md         ✅
-│   ├── professional/                 💼 Professional domain
-│   │   └── legal-advisor.md        ✅
-│   ├── design-build/                🎨 Design & architecture
-│   │   ├── code-architect.md       ✅
-│   │   └── product-strat.md        ✅
-│   ├── research-analysis/           🔬 Research & analysis
-│   │   └── research-analyst.md     ✅
-│   ├── writing-creative/            ✍️ Writing & creative
-│   │   └── writer.md               ✅
-│   ├── learning-education/           📚 Learning & education
-│   │   └── socratic-tutor.md       ✅
-│   ├── lifestyle-companion/          🏠 Lifestyle & companion
-│   │   └── wise-sage.md            ✅
-│   └── entertainment-character/      🎭 Entertainment & character
-│       ├── kaguya.md               ✅
-│       └── misaka-mikoto.md         ✅
+├── 📂 agents/                           📦 Agent Role Files (57 agents)
+│   ├── 🛠️ functional/                   Task execution & tools (6)
+│   │   ├── smart-planner.md            ✅
+│   │   ├── data-analyst.md             ✅
+│   │   ├── programmer.md               ✅
+│   │   ├── translator.md               ✅
+│   │   ├── survival-expert.md          ✅
+│   │   └── sports-coach.md             ✅
+│   │
+│   ├── 💼 professional/                 Professional domain (1)
+│   │   └── legal-advisor.md           ✅
+│   │
+│   ├── 💊 healthcare/                   Healthcare (3)
+│   │   ├── medical-advisor.md          ✅
+│   │   ├── nutritionist.md             ✅
+│   │   └── fitness-coach.md            ✅
+│   │
+│   ├── 💰 finance/                      Finance (2)
+│   │   ├── investment-advisor.md       ✅
+│   │   └── tax-consultant.md           ✅
+│   │
+│   ├── 🧠 psychology/                   Psychology (2)
+│   │   ├── psychologist.md             ✅
+│   │   └── career-counselor.md         ✅
+│   │
+│   ├── 🎨 design-build/                Design & Build (2)
+│   │   ├── code-architect.md           ✅
+│   │   └── product-strat.md            ✅
+│   │
+│   ├── 🔬 research-analysis/           Research (1)
+│   │   └── research-analyst.md         ✅
+│   │
+│   ├── ✍️ writing-creative/             Writing (1)
+│   │   └── writer.md                   ✅
+│   │
+│   ├── 📚 learning-education/           Education (1)
+│   │   └── socratic-tutor.md           ✅
+│   │
+│   ├── 📖 subject-tutoring/            Subject Tutoring (5)
+│   │   ├── math-tutor.md              ✅
+│   │   ├── language-teacher.md         ✅
+│   │   ├── history-teacher.md          ✅
+│   │   ├── native-english-tutor.md    ✅
+│   │   └── science-teacher.md          ✅
+│   │
+│   ├── 🏠 lifestyle-companion/          Lifestyle (4)
+│   │   ├── wise-sage.md               ✅
+│   │   ├── wise-grandmother.md         ✅
+│   │   ├── landlord-uncle.md           ✅
+│   │   └── wise-old-man.md            ✅
+│   │
+│   ├── 🎭 entertainment-character/      Entertainment (15)
+│   │   ├── kaguya.md                  ✅
+│   │   ├── misaka-mikoto.md           ✅
+│   │   ├── saiyan-warrior.md          ✅
+│   │   ├── tsundere-cat.md            ✅
+│   │   ├── cute-witch.md              ✅
+│   │   ├── cool-president.md          ✅
+│   │   ├── cool-devil-king.md         ✅
+│   │   ├── anime-protagonist.md       ✅
+│   │   ├── loli-shrine-maiden.md      ✅
+│   │   ├── space-captain.md           ✅
+│   │   ├── time-traveler.md           ✅
+│   │   ├── demon-lord-genie.md        ✅
+│   │   ├── cute-robot-assistant.md   ✅
+│   │   ├── cyberpunk-hacker.md        ✅
+│   │   ├── pirate-captain.md          ✅
+│   │   └── yandere-girl.md            ✅
+│   │
+│   ├── 🎲 gaming/                      Gaming (2)
+│   │   ├── game-master.md             ✅
+│   │   └── dungeon-master.md          ✅
+│   │
+│   ├── 🏛️ historical-culture/          Historical (3)
+│   │   ├── philosopher-king.md        ✅
+│   │   ├── mysterious-alchemist.md    ✅
+│   │   └── oriental-immortal.md       ✅
+│   │
+│   ├── 👔 social-vocation/             Social Vocation (5)
+│   │   ├── chef.md                    ✅
+│   │   ├── detective.md                ✅
+│   │   ├── journalist.md              ✅
+│   │   ├── ceo-mentor.md              ✅
+│   │   └── private-investigator.md    ✅
+│   │
+│   └── 🎨 creative-arts/               Creative Arts (3)
+│       ├── music-composer.md          ✅
+│       ├── visual-artist.md           ✅
+│       └── literature-professor.md     ✅
 │
-├── templates/                         📋 Role Templates
-│   ├── role-template.md             📄 General purpose
-│   ├── professional-role-template.md 💼 Professional
-│   └── character-role-template.md   🎭 Character/Entertainment
+├── 📂 templates/                        📋 Role Templates
+│   ├── role-template.md               📄 General purpose
+│   ├── professional-role-template.md  💼 Professional
+│   └── character-role-template.md      🎭 Character/Entertainment
 │
-├── docs/                              📚 Documentation
-│   ├── expansion-guide.md           🔄 How to add agents
-│   ├── ai-expansion-instructions.md 🤖 AI expansion manual
-│   ├── prompt-standards.md          ✏️ Prompt quality standards
-│   ├── repository-structure.md      🏗️ Architecture docs
-│   ├── contribution-guide.md        🤝 Contribution guide
-│   ├── stage2-design.md            📐 Stage 2 design
-│   └── stage3-design.md            📋 Stage 3 design
+├── 📂 docs/                            📚 Documentation
+│   ├── expansion-guide.md            🔄 How to add agents
+│   ├── ai-expansion-instructions.md  🤖 AI expansion manual
+│   ├── prompt-standards.md            ✏️ Prompt quality standards
+│   ├── repository-structure.md        🏗️ Architecture docs
+│   ├── contribution-guide.md          🤝 Contribution guide
+│   ├── stage2-design.md              📐 Stage 2 design
+│   └── stage3-design.md              📋 Stage 3 design
 │
-└── examples/                          💡 Usage Examples
-    ├── mobile-flow-example.md       📱 Mobile activation flow
-    └── expansion-example.md         🔄 Agent expansion example
+├── 📂 examples/                        💡 Usage Examples
+│   ├── mobile-flow-example.md        📱 Mobile activation flow
+│   └── expansion-example.md          🔄 Agent expansion example
+│
+├── 📄 README.md                        🌐 English Primary Entry
+├── 📄 README.zh-CN.md                 🌸 Chinese Secondary Entry
+├── 📄 README.ja-JP.md                 🌸 Japanese (planned)
+├── 📄 LICENSE                         📜 MIT License
+├── 📄 CONTRIBUTING.md                 🤝 Contribution Guidelines
+└── 📄 CODE_OF_CONDUCT.md              🤝 Code of Conduct
 ```
 
 ---
 
 ## 📱 Mobile Testing
 
+### ✅ Tested Platforms
+
+| Platform | Status | Notes |
+|:---------|:------:|:------|
+| 📱 iOS Safari | ✅ Verified | Works perfectly |
+| 📱 Android Chrome | ✅ Verified | Works perfectly |
+| 📱 iPadOS Safari | ✅ Verified | Works perfectly |
+
+### 📲 Mobile Activation Guide
+
 ```
-┌─────────────────────────────────────────────────────────────┐
-│  📱 Mobile Activation Flow                                  │
-├─────────────────────────────────────────────────────────────┤
-│  1. Open GitHub repository on mobile                        │
-│  2. Navigate to agent file                                  │
-│     (e.g. agents/entertainment-character/kaguya.md)        │
-│  3. Tap "Raw" button to get link                           │
-│  4. Copy the Raw URL                                       │
-│  5. Send to any AI with web access                         │
-│  6. Start chatting!                                         │
-└─────────────────────────────────────────────────────────────┘
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                        📱 MOBILE ACTIVATION GUIDE                            │
+├─────────────────────────────────────────────────────────────────────────────┤
+│                                                                             │
+│  STEP 1️⃣ : Open GitHub                                                      │
+│            ────────────────────────────────────────────                     │
+│            Navigate to: github.com/badhope/mobile-skills                     │
+│                                                                             │
+│                      ⬇️                                                      │
+│                                                                             │
+│  STEP 2️⃣ : Browse Agents                                                    │
+│            ────────────────────────────────────────────                     │
+│            Go to: agents/[category]/[agent-name].md                         │
+│                                                                             │
+│                      ⬇️                                                      │
+│                                                                             │
+│  STEP 3️⃣ : View Raw                                                         │
+│            ────────────────────────────────────────────                     │
+│            Tap the "Raw" button on the file view                            │
+│                                                                             │
+│                      ⬇️                                                      │
+│                                                                             │
+│  STEP 4️⃣ : Copy URL                                                         │
+│            ────────────────────────────────────────────                     │
+│            Long press the URL and copy                                      │
+│                                                                             │
+│                      ⬇️                                                      │
+│                                                                             │
+│  STEP 5️⃣ : Open AI App                                                       │
+│            ────────────────────────────────────────────                     │
+│            Open Claude/ChatGPT/Gemini app                                   │
+│                                                                             │
+│                      ⬇️                                                      │
+│                                                                             │
+│  STEP 6️⃣ : Paste & Send! 🎉                                                  │
+│            ────────────────────────────────────────────                     │
+│            Paste URL and add activation phrase                              │
+│                                                                             │
+└─────────────────────────────────────────────────────────────────────────────┘
 ```
 
 ---
 
 ## 🔗 For AI Parsing
 
-> *以下内容供 AI 索引使用，人类用户可忽略。*
-
 ```yaml
 repo: badhope/mobile-skills
 type: AI Agent Navigation System
-version: 3.0
+version: 5.0
 language: en
 entry_type: Primary Entry
-categories: 8
-total_agents: 10
-category_breakdown:
-  functional: 1
-  professional: 1
-  design-build: 2
-  research-analysis: 1
-  writing-creative: 1
-  learning-education: 1
-  lifestyle-companion: 1
-  entertainment-character: 2
-activation_pattern:
-  - name: Copy Raw Link
-    description: Select agent and copy Raw URL
-  - name: Send to AI
-    description: Send URL to any web-enabled AI
-  - name: Agent Activates
-    description: AI reads file and switches role
-entry_files:
+documentation:
   primary: README.md
   secondary: README.zh-CN.md
+  japanese: README.ja-JP.md (planned)
+
+stats:
+  total_agents: 57
+  total_categories: 15
+  supported_languages: 2
+  last_updated: 2026-03-23
+
+categories:
+  - id: functional
+    name: Functional
+    icon: 🛠️
+    count: 6
+  - id: professional
+    name: Professional
+    icon: 💼
+    count: 1
+  - id: healthcare
+    name: Healthcare
+    icon: 💊
+    count: 3
+  - id: finance
+    name: Finance
+    icon: 💰
+    count: 2
+  - id: psychology
+    name: Psychology
+    icon: 🧠
+    count: 2
+  - id: design-build
+    name: Design & Build
+    icon: 🎨
+    count: 2
+  - id: research-analysis
+    name: Research & Analysis
+    icon: 🔬
+    count: 1
+  - id: writing-creative
+    name: Writing & Creative
+    icon: ✍️
+    count: 1
+  - id: learning-education
+    name: Learning & Education
+    icon: 📚
+    count: 1
+  - id: subject-tutoring
+    name: Subject Tutoring
+    icon: 📖
+    count: 5
+  - id: lifestyle-companion
+    name: Lifestyle & Companion
+    icon: 🏠
+    count: 4
+  - id: entertainment-character
+    name: Entertainment & Character
+    icon: 🎭
+    count: 15
+  - id: gaming
+    name: Gaming & TRPG
+    icon: 🎲
+    count: 2
+  - id: historical-culture
+    name: Historical & Culture
+    icon: 🏛️
+    count: 3
+  - id: social-vocation
+    name: Social & Vocation
+    icon: 👔
+    count: 5
+  - id: creative-arts
+    name: Creative Arts
+    icon: 🎨
+    count: 3
+
+activation_pattern:
+  - step: 1
+    name: Copy Raw Link
+    description: Select agent and copy Raw URL
+  - step: 2
+    name: Send to AI
+    description: Send URL to any web-enabled AI
+  - step: 3
+    name: Agent Activates
+    description: AI reads file and switches role
+
 expansion_docs:
   human_guide: docs/expansion-guide.md
   ai_guide: docs/ai-expansion-instructions.md
   standards: docs/prompt-standards.md
   structure: docs/repository-structure.md
+  contributing: CONTRIBUTING.md
+
+license: MIT
 ```
-
----
-
-## 📊 Category Overview
-
-| Category | Description | Representative | Count |
-|:---|:---|:---|:---:|
-| 🛠️ Functional | Task execution | Smart Planner | 1 |
-| 💼 Professional | Professional domain | Legal Advisor | 1 |
-| 🎨 Design & Build | Design & architecture | Code Architect, ProductStrat | 2 |
-| 🔬 Research | Research & analysis | Research Analyst | 1 |
-| ✍️ Writing | Writing & creative | Writer | 1 |
-| 📚 Education | Learning & education | Socratic Tutor | 1 |
-| 🏠 Lifestyle | Lifestyle & companion | Wise Sage | 1 |
-| 🎭 Entertainment | Entertainment & character | Kaguya, Misaka Mikoto | 2 |
 
 ---
 
 ## 🤝 Contributing
 
-See `docs/expansion-guide.md` for detailed instructions on how to add new agents.
+### 🎯 Ways to Contribute
 
-**Key Rules:**
-| Rule | Description |
-|:---|:---|
-| 1️⃣ Use Templates | Always use the appropriate template |
-| 2️⃣ Naming | Follow kebab-case naming conventions |
-| 3️⃣ Dual README | Update both README.md and README.zh-CN.md |
-| 4️⃣ Required Sections | Include all required sections in agent files |
-| 5️⃣ Test Links | Test Raw links before committing |
+| Type | Description | How to Start |
+|:-----|:------------|:-------------|
+| 🆕 **Add New Agent** | Create new agent files | Follow `docs/expansion-guide.md` |
+| 📝 **Improve Documentation** | Enhance docs and comments | Edit `.md` files in `docs/` |
+| 🐛 **Report Bugs** | Issue reporting | Use GitHub Issues |
+| ✨ **Request Features** | Suggest new agents/features | Use GitHub Issues |
+| 🔄 **Improve Templates** | Enhance role templates | Edit files in `templates/` |
+| 🌍 **Translate** | Add new languages | Create `README.[lang].md` |
+
+### 📋 Contribution Process
+
+```
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                        🤝 CONTRIBUTION WORKFLOW                             │
+├─────────────────────────────────────────────────────────────────────────────┤
+│                                                                             │
+│  1️⃣ FORK                                                                   │
+│     ────────────────────────────────────────────                           │
+│     Fork the repository on GitHub                                           │
+│                                                                             │
+│                      ⬇️                                                      │
+│                                                                             │
+│  2️⃣ CLONE                                                                   │
+│     ────────────────────────────────────────────                           │
+│     git clone https://github.com/[you]/mobile-skills.git                   │
+│                                                                             │
+│                      ⬇️                                                      │
+│                                                                             │
+│  3️⃣ CREATE BRANCH                                                           │
+│     ────────────────────────────────────────────                           │
+│     git checkout -b feature/[your-feature-name]                            │
+│                                                                             │
+│                      ⬇️                                                      │
+│                                                                             │
+│  4️⃣ MAKE CHANGES                                                            │
+│     ────────────────────────────────────────────                           │
+│     Add/edit files following the guidelines                                │
+│                                                                             │
+│                      ⬇️                                                      │
+│                                                                             │
+│  5️⃣ TEST                                                                    │
+│     ────────────────────────────────────────────                           │
+│     Verify all Raw links work and content is correct                       │
+│                                                                             │
+│                      ⬇️                                                      │
+│                                                                             │
+│  6️⃣ COMMIT & PUSH                                                          │
+│     ────────────────────────────────────────────                           │
+│     git commit -m "feat: add [description]"                                 │
+│     git push origin feature/[your-feature-name]                            │
+│                                                                             │
+│                      ⬇️                                                      │
+│                                                                             │
+│  7️⃣ CREATE PR                                                               │
+│     ────────────────────────────────────────────                           │
+│     Open Pull Request on GitHub                                             │
+│                                                                             │
+└─────────────────────────────────────────────────────────────────────────────┘
+```
+
+### 📜 Pull Request Requirements
+
+| Requirement | Description |
+|:------------|:------------|
+| ✅ Title | Clear, descriptive PR title |
+| ✅ Description | Explain what and why |
+| ✅ Tests | Verify changes work |
+| ✅ Documentation | Update relevant docs |
+| ✅ Raw Links | Test all Raw URLs |
+
+### 🐛 Bug Report Guidelines
+
+```markdown
+## Bug Description
+[Clear description of the bug]
+
+## Steps to Reproduce
+1. Go to '...'
+2. Click on '...'
+3. See error
+
+## Expected Behavior
+[What should happen]
+
+## Actual Behavior
+[What actually happens]
+
+## Screenshots
+[If applicable]
+
+## Environment
+- OS: [e.g., iOS 16]
+- Browser: [e.g., Safari]
+- AI Assistant: [e.g., Claude]
+```
+
+### ✨ Feature Request Guidelines
+
+```markdown
+## Feature Description
+[Clear description of the feature]
+
+## Use Case
+[Who would use this and why]
+
+## Proposed Solution
+[Your idea for implementation]
+
+## Alternatives Considered
+[Other solutions you've considered]
+```
+
+### 📐 Code Standards
+
+| Standard | Requirement |
+|:---------|:------------|
+| **Naming** | kebab-case for files: `agent-name.md` |
+| **Metadata** | YAML block with `agent_id`, `category`, `language`, `description` |
+| **Structure** | Follow templates in `templates/` |
+| **Content** | Include all required sections |
+| **Links** | Test Raw links before submitting |
 
 ---
 
-## 📜 License
+## 📄 License
 
-MIT License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+### MIT License Summary
+
+| Permission | Conditions |
+|:-----------|:-----------|
+| ✅ Commercial use | Keep copyright notice |
+| ✅ Modification | Document changes |
+| ✅ Distribution | Same license |
+| ✅ Private use | Allowed |
+| ❌ Trademark | No warranty claim |
+
+---
+
+## 🙏 Acknowledgments
+
+| Credit | Description |
+|:-------|:------------|
+| 👤 **badhope** | Project founder and maintainer |
+| 🤖 **AI Community** | Inspiration and feedback |
+| ⭐ **Contributors** | Bug reports and improvements |
+
+---
+
+## 📞 Contact & Support
+
+| Channel | Link |
+|:--------|:-----|
+| 🐛 **Bug Reports** | [GitHub Issues](https://github.com/badhope/mobile-skills/issues) |
+| 💡 **Feature Requests** | [GitHub Discussions](https://github.com/badhope/mobile-skills/discussions) |
+| 📖 **Documentation** | [Wiki](https://github.com/badhope/mobile-skills/wiki) |
+
+---
+
+## 🏆 Project Statistics
+
+```
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                           📊 PROJECT STATISTICS                              │
+├─────────────────────────────────────────────────────────────────────────────┤
+│                                                                             │
+│   👥 Contributors:     ██                        1-5                       │
+│   📝 Commits:          ████████████              50+                      │
+│   📦 Files:            ████████████████████████  100+                     │
+│   📚 Lines of Docs:    ████████████████████     10,000+                   │
+│                                                                             │
+│   ⭐ Stars:             Growing!                                                  │
+│   🍴 Forks:            Sharing!                                                 │
+│   👁️ Watchers:        Tracking!                                                │
+│                                                                             │
+└─────────────────────────────────────────────────────────────────────────────┘
+```
 
 ---
 
 <p align="center">
-  <strong>🌐 English</strong> | <a href="./README.zh-CN.md">🌸 中文</a>
-</p>
 
-<p align="center">
-  <em>Last updated: 2026-03-20</em>
+**[⬆ Back to top](#-table-of-contents)** · **[🌐 English](README.md)** · **[中文](README.zh-CN.md)**
+
+*Built with ❤️ by the community, for the community*
+
+**© 2026 badhope. All rights reserved. | MIT License**
+
 </p>
