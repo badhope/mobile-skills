@@ -97,6 +97,10 @@
     document.getElementById('modalTitle').textContent = agent.name;
     document.getElementById('modalCat').textContent = getCategoryName(agent.cat);
     document.getElementById('modalDesc').textContent = agent.desc;
+
+    const bestForTitle = document.getElementById('modalBestForTitle');
+    if (bestForTitle) bestForTitle.textContent = t('modal.bestFor');
+
     document.getElementById('modalTags').innerHTML = agent.bestFor.split('、').map(tag =>
       `<span class="tag">${tag.trim()}</span>`
     ).join('');
@@ -104,6 +108,11 @@
     const activationCode = getActivationPrompt(agent);
     document.getElementById('modalCode').textContent = activationCode;
     document.getElementById('modalCode').dataset.code = activationCode;
+
+    document.getElementById('activateBtnText') && (document.getElementById('activateBtnText').textContent = t('modal.activate'));
+    document.getElementById('closeBtnText') && (document.getElementById('closeBtnText').textContent = t('modal.close'));
+    document.getElementById('modalActivationCode') && (document.getElementById('modalActivationCode').textContent = t('modal.activationCode'));
+    document.getElementById('copyBtn') && (document.getElementById('copyBtn').textContent = t('modal.copyCode'));
 
     modal.classList.add('active');
     document.body.style.overflow = 'hidden';

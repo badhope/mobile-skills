@@ -27,10 +27,11 @@ const translations = {
     },
     modal: {
       activationCode: '激活码',
-      copyCode: '复制激活码',
+      copyCode: '复制',
       copied: '已复制',
       close: '关闭',
-      activate: '激活智能体'
+      activate: '激活智能体',
+      bestFor: '擅长领域'
     },
     empty: {
       title: '未找到匹配的智能体',
@@ -74,10 +75,11 @@ const translations = {
     },
     modal: {
       activationCode: 'Activation Code',
-      copyCode: 'Copy Code',
+      copyCode: 'Copy',
       copied: 'Copied!',
       close: 'Close',
-      activate: 'Activate Agent'
+      activate: 'Activate Agent',
+      bestFor: 'Best for'
     },
     empty: {
       title: 'No matching agents found',
@@ -125,16 +127,71 @@ function updateUI() {
   if (langSwitch) {
     langSwitch.textContent = currentLang === 'zh' ? 'EN' : '中';
   }
-  document.getElementById('heroTitle') && (document.getElementById('heroTitle').innerHTML = `${t('hero.title')} <span class="grad">${t('hero.titleHighlight')}</span>`);
-  document.getElementById('heroSubtitle') && (document.getElementById('heroSubtitle').textContent = t('hero.subtitle'));
-  document.getElementById('browseBtn') && (document.getElementById('browseBtn').textContent = t('hero.browseBtn'));
-  document.getElementById('searchInput') && (document.getElementById('searchInput').placeholder = t('search.placeholder'));
-  document.getElementById('agentsCount') && (document.getElementById('agentsCount').textContent = window.agentsData?.agents.length || 0);
-  document.getElementById('categoriesCount') && (document.getElementById('categoriesCount').textContent = (window.agentsData?.categories.length || 0) - 1);
-  document.getElementById('agentsLabel') && (document.getElementById('agentsLabel').textContent = t('hero.stats.agents'));
-  document.getElementById('categoriesLabel') && (document.getElementById('categoriesLabel').textContent = t('hero.stats.categories'));
-  renderCategories();
-  renderAgents();
+
+  const heroTitle = document.getElementById('heroTitle');
+  if (heroTitle) {
+    heroTitle.innerHTML = `${t('hero.title')} <span class="grad">${t('hero.titleHighlight')}</span>`;
+  }
+
+  const heroSubtitle = document.getElementById('heroSubtitle');
+  if (heroSubtitle) {
+    heroSubtitle.textContent = t('hero.subtitle');
+  }
+
+  const browseBtn = document.getElementById('browseBtn');
+  if (browseBtn) {
+    browseBtn.innerHTML = `${t('hero.browseBtn')}
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M5 12h14M12 5l7 7-7 7"/>
+      </svg>`;
+  }
+
+  const searchInput = document.getElementById('searchInput');
+  if (searchInput) {
+    searchInput.placeholder = t('search.placeholder');
+  }
+
+  const agentsCount = document.getElementById('agentsCount');
+  if (agentsCount) {
+    agentsCount.textContent = window.agentsData?.agents?.length || 0;
+  }
+
+  const categoriesCount = document.getElementById('categoriesCount');
+  if (categoriesCount) {
+    categoriesCount.textContent = (window.agentsData?.categories?.length || 0) - 1;
+  }
+
+  const agentsLabel = document.getElementById('agentsLabel');
+  if (agentsLabel) {
+    agentsLabel.textContent = t('hero.stats.agents');
+  }
+
+  const categoriesLabel = document.getElementById('categoriesLabel');
+  if (categoriesLabel) {
+    categoriesLabel.textContent = t('hero.stats.categories');
+  }
+
+  const modalActivationCode = document.getElementById('modalActivationCode');
+  if (modalActivationCode) {
+    modalActivationCode.textContent = t('modal.activationCode');
+  }
+
+  const copyBtn = document.getElementById('copyBtn');
+  if (copyBtn) {
+    copyBtn.textContent = t('modal.copyCode');
+  }
+
+  const activateBtnText = document.getElementById('activateBtnText');
+  if (activateBtnText) {
+    activateBtnText.textContent = t('modal.activate');
+  }
+
+  if (typeof renderCategories === 'function') {
+    renderCategories();
+  }
+  if (typeof renderAgents === 'function') {
+    renderAgents();
+  }
 }
 
 window.i18n = { t, setLang, getLang, updateUI, translations };
