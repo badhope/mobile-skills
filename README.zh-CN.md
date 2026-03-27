@@ -465,6 +465,86 @@ https://raw.githubusercontent.com/badhope/mobile-skills/main/agents/[category]/[
 
 ---
 
+## 📖 虚构世界
+
+> *沉浸式互动小说世界，拥有完整的游戏系统*
+
+### 🌍 什么是虚构世界？
+
+虚构世界是完整的、独立的互动小说世界，基于核心设计理念：**万物皆对象，万物有数值，万物可演化**。
+
+每个世界模板包含：
+- 📜 完整的世界设定和背景
+- 🎮 完整的游戏系统（属性、技能、物品、事件）
+- 🎭 NPC和关系系统
+- 📊 数据驱动的机制与JSON Schema
+- 📖 AI执行指南
+
+### 🚀 如何进入世界
+
+```
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                         🌍 世界激活流程                                       │
+├─────────────────────────────────────────────────────────────────────────────┤
+│                                                                             │
+│   1️⃣ 复制世界模板的 Raw 链接                                                 │
+│   2️⃣ 发送给 AI 并附带激活语                                                  │
+│   3️⃣ AI 引导你创建角色                                                      │
+│   4️⃣ 开始你的冒险！                                                         │
+│                                                                             │
+│   激活语：                                                                   │
+│   "请读取以下世界设定，并引导我进入这个世界：[Raw Link]"                       │
+│                                                                             │
+└─────────────────────────────────────────────────────────────────────────────┘
+```
+
+### 📋 可用世界
+
+| 标签 | 世界 | 主题 | 内容评级 | 特色 | Raw 链接 | 状态 |
+|:---:|:------|:------|:---------------|:---------|:---------|:------:|
+| 🐉 | **九州仙途** | 东方玄幻/修仙 | 青少年 (12+) | 修仙、宗门、长生、因果系统 | [Raw](https://raw.githubusercontent.com/badhope/mobile-skills/main/fiction-worlds/eastern-fantasy.md) | ✅ |
+
+### 🎮 核心系统
+
+每个虚构世界包含完整的系统：
+
+| 系统 | 描述 | 文档 |
+|:-------|:------------|:--------------|
+| **天地环境系统** | 世界物理引擎：地理、灵气、天道 | [查看](./fiction-worlds/world-systems/01-environment-system.md) |
+| **修真属性体系** | 角色属性：寿元、资质、境界、功法 | [查看](./fiction-worlds/world-systems/02-attribute-system.md) |
+| **资源经济系统** | 经济系统：货币、物品、生产技能 | [查看](./fiction-worlds/world-systems/03-economy-system.md) |
+| **势力组织系统** | 势力系统：宗门、家族、关系网 | [查看](./fiction-worlds/world-systems/04-faction-system.md) |
+| **因果事件系统** | 动态事件：因果、随机遭遇、事件链 | [查看](./fiction-worlds/world-systems/05-event-system.md) |
+| **时间历法系统** | 时间系统：历法、特殊时间节点 | [查看](./fiction-worlds/world-systems/06-time-system.md) |
+| **数据结构定义** | 所有游戏对象的JSON Schema | [查看](./fiction-worlds/world-systems/07-data-structures.md) |
+
+### 📊 世界架构
+
+```
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                         九州仙途世界架构                                      │
+├─────────────────────────────────────────────────────────────────────────────┤
+│                                                                             │
+│   第一卷：天地环境系统 - 地理、灵气、天道、禁区                               │
+│   第二卷：修真属性体系 - 寿元、资质、境界、功法                               │
+│   第三卷：资源经济系统 - 货币、物品、生产技能                                 │
+│   第四卷：势力组织系统 - 宗门、家族、关系网                                   │
+│   第五卷：因果事件系统 - 随机事件、因果链、演化                               │
+│   第六卷：时间历法系统 - 时间单位、特殊节点                                   │
+│                                                                             │
+│   核心设计理念: 万物皆对象，万物有数值，万物可演化                            │
+│                                                                             │
+└─────────────────────────────────────────────────────────────────────────────┘
+```
+
+### 📚 世界模板指南
+
+想要创建自己的世界？查看：
+- [世界模板设计指南](./fiction-worlds/WORLD-TEMPLATE-GUIDE.md) - 如何设计世界模板
+- [世界架构总览](./fiction-worlds/world-systems/WORLD-ARCHITECTURE.md) - 完整系统架构
+
+---
+
 ## 📁 仓库结构
 
 ```
@@ -563,6 +643,19 @@ https://raw.githubusercontent.com/badhope/mobile-skills/main/agents/[category]/[
 │       ├── music-composer.md          ✅
 │       ├── visual-artist.md           ✅
 │       └── literature-professor.md     ✅
+│
+├── 📂 fiction-worlds/                  📖 互动虚构世界
+│   ├── WORLD-TEMPLATE-GUIDE.md       📚 设计指南
+│   ├── eastern-fantasy.md            🐉 东方玄幻世界
+│   └── 📂 world-systems/             📊 世界系统文档
+│       ├── WORLD-ARCHITECTURE.md     📋 架构总览
+│       ├── 01-environment-system.md  🌍 环境系统
+│       ├── 02-attribute-system.md    📊 属性系统
+│       ├── 03-economy-system.md      💰 经济系统
+│       ├── 04-faction-system.md      🏛️ 势力系统
+│       ├── 05-event-system.md        ⚡ 事件系统
+│       ├── 06-time-system.md         ⏰ 时间系统
+│       └── 07-data-structures.md     📋 数据结构
 │
 ├── 📂 templates/                        📋 角色模板
 │   ├── role-template.md               📄 通用模板

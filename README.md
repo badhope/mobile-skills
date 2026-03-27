@@ -3,12 +3,12 @@
 <!-- Badges Row -->
 <p align="center">
 
-![Agents](https://img.shields.io/badge/Agents-57+-blue?style=for-the-badge&labelColor=2d333b)
-![Categories](https://img.shields.io/badge/Categories-15-green?style=for-the-badge&labelColor=2d333b)
+![Agents](https://img.shields.io/badge/Agents-78+-blue?style=for-the-badge&labelColor=2d333b)
+![Categories](https://img.shields.io/badge/Categories-17-green?style=for-the-badge&labelColor=2d333b)
 ![Platform](https://img.shields.io/badge/Platform-Cross--platform-orange?style=for-the-badge&labelColor=2d333b)
 ![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge&labelColor=2d333b)
 ![PRs Welcome](https://img.shields.io/badge/PRs-Welcome-brightgreen?style=for-the-badge&labelColor=2d333b)
-![Last Update](https://img.shields.io/badge/Last_Update-2026--03--24-red?style=for-the-badge&labelColor=2d333b)
+![Last Update](https://img.shields.io/badge/Last_Update-2026--03--27-red?style=for-the-badge&labelColor=2d333b)
 
 </p>
 
@@ -65,6 +65,7 @@ https://raw.githubusercontent.com/badhope/mobile-skills/main/agents/psychology/p
 | [🏛️ Historical & Culture](#-historical--culture-agents) | Historical figures | 🏛️ History |
 | [👔 Social & Vocation](#-social--vocation-agents) | Professional roles | 👔 Work |
 | [🎨 Creative Arts](#-creative-arts-agents) | Music, visual, literature | 🎨 Art |
+| [📖 Fiction Worlds](#-fiction-worlds) | Interactive fiction worlds | 📖 Story |
 | [📁 Repository Structure](#-repository-structure) | Complete file tree | 📦 Files |
 | [📱 Mobile Testing](#-mobile-testing) | Mobile activation guide | 📱 Mobile |
 | [🔗 For AI Parsing](#-for-ai-parsing) | Machine-readable metadata | 🤖 AI |
@@ -173,13 +174,14 @@ Language Toggle:
 │                           📊 AGENT ECOSYSTEM STATS                           │
 ├─────────────────────────────────────────────────────────────────────────────┤
 │                                                                             │
-│   Total Agents:  ████████████████████████████████████████  77              │
-│   Categories:    ████████████████                   15                     │
+│   Total Agents:  ████████████████████████████████████████  78+             │
+│   Categories:    ████████████████████                 17                   │
 │   Languages:     ████                               2+ (EN, ZH, JP)         │
-│   Lines of Code: ~60,000+                                                    │
+│   Lines of Code: ~70,000+                                                   │
 │                                                                             │
 │   Most Populated Categories:                                                │
 │   🎭 Entertainment & Character  ████████████████████████████████████████  35   │
+│   📖 Fiction Worlds             ████████                       1           │
 │   🛠️ Functional                 ████████████                   6           │
 │   📖 Subject Tutoring           ████████████                   5           │
 │                                                                             │
@@ -206,6 +208,7 @@ Language Toggle:
 | 🏛️ | [Historical](#-historical--culture-agents) | `historical-culture` | Historical figures | 3 | Philosopher King |
 | 👔 | [Social Vocation](#-social--vocation-agents) | `social-vocation` | Professional roles | 5 | Chef, Detective |
 | 🎨 | [Creative Arts](#-creative-arts-agents) | `creative-arts` | Music, visual, literature | 3 | Music Composer |
+| 📖 | [Fiction Worlds](#-fiction-worlds) | `fiction-worlds` | Interactive fiction worlds | 1 | Eastern Fantasy |
 
 ---
 
@@ -465,6 +468,86 @@ Language Toggle:
 
 ---
 
+## 📖 Fiction Worlds
+
+> *Immersive interactive fiction worlds with complete game systems*
+
+### 🌍 What are Fiction Worlds?
+
+Fiction Worlds are complete, self-contained interactive fiction worlds built on the core philosophy: **万物皆对象，万物有数值，万物可演化** (Everything is an object, everything has values, everything can evolve).
+
+Each world template contains:
+- 📜 Complete world lore and setting
+- 🎮 Full game systems (attributes, skills, items, events)
+- 🎭 NPCs and relationship systems
+- 📊 Data-driven mechanics with JSON schemas
+- 📖 AI execution guidelines
+
+### 🚀 How to Enter a World
+
+```
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                         🌍 WORLD ACTIVATION FLOW                             │
+├─────────────────────────────────────────────────────────────────────────────┤
+│                                                                             │
+│   1️⃣ Copy the Raw Link of a world template                                  │
+│   2️⃣ Send to AI with activation phrase                                      │
+│   3️⃣ AI guides you through character creation                               │
+│   4️⃣ Begin your adventure!                                                  │
+│                                                                             │
+│   Activation Phrase:                                                        │
+│   "请读取以下世界设定，并引导我进入这个世界：[Raw Link]"                       │
+│                                                                             │
+└─────────────────────────────────────────────────────────────────────────────┘
+```
+
+### 📋 Available Worlds
+
+| Tag | World | Theme | Content Rating | Features | Raw Link | Status |
+|:---:|:------|:------|:---------------|:---------|:---------|:------:|
+| 🐉 | **九州仙途** | 东方玄幻/修仙 | Teen (12+) | Cultivation, Sects, Immortality, Karma System | [Raw](https://raw.githubusercontent.com/badhope/mobile-skills/main/fiction-worlds/eastern-fantasy.md) | ✅ |
+
+### 🎮 Core Systems
+
+Each Fiction World includes comprehensive systems:
+
+| System | Description | Documentation |
+|:-------|:------------|:--------------|
+| **天地环境系统** | World physics engine: geography, spirit energy, heavenly laws | [View](./fiction-worlds/world-systems/01-environment-system.md) |
+| **修真属性体系** | Character attributes: lifespan, talents, cultivation realms | [View](./fiction-worlds/world-systems/02-attribute-system.md) |
+| **资源经济系统** | Economy: currency, items, crafting skills | [View](./fiction-worlds/world-systems/03-economy-system.md) |
+| **势力组织系统** | Factions: sects, families, dynasties, relationships | [View](./fiction-worlds/world-systems/04-faction-system.md) |
+| **因果事件系统** | Dynamic events: karma, random encounters, event chains | [View](./fiction-worlds/world-systems/05-event-system.md) |
+| **时间历法系统** | Time system: calendar, special time nodes | [View](./fiction-worlds/world-systems/06-time-system.md) |
+| **数据结构定义** | JSON schemas for all game objects | [View](./fiction-worlds/world-systems/07-data-structures.md) |
+
+### 📊 World Architecture
+
+```
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                         九州仙途世界架构                                      │
+├─────────────────────────────────────────────────────────────────────────────┤
+│                                                                             │
+│   第一卷：天地环境系统 - 地理、灵气、天道、禁区                               │
+│   第二卷：修真属性体系 - 寿元、资质、境界、功法                               │
+│   第三卷：资源经济系统 - 货币、物品、生产技能                                 │
+│   第四卷：势力组织系统 - 宗门、家族、关系网                                   │
+│   第五卷：因果事件系统 - 随机事件、因果链、演化                               │
+│   第六卷：时间历法系统 - 时间单位、特殊节点                                   │
+│                                                                             │
+│   核心设计理念: 万物皆对象，万物有数值，万物可演化                            │
+│                                                                             │
+└─────────────────────────────────────────────────────────────────────────────┘
+```
+
+### 📚 World Template Guide
+
+Want to create your own world? Check out:
+- [World Template Design Guide](./fiction-worlds/WORLD-TEMPLATE-GUIDE.md) - How to design world templates
+- [World Architecture Overview](./fiction-worlds/world-systems/WORLD-ARCHITECTURE.md) - Complete system architecture
+
+---
+
 ## 📁 Repository Structure
 
 ```
@@ -563,6 +646,19 @@ Language Toggle:
 │       ├── music-composer.md          ✅
 │       ├── visual-artist.md           ✅
 │       └── literature-professor.md     ✅
+│
+├── 📂 fiction-worlds/                  📖 Interactive Fiction Worlds
+│   ├── WORLD-TEMPLATE-GUIDE.md       📚 Design guide
+│   ├── eastern-fantasy.md            🐉 Eastern Fantasy World
+│   └── 📂 world-systems/             📊 World System Documentation
+│       ├── WORLD-ARCHITECTURE.md     📋 Architecture Overview
+│       ├── 01-environment-system.md  🌍 Environment System
+│       ├── 02-attribute-system.md    📊 Attribute System
+│       ├── 03-economy-system.md      💰 Economy System
+│       ├── 04-faction-system.md      🏛️ Faction System
+│       ├── 05-event-system.md        ⚡ Event System
+│       ├── 06-time-system.md         ⏰ Time System
+│       └── 07-data-structures.md     📋 Data Structures
 │
 ├── 📂 templates/                        📋 Role Templates
 │   ├── role-template.md               📄 General purpose
