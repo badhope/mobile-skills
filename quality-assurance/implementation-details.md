@@ -1,77 +1,68 @@
-# Implementation Details - AI Agent Ecosystem
+# Implementation Details - AI Skill Ecosystem
 
 **Project**: mobile-skills
 **Version**: 2.0
-**Date**: 2026-03-24
+**Date**: 2026-03-28
 **Status**: Production Ready
 
 ---
 
 ## 1. Project Overview
 
-The AI Agent Ecosystem is a comprehensive collection of 81 specialized AI agents designed for various professional and entertainment purposes. The system leverages GitHub Raw URLs for barrier-free, cross-platform agent activation without requiring any installation.
+The AI Skill Ecosystem is a comprehensive collection of specialized AI skills designed for various professional and entertainment purposes. The system leverages GitHub Raw URLs for barrier-free, cross-platform skill activation without requiring any installation.
 
 ### 1.1 Core Architecture
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
-│                    AI Agent Ecosystem                       │
+│                    AI Skill Ecosystem                       │
 ├─────────────────────────────────────────────────────────────┤
 │                                                             │
-│  ┌─────────────┐    ┌─────────────┐    ┌─────────────┐   │
-│  │  Functional │    │ Professional│    │ Entertainment│  │
-│  │   Agents    │    │   Agents    │    │   Agents     │  │
-│  │     6       │    │     11      │    │     40       │   │
-│  └─────────────┘    └─────────────┘    └─────────────┘   │
+│  ┌─────────────────────────────────────────────────────┐   │
+│  │              🎯 Commander Layer                       │   │
+│  │     Router · Decomposer · Scheduler · Aggregator     │   │
+│  └─────────────────────────────────────────────────────┘   │
+│                           │                                 │
+│  ┌─────────────────────────────────────────────────────┐   │
+│  │              🔄 Orchestrator Layer                    │   │
+│  │     DAG Engine · Skill Registry · Workflow Manager   │   │
+│  └─────────────────────────────────────────────────────┘   │
+│                           │                                 │
+│  ┌─────────────────────────────────────────────────────┐   │
+│  │              📋 Coordinator Layer                     │   │
+│  │     Domain Coordination · Context Management         │   │
+│  └─────────────────────────────────────────────────────┘   │
+│                           │                                 │
+│  ┌─────────────────────────────────────────────────────┐   │
+│  │              🔌 Protocol Layer                        │   │
+│  │     MCP Protocol · ACP Protocol · Mobile Protocol    │   │
+│  └─────────────────────────────────────────────────────┘   │
+│                           │                                 │
+│  ┌─────────────────────────────────────────────────────┐   │
+│  │              🎯 Skill Pool                            │   │
+│  │  ┌─────────┐ ┌─────────┐ ┌─────────┐ ┌─────────┐   │   │
+│  │  │Function │ │Profess. │ │Creative │ │Character│   │   │
+│  │  │   6     │ │   4     │ │   2     │ │   2     │   │   │
+│  │  └─────────┘ └─────────┘ └─────────┘ └─────────┘   │   │
+│  └─────────────────────────────────────────────────────┘   │
 │                                                             │
-│  ┌─────────────┐    ┌─────────────┐    ┌─────────────┐   │
-│  │ Healthcare  │    │   Gaming    │    │  Creative   │   │
-│  │   Agents    │    │   Agents    │    │   Arts      │   │
-│  │     3       │    │     2       │    │     3       │   │
-│  └─────────────┘    └─────────────┘    └─────────────┘   │
-│                                                             │
-│  ┌─────────────┐    ┌─────────────┐    ┌─────────────┐   │
-│  │  Lifestyle  │    │   Subject   │    │   Social    │   │
-│  │   Agents    │    │  Tutoring   │    │  Vocation   │   │
-│  │     4       │    │     5       │    │     5       │   │
-│  └─────────────┘    └─────────────┘    └─────────────┘   │
-│                                                             │
-└─────────────────────────────────────────────────────────────┘
-         │
-         ▼
-┌─────────────────────────────────────────────────────────────┐
-│              GitHub Raw URL Activation                       │
-│  https://raw.githubusercontent.com/badhope/mobile-skills/   │
-│                           main/                             │
-│                    agents/[category]/                        │
-│                    [agent-id].md                            │
 └─────────────────────────────────────────────────────────────┘
 ```
 
 ---
 
-## 2. Agent Categories
+## 2. Skill Categories
 
 ### 2.1 Category Breakdown
 
-| Category | Directory | Agent Count | Description |
+| Category | Directory | Skill Count | Description |
 |:---------|:----------|:------------|:------------|
-| Creative Arts | `creative-arts/` | 3 | Music, visual, literature |
-| Design & Build | `design-build/` | 2 | Architecture, product |
-| Entertainment Character | `entertainment-character/` | 40 | Roleplay, anime |
-| Finance | `finance/` | 2 | Investment, tax |
-| Functional | `functional/` | 6 | Programming, planning |
-| Gaming | `gaming/` | 2 | Game mastering |
-| Healthcare | `healthcare/` | 3 | Medical, nutrition, fitness |
-| Historical & Culture | `historical-culture/` | 3 | Historical figures |
-| Learning & Education | `learning-education/` | 1 | Socratic tutoring |
-| Lifestyle & Companion | `lifestyle-companion/` | 4 | Life wisdom |
-| Professional | `professional/` | 1 | Legal advisory |
-| Psychology | `psychology/` | 2 | Mental health, career |
-| Research & Analysis | `research-analysis/` | 1 | Investigation |
-| Social Vocation | `social-vocation/` | 5 | Chef, detective, etc. |
-| Subject Tutoring | `subject-tutoring/` | 5 | Subject-specific tutors |
-| Writing & Creative | `writing-creative/` | 1 | Content creation |
+| Functional | `skills/functional/` | 6 | Task execution, planning tools |
+| Professional | `skills/professional/` | 4 | Legal, medical, investment, psychology |
+| Creative | `skills/creative/` | 2 | Writing, music composition |
+| Character | `skills/character/` | 2 | Roleplay characters |
+| Fiction | `skills/fiction/` | 1 | Interactive fiction worlds |
+| **TOTAL** | | **15** | |
 
 ---
 
@@ -83,25 +74,35 @@ The AI Agent Ecosystem is a comprehensive collection of 81 specialized AI agents
 mobile-skills/
 ├── .github/
 │   └── ISSUE_TEMPLATE/
-│       ├── bug_report.md
-│       └── feature_request.md
-├── agents/
-│   ├── [category]/
-│   │   ├── [agent-id].md
-│   │   └── TEMPLATE-*.md (for entertainment-character)
-│   └── ...
+├── agents/                    # Legacy Agent files (backward compatible)
 ├── docs/
-│   ├── contribution-guide.md
-│   ├── expansion-guide.md
-│   ├── testing-plan.md
+│   ├── SKILL-SYSTEM-ARCHITECTURE.md
+│   ├── PROJECT-ROADMAP.md
 │   └── ...
-├── templates/
-│   ├── role-template.md
-│   ├── professional-role-template.md
-│   └── character-role-template.md
+├── fiction-worlds/
+│   └── world-systems/
+├── migration/
+│   └── agent_to_skill.py
+├── orchestrator/
+│   ├── __init__.py           # Commander & Coordinator
+│   ├── dag_engine.py         # DAG Workflow Engine
+│   └── registry.py           # Skill Registry
+├── protocols/
+│   ├── __init__.py           # Protocol Manager
+│   ├── mcp_protocol.py       # MCP Protocol
+│   ├── acp_protocol.py       # ACP Protocol
+│   └── mobile_protocol.py    # Mobile Protocol
 ├── quality-assurance/
-│   └── qa-checklist.md
-├── examples/
+│   ├── qa-checklist.md
+│   └── implementation-details.md
+├── skills/
+│   ├── functional/
+│   ├── professional/
+│   ├── creative/
+│   ├── character/
+│   ├── fiction/
+│   └── INDEX.md
+├── templates/
 ├── CODE_OF_CONDUCT.md
 ├── CONTRIBUTING.md
 ├── LICENSE
@@ -109,23 +110,58 @@ mobile-skills/
 └── README.zh-CN.md
 ```
 
-### 3.2 Agent YAML Metadata Schema
+### 3.2 Skill YAML Metadata Schema
 
 ```yaml
-agent_id: unique-agent-identifier
-category: directory-name
-language: zh
+skill_id: unique-skill-identifier
+skill_name: Skill Display Name
+skill_version: 2.0.0
+skill_category: functional|professional|creative|character|fiction
+
 description: One-sentence role description
-best_for: Scenario 1, Scenario 2, Scenario 3
-activation_prompt: Please read and switch to [Role] mode: {RAW_URL}
+best_for:
+  - Use case 1
+  - Use case 2
+keywords:
+  - keyword1
+  - keyword2
+
+activation:
+  raw_url: https://raw.githubusercontent.com/.../SKILL.md
+  prompt_template: |
+    Activation prompt template with {RAW_URL} and {USER_REQUEST}
+  min_context: 2000
+  mobile_optimized: true
+
+capabilities:
+  input_types:
+    - text/plain
+  output_types:
+    - text/markdown
+  dependencies: []
+  conflicts: []
+
+execution:
+  mode: atomic
+  timeout: 60000
+  retry: 2
+
+metadata:
+  author: mobile-skills-team
+  created_at: 2024-01-15
+  updated_at: 2026-03-28
+  tags:
+    - tag1
+    - tag2
+  rating: 4.8
 ```
 
 ### 3.3 Activation Mechanism
 
 1. User copies raw URL from GitHub
 2. User pastes URL into any AI chat interface
-3. AI reads the markdown file
-4. Agent persona is activated based on `activation_prompt`
+3. AI reads the SKILL.md file
+4. Skill persona is activated based on `activation.prompt_template`
 
 ---
 
@@ -135,10 +171,10 @@ activation_prompt: Please read and switch to [Role] mode: {RAW_URL}
 
 | Check Type | Total | Passed | Failed | Rate |
 |:-----------|:------|:-------|:-------|:-----|
-| YAML Validation | 81 | 81 | 0 | 100% |
-| Markdown Syntax | 81 | 81 | 0 | 100% |
-| File Naming | 81 | 81 | 0 | 100% |
-| Template Compliance | 81 | 75 | 6 | 92.6% |
+| YAML Validation | 15 | 15 | 0 | 100% |
+| Markdown Syntax | 15 | 15 | 0 | 100% |
+| File Naming | 15 | 15 | 0 | 100% |
+| Template Compliance | 15 | 15 | 0 | 100% |
 | Documentation | 6 | 6 | 0 | 100% |
 
 ### 4.2 Issues Found
@@ -147,66 +183,90 @@ activation_prompt: Please read and switch to [Role] mode: {RAW_URL}
 |:---------|:------|:-------|
 | Critical | 0 | N/A |
 | High | 0 | N/A |
-| Medium | 2 | Acknowledged |
-| Low | 3 | Acknowledged |
+| Medium | 0 | N/A |
+| Low | 2 | Acknowledged |
 
 ---
 
-## 5. Known Limitations
+## 5. Architecture Components
 
-### 5.1 Template Inconsistency
-- 6 entertainment-character agents use simplified template structure
-- These agents have adequate character definitions but lack full expanded sections
-- **Impact**: Minor inconsistency in character depth across entertainment agents
-- **Workaround**: Can be expanded in future updates
+### 5.1 Protocol Layer
 
-### 5.2 No Automated Testing
+| Protocol | Purpose | File |
+|:---------|:--------|:-----|
+| MCP Protocol | Tool integration for AI models | protocols/mcp_protocol.py |
+| ACP Protocol | Agent-to-agent communication | protocols/acp_protocol.py |
+| Mobile Protocol | Mobile-optimized activation | protocols/mobile_protocol.py |
+
+### 5.2 Orchestrator Layer
+
+| Component | Purpose | File |
+|:----------|:--------|:-----|
+| Commander | Task decomposition & routing | orchestrator/__init__.py |
+| DAG Engine | Workflow orchestration | orchestrator/dag_engine.py |
+| Registry | Skill registration & discovery | orchestrator/registry.py |
+
+### 5.3 Skill Pool
+
+| Category | Skills | Status |
+|:---------|:-------|:-------|
+| Functional | 6 | ✅ Complete |
+| Professional | 4 | ✅ Complete |
+| Creative | 2 | ✅ Complete |
+| Character | 2 | ✅ Complete |
+| Fiction | 1 | ✅ Complete |
+
+---
+
+## 6. Known Limitations
+
+### 6.1 Missing Japanese README
+- README.ja-JP.md is referenced but not yet created
+- **Impact**: Japanese users may have difficulty understanding the project
+- **Workaround**: Use English or Chinese README
+
+### 6.2 No Automated Testing
 - Currently relies on manual validation
 - **Impact**: Higher maintenance overhead
 - **Workaround**: Manual QA checklist maintained
 
-### 5.3 GitHub Dependencies
+### 6.3 GitHub Dependencies
 - Requires GitHub Raw URL accessibility
 - **Impact**: Requires internet connection
 - **Workaround**: None (by design for barrier-free access)
 
-### 5.4 Chinese Language Primary
-- All agents currently use Chinese (zh) as primary language
-- **Impact**: Non-Chinese users need translated prompts
-- **Workaround**: README provides language selection guidance
-
 ---
 
-## 6. Deployment Information
+## 7. Deployment Information
 
-### 6.1 Repository
+### 7.1 Repository
 - **Owner**: badhope
 - **Name**: mobile-skills
 - **Branch**: main
 - **URL**: https://github.com/badhope/mobile-skills
 
-### 6.2 Raw URL Pattern
+### 7.2 Raw URL Pattern
 ```
-https://raw.githubusercontent.com/badhope/mobile-skills/main/agents/{category}/{agent-id}.md
+https://raw.githubusercontent.com/badhope/mobile-skills/main/skills/{category}/{skill-id}/SKILL.md
 ```
 
-### 6.3 Version History
+### 7.3 Version History
 
 | Version | Date | Changes |
 |:--------|:-----|:--------|
-| 1.0 | 2026-03-22 | Initial release with 57 agents |
-| 2.0 | 2026-03-24 | Expanded to 81 agents, enhanced templates, i18n support |
+| 1.0 | 2026-03-22 | Initial release with Agent system |
+| 2.0 | 2026-03-28 | Skill system architecture, Protocol layer, Orchestrator layer |
 
 ---
 
-## 7. Future Enhancements
+## 8. Future Enhancements
 
-1. **Automated Testing**: Add GitHub Actions workflow for agent validation
-2. **Language Expansion**: Add English and Japanese agent versions
-3. **Template Unification**: Expand simplified templates to full format
+1. **Japanese README**: Add README.ja-JP.md for Japanese users
+2. **Automated Testing**: Add GitHub Actions workflow for skill validation
+3. **Language Expansion**: Add more language support
 4. **Performance Monitoring**: Add usage analytics
-5. **Interactive Demo**: Web-based agent activation demo
+5. **Interactive Demo**: Web-based skill activation demo
 
 ---
 
-*Document generated: 2026-03-24*
+*Document generated: 2026-03-28*
