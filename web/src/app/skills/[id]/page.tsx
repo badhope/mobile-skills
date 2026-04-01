@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useEffect } from 'react';
+import { useState, useEffect, use } from 'react';
 import Link from 'next/link';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
@@ -32,9 +32,10 @@ const CATEGORY_GRADIENTS: Record<string, string> = {
   fiction: 'from-green-400 to-teal-400'
 };
 
-export default function SkillDetailPage({ params }: { params: { id: string } }) {
+export default function SkillDetailPage({ params }: { params: Promise<{ id: string }> }) {
   const { skills } = skillsData as SkillsData;
-  const skill = skills.find(s => s.id === params.id);
+  const { id } = use(params);
+  const skill = skills.find(s => s.id === id);
   const [isFavorite, setIsFavorite] = useState(false);
   const [copied, setCopied] = useState(false);
   const [showRawContent, setShowRawContent] = useState(false);

@@ -1,0 +1,13 @@
+[build]
+  base = "web"
+  publish = ".next"
+  command = "npm run build"
+
+[plugins]
+  package = "@netlify/plugin-nextjs"
+
+[[redirects]]
+  from = "/*"
+  to = "/:splat"
+  status = 200
+  force = false

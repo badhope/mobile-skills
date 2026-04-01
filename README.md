@@ -9,22 +9,35 @@
 ![Platform](https://img.shields.io/badge/Platform-Cross--platform-orange?style=for-the-badge&labelColor=2d333b)
 ![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge&labelColor=2d333b)
 ![PRs Welcome](https://img.shields.io/badge/PRs-Welcome-brightgreen?style=for-the-badge&labelColor=2d333b)
-![Last Update](https://img.shields.io/badge/Last_Update-2026--03--28-red?style=for-the-badge&labelColor=2d333b)
+![Last Update](https://img.shields.io/badge/Last_Update-2026--04--01-red?style=for-the-badge&labelColor=2d333b)
+[![Website](https://img.shields.io/badge/Website-Online-brightgreen?style=for-the-badge&labelColor=2d333b)]()
 
 </p>
 
 <!-- Centered Hero Section -->
 <div align="center">
 
-## 🚀 Activate AI Skills via Raw Links
+## 🌐 Website + 🚀 Skill Ecosystem
 
-**Cross-platform · Barrier-free · Instant use · No installation required**
+**Web interface for discovering, browsing, and activating AI skills · Cross-platform · Barrier-free · Instant use**
 
 *[English](README.md) · [中文](README.zh-CN.md) · [日本語](README.ja-JP.md)*
 
 ---
 
-### 🎯 Quick Demo
+### 🌍 Website
+
+Browse and activate skills through our beautiful web interface!
+
+- **🔍 Search**: Find skills by name, category, or tags
+- **🏷️ Filter**: Browse by categories (Functional, Professional, Creative, Character, Fiction)
+- **📱 Responsive**: Works perfectly on desktop and mobile
+- **⚡ Fast**: Static site generation for instant loading
+- **❤️ Favorites**: Save your favorite skills for later
+
+---
+
+### 🚀 Quick Demo
 
 ```markdown
 # Activate TaskMaster Skill
@@ -506,6 +519,93 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 │   🍴 Forks:        Sharing!                                                 │
 │                                                                             │
 └─────────────────────────────────────────────────────────────────────────────┘
+```
+
+---
+
+## 🌐 Website Deployment
+
+### 🚀 Quick Deployment
+
+#### Option 1: Netlify (Recommended)
+
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/badhope/mobile-skills)
+
+**Manual Deployment Steps:**
+
+1. Go to [Netlify](https://app.netlify.com/)
+2. Sign in with your GitHub account
+3. Click "Add new site" → "Import an existing project"
+4. Select `badhope/mobile-skills` repository
+5. Configure build settings:
+   - **Base directory**: `web`
+   - **Build command**: `npm run build`
+   - **Publish directory**: `web/.next`
+6. Click "Deploy site"
+
+#### Option 2: Vercel
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fbadhope%2Fmobile-skills)
+
+**Manual Deployment Steps:**
+
+1. Go to [Vercel](https://vercel.com/)
+2. Sign in with your GitHub account
+3. Click "Add New" → "Project"
+4. Select `badhope/mobile-skills` repository
+5. Configure:
+   - **Root Directory**: `web`
+6. Click "Deploy"
+
+### 🏗️ Local Development
+
+```bash
+# Clone the repository
+git clone https://github.com/badhope/mobile-skills.git
+cd mobile-skills
+
+# Install root dependencies
+npm install
+
+# Generate skills data
+npm run import-skills
+
+# Install web dependencies
+cd web
+npm install
+
+# Start development server
+npm run dev
+```
+
+The website will be available at `http://localhost:3000`
+
+### 🔄 CI/CD Automation
+
+The project includes GitHub Actions workflows:
+
+- **`generate-data.yml`**: Automatically generates `skills.json` when skill files are updated
+- **Automatic Deployment**: Netlify/Vercel automatically deploy on pushes to `main` branch
+
+### 📁 Project Structure
+
+```
+mobile-skills/
+├── 📂 web/                      🌐 Next.js Website
+│   ├── 📂 src/
+│   │   ├── 📂 app/              📄 Pages & Layout
+│   │   ├── 📂 components/       🧩 Reusable Components
+│   │   ├── 📂 types/            📘 TypeScript Types
+│   │   └── 📄 skills-data.json  📊 Generated Skill Data
+│   ├── 📄 package.json
+│   └── 📄 next.config.ts
+│
+├── 📂 skills/                    🎯 Skill Files
+├── 📂 scripts/                   🔧 Data Import Scripts
+├── 📂 .github/workflows/         ⚡ GitHub Actions
+├── 📄 netlify.toml               📦 Netlify Config
+├── 📄 vercel.json                📦 Vercel Config
+└── 📄 package.json               📦 Root Package
 ```
 
 ---
