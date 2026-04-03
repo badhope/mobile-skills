@@ -38,30 +38,39 @@ export default function SkillCard({ skill }: SkillCardProps) {
   const categoryName = CATEGORY_NAMES[category] || category;
 
   return (
-    <Link href={`/skills/${skill.id}`}>
-      <div className="bg-white rounded-xl shadow-sm border border-gray-200 overflow-hidden hover:shadow-md transition-shadow cursor-pointer group">
-        <div className={`h-32 bg-gradient-to-br ${colorGradient} flex items-center justify-center relative`}>
-          <span className="text-5xl group-hover:scale-110 transition-transform">
+    <Link href={`/skills/${skill.id}`} className="group block">
+      <div className="bg-white rounded-xl shadow-sm border border-gray-200 overflow-hidden hover-lift animate-scale-in cursor-pointer h-full">
+        <div className={`h-32 bg-gradient-to-br ${colorGradient} flex items-center justify-center relative overflow-hidden`}>
+          <div className="absolute inset-0 bg-black/0 group-hover:bg-black/10 transition-colors duration-300"></div>
+          <span className="text-5xl group-hover:scale-110 transition-transform duration-300 relative z-10 drop-shadow-lg">
             {icon}
           </span>
         </div>
         <div className="p-5">
-          <h3 className="text-lg font-semibold text-gray-900 mb-2 line-clamp-2">
+          <h3 className="text-lg font-semibold text-gray-900 mb-2 line-clamp-2 group-hover:text-indigo-600 transition-colors duration-200">
             {skill.name}
           </h3>
-          <p className="text-gray-600 text-sm mb-4 line-clamp-2">
+          <p className="text-gray-600 text-sm mb-4 line-clamp-2 leading-relaxed">
             {skill.metadata.description}
           </p>
-          <div className="flex items-center justify-between">
+          <div className="flex items-center justify-between pt-3 border-t border-gray-100">
             <div className="flex items-center gap-2">
-              <span className="text-xs font-medium text-gray-500 bg-gray-100 px-2 py-1 rounded">
+              <span className="text-xs font-medium text-white bg-gradient-to-r px-2.5 py-1 rounded-full" style={{
+                background: `linear-gradient(135deg, ${
+                  category === 'functional' ? '#6366f1, #8b5cf6' :
+                  category === 'professional' ? '#ec4899, #f43f5e' :
+                  category === 'creative' ? '#06b6d4, #0891b2' :
+                  category === 'character' ? '#ec4899, #fbbf24' :
+                  '#10b981, #14b8a6'
+                })`
+              }}>
                 {categoryName}
               </span>
-              <span className="text-xs text-gray-500 flex items-center gap-1">
+              <span className="text-xs text-gray-500 flex items-center gap-1 font-medium">
                 ⭐ {skill.stats.rating.toFixed(1)}
               </span>
             </div>
-            <span className="text-xs text-gray-400">
+            <span className="text-xs text-gray-400 font-medium">
               {skill.stats.use_count.toLocaleString()} 使用
             </span>
           </div>
