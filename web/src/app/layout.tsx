@@ -29,7 +29,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="zh-CN" className={`${inter.className} h-full antialiased`}>
+    <html lang="zh-CN" className={`${inter.className} h-full antialiased`} data-scroll-behavior="smooth">
       <head>
         <meta name="theme-color" content="#4f46e5" />
         <link rel="manifest" href="/manifest.json" />

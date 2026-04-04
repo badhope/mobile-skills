@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useMemo } from 'react';
+import { useState, useMemo, use } from 'react';
 import SkillCard from '@/components/SkillCard';
 import type { SkillsData, Skill } from '@/types/skill';
 import skillsData from '@/skills-data.json';
@@ -24,12 +24,14 @@ const SORT_OPTIONS = [
 export default function SkillsPage({
   searchParams
 }: {
-  searchParams: { category?: string; sort?: string; q?: string }
+  searchParams: Promise<{ category?: string; sort?: string; q?: string }>
 }) {
   const { skills } = skillsData as SkillsData;
-  const [selectedCategory, setSelectedCategory] = useState(searchParams.category || 'all');
-  const [sortBy, setSortBy] = useState(searchParams.sort || 'popular');
-  const [searchQuery, setSearchQuery] = useState(searchParams.q || '');
+  const params = use(searchParams);
+  
+  const [selectedCategory, setSelectedCategory] = useState(params.category || 'all');
+  const [sortBy, setSortBy] = useState(params.sort || 'popular');
+  const [searchQuery, setSearchQuery] = useState(params.q || '');
 
   let filteredSkills = [...skills];
 
@@ -81,13 +83,13 @@ export default function SkillsPage({
                 placeholder="搜索技能名称、描述或标签..."
                 value={searchQuery}
                 onChange={(e) => setSearchQuery(e.target.value)}
-                className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500"
+                className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 transition-all"
               />
             </div>
             <select
               value={selectedCategory}
               onChange={(e) => setSelectedCategory(e.target.value)}
-              className="px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500"
+              className="px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 transition-all"
             >
               {Object.entries(CATEGORY_OPTIONS).map(([value, label]) => (
                 <option key={value} value={value}>{label}</option>
@@ -96,7 +98,7 @@ export default function SkillsPage({
             <select
               value={sortBy}
               onChange={(e) => setSortBy(e.target.value)}
-              className="px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500"
+              className="px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 transition-all"
             >
               {SORT_OPTIONS.map((option) => (
                 <option key={option.value} value={option.value}>{option.label}</option>
@@ -106,7 +108,7 @@ export default function SkillsPage({
         </div>
 
         {filteredSkills.length === 0 ? (
-          <div className="text-center py-16">
+          <div className="text-center py-16 animate-fade-in">
             <div className="text-6xl mb-4">🔍</div>
             <h3 className="text-xl font-semibold text-gray-900 mb-2">没有找到匹配的技能</h3>
             <p className="text-gray-600">试试其他搜索词或分类</p>
