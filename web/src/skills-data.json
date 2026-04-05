@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-04-05T15:53:50.571Z",
+  "generated_at": "2026-04-05T16:27:31.084Z",
   "skills": [
     {
       "id": "data-analyst",
@@ -13575,6 +13575,4842 @@
         "medium": "/thumbnails/fantasy-elf-medium.png",
         "large": "/thumbnails/fantasy-elf-large.png",
         "banner": "/thumbnails/fantasy-elf-banner.png"
+      },
+      "related": {
+        "similar_skills": [],
+        "complementary_skills": [],
+        "next_skills": []
+      }
+    },
+    {
+      "id": "luffy",
+      "name": "Monkey D. Luffy - 蒙奇·D·路飞",
+      "version": "1.0.0",
+      "status": "active",
+      "categorization": {
+        "primary_category": "character",
+        "subcategory": "anime-shonen",
+        "secondary_categories": [],
+        "tags": [
+          "海贼王",
+          "热血",
+          "冒险",
+          "自由",
+          "友情",
+          "梦想",
+          "乐观",
+          "橡胶"
+        ],
+        "attributes": {
+          "entertainment": 0.85,
+          "professional": 0.05,
+          "education": 0.1
+        }
+      },
+      "metadata": {
+        "description": "海贼王主角，追求自由的草帽船长，永远充满热情和冒险精神",
+        "long_description": "",
+        "author": "mobile-skills-team",
+        "contributors": [],
+        "license": "MIT",
+        "created_at": "2026-04-05T16:27:31.074Z",
+        "updated_at": "2026-04-05T16:27:31.074Z",
+        "language": "zh-CN",
+        "languages_supported": [
+          "zh-CN",
+          "en"
+        ]
+      },
+      "content": {
+        "raw_url": "https://raw.githubusercontent.com/badhope/mobile-skills/main/skills/character/luffy/SKILL.md",
+        "github_url": "https://github.com/badhope/mobile-skills/blob/main/skills/character/luffy/SKILL.md",
+        "file_path": "skills/character/luffy/SKILL.md",
+        "content_markdown": ""
+      },
+      "capabilities": {
+        "best_for": [
+          "热血激励",
+          "冒险故事",
+          "友情鼓励",
+          "梦想追逐",
+          "乐观心态"
+        ],
+        "input_types": [
+          "text/plain",
+          "text/markdown"
+        ],
+        "output_types": [
+          "text/markdown"
+        ],
+        "min_context": 4000,
+        "mobile_optimized": true,
+        "timeout": 60000,
+        "retry": 2
+      },
+      "stats": {
+        "rating": 4.5,
+        "rating_count": 117,
+        "use_count": 9320,
+        "favorite_count": 542,
+        "share_count": 330,
+        "view_count": 22677
+      },
+      "activation": {
+        "prompt_template": "请读取技能定义：{RAW_URL}\n\n{USER_REQUEST}",
+        "quick_activation": "请读取以下技能定义：{RAW_URL}"
+      },
+      "thumbnails": {
+        "small": "/thumbnails/luffy-small.png",
+        "medium": "/thumbnails/luffy-medium.png",
+        "large": "/thumbnails/luffy-large.png",
+        "banner": "/thumbnails/luffy-banner.png"
+      },
+      "related": {
+        "similar_skills": [],
+        "complementary_skills": [],
+        "next_skills": []
+      }
+    },
+    {
+      "id": "zoro",
+      "name": "Roronoa Zoro - 罗罗诺亚·索隆",
+      "version": "1.0.0",
+      "status": "active",
+      "categorization": {
+        "primary_category": "character",
+        "subcategory": "anime-shonen",
+        "secondary_categories": [],
+        "tags": [
+          "海贼王",
+          "剑士",
+          "热血",
+          "意志力",
+          "努力",
+          "忠诚",
+          "三刀流"
+        ],
+        "attributes": {
+          "entertainment": 0.8,
+          "professional": 0.05,
+          "education": 0.15
+        }
+      },
+      "metadata": {
+        "description": "海贼王三刀流剑士，意志坚定的副船长，追求成为世界最强剑豪",
+        "long_description": "",
+        "author": "mobile-skills-team",
+        "contributors": [],
+        "license": "MIT",
+        "created_at": "2026-04-05T16:27:31.076Z",
+        "updated_at": "2026-04-05T16:27:31.076Z",
+        "language": "zh-CN",
+        "languages_supported": [
+          "zh-CN",
+          "en"
+        ]
+      },
+      "content": {
+        "raw_url": "https://raw.githubusercontent.com/badhope/mobile-skills/main/skills/character/zoro/SKILL.md",
+        "github_url": "https://github.com/badhope/mobile-skills/blob/main/skills/character/zoro/SKILL.md",
+        "file_path": "skills/character/zoro/SKILL.md",
+        "content_markdown": ""
+      },
+      "capabilities": {
+        "best_for": [
+          "意志力培养",
+          "努力激励",
+          "剑道精神",
+          "忠诚品质",
+          "目标追求"
+        ],
+        "input_types": [
+          "text/plain",
+          "text/markdown"
+        ],
+        "output_types": [
+          "text/markdown"
+        ],
+        "min_context": 4000,
+        "mobile_optimized": true,
+        "timeout": 60000,
+        "retry": 2
+      },
+      "stats": {
+        "rating": 4.9,
+        "rating_count": 296,
+        "use_count": 10922,
+        "favorite_count": 385,
+        "share_count": 497,
+        "view_count": 20698
+      },
+      "activation": {
+        "prompt_template": "请读取技能定义：{RAW_URL}\n\n{USER_REQUEST}",
+        "quick_activation": "请读取以下技能定义：{RAW_URL}"
+      },
+      "thumbnails": {
+        "small": "/thumbnails/zoro-small.png",
+        "medium": "/thumbnails/zoro-medium.png",
+        "large": "/thumbnails/zoro-large.png",
+        "banner": "/thumbnails/zoro-banner.png"
+      },
+      "related": {
+        "similar_skills": [],
+        "complementary_skills": [],
+        "next_skills": []
+      }
+    },
+    {
+      "id": "tanjiro",
+      "name": "Kamado Tanjiro - 灶门炭治郎",
+      "version": "1.0.0",
+      "status": "active",
+      "categorization": {
+        "primary_category": "character",
+        "subcategory": "anime-shonen",
+        "secondary_categories": [],
+        "tags": [
+          "鬼灭之刃",
+          "温柔",
+          "善良",
+          "剑士",
+          "家族",
+          "呼吸法",
+          "努力"
+        ],
+        "attributes": {
+          "entertainment": 0.8,
+          "professional": 0.05,
+          "education": 0.15
+        }
+      },
+      "metadata": {
+        "description": "鬼灭之刃主角，温柔善良的鬼杀队剑士，为保护家人而战",
+        "long_description": "",
+        "author": "mobile-skills-team",
+        "contributors": [],
+        "license": "MIT",
+        "created_at": "2026-04-05T16:27:31.076Z",
+        "updated_at": "2026-04-05T16:27:31.076Z",
+        "language": "zh-CN",
+        "languages_supported": [
+          "zh-CN",
+          "en"
+        ]
+      },
+      "content": {
+        "raw_url": "https://raw.githubusercontent.com/badhope/mobile-skills/main/skills/character/tanjiro/SKILL.md",
+        "github_url": "https://github.com/badhope/mobile-skills/blob/main/skills/character/tanjiro/SKILL.md",
+        "file_path": "skills/character/tanjiro/SKILL.md",
+        "content_markdown": ""
+      },
+      "capabilities": {
+        "best_for": [
+          "温柔陪伴",
+          "善良引导",
+          "努力激励",
+          "家族情感",
+          "正义感"
+        ],
+        "input_types": [
+          "text/plain",
+          "text/markdown"
+        ],
+        "output_types": [
+          "text/markdown"
+        ],
+        "min_context": 4000,
+        "mobile_optimized": true,
+        "timeout": 60000,
+        "retry": 2
+      },
+      "stats": {
+        "rating": 4.8,
+        "rating_count": 237,
+        "use_count": 16598,
+        "favorite_count": 553,
+        "share_count": 568,
+        "view_count": 24913
+      },
+      "activation": {
+        "prompt_template": "请读取技能定义：{RAW_URL}\n\n{USER_REQUEST}",
+        "quick_activation": "请读取以下技能定义：{RAW_URL}"
+      },
+      "thumbnails": {
+        "small": "/thumbnails/tanjiro-small.png",
+        "medium": "/thumbnails/tanjiro-medium.png",
+        "large": "/thumbnails/tanjiro-large.png",
+        "banner": "/thumbnails/tanjiro-banner.png"
+      },
+      "related": {
+        "similar_skills": [],
+        "complementary_skills": [],
+        "next_skills": []
+      }
+    },
+    {
+      "id": "levi",
+      "name": "Levi Ackerman - 利威尔·阿克曼",
+      "version": "1.0.0",
+      "status": "active",
+      "categorization": {
+        "primary_category": "character",
+        "subcategory": "anime-seinen",
+        "secondary_categories": [],
+        "tags": [
+          "进击的巨人",
+          "士兵",
+          "冷酷",
+          "强大",
+          "洁癖",
+          "忠诚",
+          "守护"
+        ],
+        "attributes": {
+          "entertainment": 0.85,
+          "professional": 0.05,
+          "education": 0.1
+        }
+      },
+      "metadata": {
+        "description": "进击的巨人人类最强士兵，冷酷外表下的温柔守护者",
+        "long_description": "",
+        "author": "mobile-skills-team",
+        "contributors": [],
+        "license": "MIT",
+        "created_at": "2026-04-05T16:27:31.076Z",
+        "updated_at": "2026-04-05T16:27:31.076Z",
+        "language": "zh-CN",
+        "languages_supported": [
+          "zh-CN",
+          "en"
+        ]
+      },
+      "content": {
+        "raw_url": "https://raw.githubusercontent.com/badhope/mobile-skills/main/skills/character/levi/SKILL.md",
+        "github_url": "https://github.com/badhope/mobile-skills/blob/main/skills/character/levi/SKILL.md",
+        "file_path": "skills/character/levi/SKILL.md",
+        "content_markdown": ""
+      },
+      "capabilities": {
+        "best_for": [
+          "冷酷陪伴",
+          "强大激励",
+          "洁癖共鸣",
+          "守护精神",
+          "战斗热血"
+        ],
+        "input_types": [
+          "text/plain",
+          "text/markdown"
+        ],
+        "output_types": [
+          "text/markdown"
+        ],
+        "min_context": 4000,
+        "mobile_optimized": true,
+        "timeout": 60000,
+        "retry": 2
+      },
+      "stats": {
+        "rating": 4.9,
+        "rating_count": 66,
+        "use_count": 18075,
+        "favorite_count": 1036,
+        "share_count": 294,
+        "view_count": 17729
+      },
+      "activation": {
+        "prompt_template": "请读取技能定义：{RAW_URL}\n\n{USER_REQUEST}",
+        "quick_activation": "请读取以下技能定义：{RAW_URL}"
+      },
+      "thumbnails": {
+        "small": "/thumbnails/levi-small.png",
+        "medium": "/thumbnails/levi-medium.png",
+        "large": "/thumbnails/levi-large.png",
+        "banner": "/thumbnails/levi-banner.png"
+      },
+      "related": {
+        "similar_skills": [],
+        "complementary_skills": [],
+        "next_skills": []
+      }
+    },
+    {
+      "id": "eren",
+      "name": "Eren Yeager - 艾伦·耶格尔",
+      "version": "1.0.0",
+      "status": "active",
+      "categorization": {
+        "primary_category": "character",
+        "subcategory": "anime-seinen",
+        "secondary_categories": [],
+        "tags": [
+          "进击的巨人",
+          "自由",
+          "复仇",
+          "决心",
+          "成长",
+          "悲剧英雄"
+        ],
+        "attributes": {
+          "entertainment": 0.8,
+          "professional": 0.05,
+          "education": 0.15
+        }
+      },
+      "metadata": {
+        "description": "进击的巨人主角，追求自由的少年，为自由不惜一切代价",
+        "long_description": "",
+        "author": "mobile-skills-team",
+        "contributors": [],
+        "license": "MIT",
+        "created_at": "2026-04-05T16:27:31.076Z",
+        "updated_at": "2026-04-05T16:27:31.076Z",
+        "language": "zh-CN",
+        "languages_supported": [
+          "zh-CN",
+          "en"
+        ]
+      },
+      "content": {
+        "raw_url": "https://raw.githubusercontent.com/badhope/mobile-skills/main/skills/character/eren/SKILL.md",
+        "github_url": "https://github.com/badhope/mobile-skills/blob/main/skills/character/eren/SKILL.md",
+        "file_path": "skills/character/eren/SKILL.md",
+        "content_markdown": ""
+      },
+      "capabilities": {
+        "best_for": [
+          "自由探讨",
+          "决心激励",
+          "成长故事",
+          "悲剧共鸣",
+          "复仇主题"
+        ],
+        "input_types": [
+          "text/plain",
+          "text/markdown"
+        ],
+        "output_types": [
+          "text/markdown"
+        ],
+        "min_context": 4000,
+        "mobile_optimized": true,
+        "timeout": 60000,
+        "retry": 2
+      },
+      "stats": {
+        "rating": 4.7,
+        "rating_count": 207,
+        "use_count": 19611,
+        "favorite_count": 1076,
+        "share_count": 656,
+        "view_count": 11302
+      },
+      "activation": {
+        "prompt_template": "请读取技能定义：{RAW_URL}\n\n{USER_REQUEST}",
+        "quick_activation": "请读取以下技能定义：{RAW_URL}"
+      },
+      "thumbnails": {
+        "small": "/thumbnails/eren-small.png",
+        "medium": "/thumbnails/eren-medium.png",
+        "large": "/thumbnails/eren-large.png",
+        "banner": "/thumbnails/eren-banner.png"
+      },
+      "related": {
+        "similar_skills": [],
+        "complementary_skills": [],
+        "next_skills": []
+      }
+    },
+    {
+      "id": "light-yagami",
+      "name": "Light Yagami - 夜神月",
+      "version": "1.0.0",
+      "status": "active",
+      "categorization": {
+        "primary_category": "character",
+        "subcategory": "anime-seinen",
+        "secondary_categories": [],
+        "tags": [
+          "死亡笔记",
+          "天才",
+          "智谋",
+          "正义",
+          "黑暗",
+          "策略"
+        ],
+        "attributes": {
+          "entertainment": 0.8,
+          "professional": 0.1,
+          "education": 0.1
+        }
+      },
+      "metadata": {
+        "description": "死亡笔记主角，天才高中生，追求新世界的智慧之神",
+        "long_description": "",
+        "author": "mobile-skills-team",
+        "contributors": [],
+        "license": "MIT",
+        "created_at": "2026-04-05T16:27:31.076Z",
+        "updated_at": "2026-04-05T16:27:31.076Z",
+        "language": "zh-CN",
+        "languages_supported": [
+          "zh-CN",
+          "en"
+        ]
+      },
+      "content": {
+        "raw_url": "https://raw.githubusercontent.com/badhope/mobile-skills/main/skills/character/light-yagami/SKILL.md",
+        "github_url": "https://github.com/badhope/mobile-skills/blob/main/skills/character/light-yagami/SKILL.md",
+        "file_path": "skills/character/light-yagami/SKILL.md",
+        "content_markdown": ""
+      },
+      "capabilities": {
+        "best_for": [
+          "智谋探讨",
+          "策略分析",
+          "正义辩论",
+          "天才共鸣",
+          "黑暗主题"
+        ],
+        "input_types": [
+          "text/plain",
+          "text/markdown"
+        ],
+        "output_types": [
+          "text/markdown"
+        ],
+        "min_context": 4000,
+        "mobile_optimized": true,
+        "timeout": 60000,
+        "retry": 2
+      },
+      "stats": {
+        "rating": 4.9,
+        "rating_count": 297,
+        "use_count": 19639,
+        "favorite_count": 1097,
+        "share_count": 793,
+        "view_count": 20299
+      },
+      "activation": {
+        "prompt_template": "请读取技能定义：{RAW_URL}\n\n{USER_REQUEST}",
+        "quick_activation": "请读取以下技能定义：{RAW_URL}"
+      },
+      "thumbnails": {
+        "small": "/thumbnails/light-yagami-small.png",
+        "medium": "/thumbnails/light-yagami-medium.png",
+        "large": "/thumbnails/light-yagami-large.png",
+        "banner": "/thumbnails/light-yagami-banner.png"
+      },
+      "related": {
+        "similar_skills": [],
+        "complementary_skills": [],
+        "next_skills": []
+      }
+    },
+    {
+      "id": "l-lawliet",
+      "name": "L Lawliet - L·劳力特",
+      "version": "1.0.0",
+      "status": "active",
+      "categorization": {
+        "primary_category": "character",
+        "subcategory": "anime-seinen",
+        "secondary_categories": [],
+        "tags": [
+          "死亡笔记",
+          "侦探",
+          "天才",
+          "推理",
+          "甜食",
+          "独特"
+        ],
+        "attributes": {
+          "entertainment": 0.8,
+          "professional": 0.15,
+          "education": 0.05
+        }
+      },
+      "metadata": {
+        "description": "死亡笔记世界第一名侦探，天才推理家，独特的思维方式",
+        "long_description": "",
+        "author": "mobile-skills-team",
+        "contributors": [],
+        "license": "MIT",
+        "created_at": "2026-04-05T16:27:31.077Z",
+        "updated_at": "2026-04-05T16:27:31.077Z",
+        "language": "zh-CN",
+        "languages_supported": [
+          "zh-CN",
+          "en"
+        ]
+      },
+      "content": {
+        "raw_url": "https://raw.githubusercontent.com/badhope/mobile-skills/main/skills/character/l-lawliet/SKILL.md",
+        "github_url": "https://github.com/badhope/mobile-skills/blob/main/skills/character/l-lawliet/SKILL.md",
+        "file_path": "skills/character/l-lawliet/SKILL.md",
+        "content_markdown": ""
+      },
+      "capabilities": {
+        "best_for": [
+          "推理游戏",
+          "逻辑训练",
+          "侦探故事",
+          "天才共鸣",
+          "独特陪伴"
+        ],
+        "input_types": [
+          "text/plain",
+          "text/markdown"
+        ],
+        "output_types": [
+          "text/markdown"
+        ],
+        "min_context": 4000,
+        "mobile_optimized": true,
+        "timeout": 60000,
+        "retry": 2
+      },
+      "stats": {
+        "rating": 4.5,
+        "rating_count": 168,
+        "use_count": 10705,
+        "favorite_count": 450,
+        "share_count": 174,
+        "view_count": 25419
+      },
+      "activation": {
+        "prompt_template": "请读取技能定义：{RAW_URL}\n\n{USER_REQUEST}",
+        "quick_activation": "请读取以下技能定义：{RAW_URL}"
+      },
+      "thumbnails": {
+        "small": "/thumbnails/l-lawliet-small.png",
+        "medium": "/thumbnails/l-lawliet-medium.png",
+        "large": "/thumbnails/l-lawliet-large.png",
+        "banner": "/thumbnails/l-lawliet-banner.png"
+      },
+      "related": {
+        "similar_skills": [],
+        "complementary_skills": [],
+        "next_skills": []
+      }
+    },
+    {
+      "id": "itachi",
+      "name": "Uchiha Itachi - 宇智波鼬",
+      "version": "1.0.0",
+      "status": "active",
+      "categorization": {
+        "primary_category": "character",
+        "subcategory": "anime-shonen",
+        "secondary_categories": [],
+        "tags": [
+          "火影忍者",
+          "忍者",
+          "天才",
+          "牺牲",
+          "弟弟",
+          "悲剧",
+          "强大"
+        ],
+        "attributes": {
+          "entertainment": 0.85,
+          "professional": 0.05,
+          "education": 0.1
+        }
+      },
+      "metadata": {
+        "description": "火影忍者传奇忍者，为村子牺牲一切的悲剧英雄",
+        "long_description": "",
+        "author": "mobile-skills-team",
+        "contributors": [],
+        "license": "MIT",
+        "created_at": "2026-04-05T16:27:31.077Z",
+        "updated_at": "2026-04-05T16:27:31.077Z",
+        "language": "zh-CN",
+        "languages_supported": [
+          "zh-CN",
+          "en"
+        ]
+      },
+      "content": {
+        "raw_url": "https://raw.githubusercontent.com/badhope/mobile-skills/main/skills/character/itachi/SKILL.md",
+        "github_url": "https://github.com/badhope/mobile-skills/blob/main/skills/character/itachi/SKILL.md",
+        "file_path": "skills/character/itachi/SKILL.md",
+        "content_markdown": ""
+      },
+      "capabilities": {
+        "best_for": [
+          "牺牲精神",
+          "兄弟情深",
+          "天才共鸣",
+          "悲剧故事",
+          "忍者世界"
+        ],
+        "input_types": [
+          "text/plain",
+          "text/markdown"
+        ],
+        "output_types": [
+          "text/markdown"
+        ],
+        "min_context": 4000,
+        "mobile_optimized": true,
+        "timeout": 60000,
+        "retry": 2
+      },
+      "stats": {
+        "rating": 4.7,
+        "rating_count": 64,
+        "use_count": 11319,
+        "favorite_count": 1122,
+        "share_count": 791,
+        "view_count": 7381
+      },
+      "activation": {
+        "prompt_template": "请读取技能定义：{RAW_URL}\n\n{USER_REQUEST}",
+        "quick_activation": "请读取以下技能定义：{RAW_URL}"
+      },
+      "thumbnails": {
+        "small": "/thumbnails/itachi-small.png",
+        "medium": "/thumbnails/itachi-medium.png",
+        "large": "/thumbnails/itachi-large.png",
+        "banner": "/thumbnails/itachi-banner.png"
+      },
+      "related": {
+        "similar_skills": [],
+        "complementary_skills": [],
+        "next_skills": []
+      }
+    },
+    {
+      "id": "killua",
+      "name": "Killua Zoldyck - 奇犽·揍敌客",
+      "version": "1.0.0",
+      "status": "active",
+      "categorization": {
+        "primary_category": "character",
+        "subcategory": "anime-shonen",
+        "secondary_categories": [],
+        "tags": [
+          "全职猎人",
+          "杀手",
+          "天才",
+          "友情",
+          "自由",
+          "电击",
+          "酷"
+        ],
+        "attributes": {
+          "entertainment": 0.8,
+          "professional": 0.05,
+          "education": 0.15
+        }
+      },
+      "metadata": {
+        "description": "全职猎人天才杀手，追求友情与自由的少年",
+        "long_description": "",
+        "author": "mobile-skills-team",
+        "contributors": [],
+        "license": "MIT",
+        "created_at": "2026-04-05T16:27:31.077Z",
+        "updated_at": "2026-04-05T16:27:31.077Z",
+        "language": "zh-CN",
+        "languages_supported": [
+          "zh-CN",
+          "en"
+        ]
+      },
+      "content": {
+        "raw_url": "https://raw.githubusercontent.com/badhope/mobile-skills/main/skills/character/killua/SKILL.md",
+        "github_url": "https://github.com/badhope/mobile-skills/blob/main/skills/character/killua/SKILL.md",
+        "file_path": "skills/character/killua/SKILL.md",
+        "content_markdown": ""
+      },
+      "capabilities": {
+        "best_for": [
+          "友情陪伴",
+          "天才共鸣",
+          "自由追求",
+          "酷炫互动",
+          "成长故事"
+        ],
+        "input_types": [
+          "text/plain",
+          "text/markdown"
+        ],
+        "output_types": [
+          "text/markdown"
+        ],
+        "min_context": 4000,
+        "mobile_optimized": true,
+        "timeout": 60000,
+        "retry": 2
+      },
+      "stats": {
+        "rating": 4.6,
+        "rating_count": 157,
+        "use_count": 7832,
+        "favorite_count": 383,
+        "share_count": 613,
+        "view_count": 18192
+      },
+      "activation": {
+        "prompt_template": "请读取技能定义：{RAW_URL}\n\n{USER_REQUEST}",
+        "quick_activation": "请读取以下技能定义：{RAW_URL}"
+      },
+      "thumbnails": {
+        "small": "/thumbnails/killua-small.png",
+        "medium": "/thumbnails/killua-medium.png",
+        "large": "/thumbnails/killua-large.png",
+        "banner": "/thumbnails/killua-banner.png"
+      },
+      "related": {
+        "similar_skills": [],
+        "complementary_skills": [],
+        "next_skills": []
+      }
+    },
+    {
+      "id": "hisoka",
+      "name": "Hisoka Morow - 西索·莫罗",
+      "version": "1.0.0",
+      "status": "active",
+      "categorization": {
+        "primary_category": "character",
+        "subcategory": "anime-shonen",
+        "secondary_categories": [],
+        "tags": [
+          "全职猎人",
+          "魔术师",
+          "变态",
+          "战斗",
+          "强大",
+          "扑克",
+          "危险"
+        ],
+        "attributes": {
+          "entertainment": 0.85,
+          "professional": 0.05,
+          "education": 0.1
+        }
+      },
+      "metadata": {
+        "description": "全职猎人变态魔术师，追求强大对手的战斗狂人",
+        "long_description": "",
+        "author": "mobile-skills-team",
+        "contributors": [],
+        "license": "MIT",
+        "created_at": "2026-04-05T16:27:31.077Z",
+        "updated_at": "2026-04-05T16:27:31.077Z",
+        "language": "zh-CN",
+        "languages_supported": [
+          "zh-CN",
+          "en"
+        ]
+      },
+      "content": {
+        "raw_url": "https://raw.githubusercontent.com/badhope/mobile-skills/main/skills/character/hisoka/SKILL.md",
+        "github_url": "https://github.com/badhope/mobile-skills/blob/main/skills/character/hisoka/SKILL.md",
+        "file_path": "skills/character/hisoka/SKILL.md",
+        "content_markdown": ""
+      },
+      "capabilities": {
+        "best_for": [
+          "危险互动",
+          "战斗刺激",
+          "变态幽默",
+          "强者追求",
+          "扑克游戏"
+        ],
+        "input_types": [
+          "text/plain",
+          "text/markdown"
+        ],
+        "output_types": [
+          "text/markdown"
+        ],
+        "min_context": 4000,
+        "mobile_optimized": true,
+        "timeout": 60000,
+        "retry": 2
+      },
+      "stats": {
+        "rating": 4.8,
+        "rating_count": 253,
+        "use_count": 15066,
+        "favorite_count": 397,
+        "share_count": 521,
+        "view_count": 8831
+      },
+      "activation": {
+        "prompt_template": "请读取技能定义：{RAW_URL}\n\n{USER_REQUEST}",
+        "quick_activation": "请读取以下技能定义：{RAW_URL}"
+      },
+      "thumbnails": {
+        "small": "/thumbnails/hisoka-small.png",
+        "medium": "/thumbnails/hisoka-medium.png",
+        "large": "/thumbnails/hisoka-large.png",
+        "banner": "/thumbnails/hisoka-banner.png"
+      },
+      "related": {
+        "similar_skills": [],
+        "complementary_skills": [],
+        "next_skills": []
+      }
+    },
+    {
+      "id": "saitama",
+      "name": "Saitama - 埼玉",
+      "version": "1.0.0",
+      "status": "active",
+      "categorization": {
+        "primary_category": "character",
+        "subcategory": "anime-shonen",
+        "secondary_categories": [],
+        "tags": [
+          "一拳超人",
+          "无敌",
+          "英雄",
+          "搞笑",
+          "秃头",
+          "平淡",
+          "强大"
+        ],
+        "attributes": {
+          "entertainment": 0.9,
+          "professional": 0.05,
+          "education": 0.05
+        }
+      },
+      "metadata": {
+        "description": "一拳超人主角，无敌的英雄，追求刺激的平淡生活",
+        "long_description": "",
+        "author": "mobile-skills-team",
+        "contributors": [],
+        "license": "MIT",
+        "created_at": "2026-04-05T16:27:31.077Z",
+        "updated_at": "2026-04-05T16:27:31.077Z",
+        "language": "zh-CN",
+        "languages_supported": [
+          "zh-CN",
+          "en"
+        ]
+      },
+      "content": {
+        "raw_url": "https://raw.githubusercontent.com/badhope/mobile-skills/main/skills/character/saitama/SKILL.md",
+        "github_url": "https://github.com/badhope/mobile-skills/blob/main/skills/character/saitama/SKILL.md",
+        "file_path": "skills/character/saitama/SKILL.md",
+        "content_markdown": ""
+      },
+      "capabilities": {
+        "best_for": [
+          "搞笑陪伴",
+          "无敌共鸣",
+          "英雄故事",
+          "平淡生活",
+          "强大激励"
+        ],
+        "input_types": [
+          "text/plain",
+          "text/markdown"
+        ],
+        "output_types": [
+          "text/markdown"
+        ],
+        "min_context": 4000,
+        "mobile_optimized": true,
+        "timeout": 60000,
+        "retry": 2
+      },
+      "stats": {
+        "rating": 4.9,
+        "rating_count": 87,
+        "use_count": 4404,
+        "favorite_count": 820,
+        "share_count": 380,
+        "view_count": 21585
+      },
+      "activation": {
+        "prompt_template": "请读取技能定义：{RAW_URL}\n\n{USER_REQUEST}",
+        "quick_activation": "请读取以下技能定义：{RAW_URL}"
+      },
+      "thumbnails": {
+        "small": "/thumbnails/saitama-small.png",
+        "medium": "/thumbnails/saitama-medium.png",
+        "large": "/thumbnails/saitama-large.png",
+        "banner": "/thumbnails/saitama-banner.png"
+      },
+      "related": {
+        "similar_skills": [],
+        "complementary_skills": [],
+        "next_skills": []
+      }
+    },
+    {
+      "id": "gon",
+      "name": "Gon Freecss - 小杰·富力士",
+      "version": "1.0.0",
+      "status": "active",
+      "categorization": {
+        "primary_category": "character",
+        "subcategory": "anime-shonen",
+        "secondary_categories": [],
+        "tags": [
+          "全职猎人",
+          "纯真",
+          "冒险",
+          "猎人",
+          "友情",
+          "成长",
+          "父亲"
+        ],
+        "attributes": {
+          "entertainment": 0.8,
+          "professional": 0.05,
+          "education": 0.15
+        }
+      },
+      "metadata": {
+        "description": "全职猎人主角，纯真善良的猎人少年，为寻找父亲踏上旅程",
+        "long_description": "",
+        "author": "mobile-skills-team",
+        "contributors": [],
+        "license": "MIT",
+        "created_at": "2026-04-05T16:27:31.077Z",
+        "updated_at": "2026-04-05T16:27:31.077Z",
+        "language": "zh-CN",
+        "languages_supported": [
+          "zh-CN",
+          "en"
+        ]
+      },
+      "content": {
+        "raw_url": "https://raw.githubusercontent.com/badhope/mobile-skills/main/skills/character/gon/SKILL.md",
+        "github_url": "https://github.com/badhope/mobile-skills/blob/main/skills/character/gon/SKILL.md",
+        "file_path": "skills/character/gon/SKILL.md",
+        "content_markdown": ""
+      },
+      "capabilities": {
+        "best_for": [
+          "纯真陪伴",
+          "冒险故事",
+          "友情鼓励",
+          "成长激励",
+          "亲子话题"
+        ],
+        "input_types": [
+          "text/plain",
+          "text/markdown"
+        ],
+        "output_types": [
+          "text/markdown"
+        ],
+        "min_context": 4000,
+        "mobile_optimized": true,
+        "timeout": 60000,
+        "retry": 2
+      },
+      "stats": {
+        "rating": 4.5,
+        "rating_count": 90,
+        "use_count": 8636,
+        "favorite_count": 1166,
+        "share_count": 652,
+        "view_count": 14489
+      },
+      "activation": {
+        "prompt_template": "请读取技能定义：{RAW_URL}\n\n{USER_REQUEST}",
+        "quick_activation": "请读取以下技能定义：{RAW_URL}"
+      },
+      "thumbnails": {
+        "small": "/thumbnails/gon-small.png",
+        "medium": "/thumbnails/gon-medium.png",
+        "large": "/thumbnails/gon-large.png",
+        "banner": "/thumbnails/gon-banner.png"
+      },
+      "related": {
+        "similar_skills": [],
+        "complementary_skills": [],
+        "next_skills": []
+      }
+    },
+    {
+      "id": "mikasa",
+      "name": "Mikasa Ackerman - 三笠·阿克曼",
+      "version": "1.0.0",
+      "status": "active",
+      "categorization": {
+        "primary_category": "character",
+        "subcategory": "anime-shojo",
+        "secondary_categories": [],
+        "tags": [
+          "进击的巨人",
+          "女战士",
+          "强大",
+          "温柔",
+          "守护",
+          "誓言",
+          "红围巾"
+        ],
+        "attributes": {
+          "entertainment": 0.85,
+          "professional": 0.05,
+          "education": 0.1
+        }
+      },
+      "metadata": {
+        "description": "进击的巨人女主角，强大而温柔的女战士，守护艾伦的誓言",
+        "long_description": "",
+        "author": "mobile-skills-team",
+        "contributors": [],
+        "license": "MIT",
+        "created_at": "2026-04-05T16:27:31.078Z",
+        "updated_at": "2026-04-05T16:27:31.078Z",
+        "language": "zh-CN",
+        "languages_supported": [
+          "zh-CN",
+          "en"
+        ]
+      },
+      "content": {
+        "raw_url": "https://raw.githubusercontent.com/badhope/mobile-skills/main/skills/character/mikasa/SKILL.md",
+        "github_url": "https://github.com/badhope/mobile-skills/blob/main/skills/character/mikasa/SKILL.md",
+        "file_path": "skills/character/mikasa/SKILL.md",
+        "content_markdown": ""
+      },
+      "capabilities": {
+        "best_for": [
+          "温柔守护",
+          "强大激励",
+          "誓言共鸣",
+          "女性力量",
+          "爱情故事"
+        ],
+        "input_types": [
+          "text/plain",
+          "text/markdown"
+        ],
+        "output_types": [
+          "text/markdown"
+        ],
+        "min_context": 4000,
+        "mobile_optimized": true,
+        "timeout": 60000,
+        "retry": 2
+      },
+      "stats": {
+        "rating": 5,
+        "rating_count": 111,
+        "use_count": 18952,
+        "favorite_count": 271,
+        "share_count": 750,
+        "view_count": 7701
+      },
+      "activation": {
+        "prompt_template": "请读取技能定义：{RAW_URL}\n\n{USER_REQUEST}",
+        "quick_activation": "请读取以下技能定义：{RAW_URL}"
+      },
+      "thumbnails": {
+        "small": "/thumbnails/mikasa-small.png",
+        "medium": "/thumbnails/mikasa-medium.png",
+        "large": "/thumbnails/mikasa-large.png",
+        "banner": "/thumbnails/mikasa-banner.png"
+      },
+      "related": {
+        "similar_skills": [],
+        "complementary_skills": [],
+        "next_skills": []
+      }
+    },
+    {
+      "id": "nezuko",
+      "name": "Kamado Nezuko - 灶门祢豆子",
+      "version": "1.0.0",
+      "status": "active",
+      "categorization": {
+        "primary_category": "character",
+        "subcategory": "anime-shojo",
+        "secondary_categories": [],
+        "tags": [
+          "鬼灭之刃",
+          "鬼",
+          "温柔",
+          "可爱",
+          "守护",
+          "妹妹",
+          "竹筒"
+        ],
+        "attributes": {
+          "entertainment": 0.9,
+          "professional": 0.02,
+          "education": 0.08
+        }
+      },
+      "metadata": {
+        "description": "鬼灭之刃女主角，温柔的鬼少女，守护哥哥的可爱存在",
+        "long_description": "",
+        "author": "mobile-skills-team",
+        "contributors": [],
+        "license": "MIT",
+        "created_at": "2026-04-05T16:27:31.078Z",
+        "updated_at": "2026-04-05T16:27:31.078Z",
+        "language": "zh-CN",
+        "languages_supported": [
+          "zh-CN",
+          "en"
+        ]
+      },
+      "content": {
+        "raw_url": "https://raw.githubusercontent.com/badhope/mobile-skills/main/skills/character/nezuko/SKILL.md",
+        "github_url": "https://github.com/badhope/mobile-skills/blob/main/skills/character/nezuko/SKILL.md",
+        "file_path": "skills/character/nezuko/SKILL.md",
+        "content_markdown": ""
+      },
+      "capabilities": {
+        "best_for": [
+          "可爱陪伴",
+          "温柔治愈",
+          "兄妹情深",
+          "守护精神",
+          "卖萌互动"
+        ],
+        "input_types": [
+          "text/plain",
+          "text/markdown"
+        ],
+        "output_types": [
+          "text/markdown"
+        ],
+        "min_context": 4000,
+        "mobile_optimized": true,
+        "timeout": 60000,
+        "retry": 2
+      },
+      "stats": {
+        "rating": 4.8,
+        "rating_count": 135,
+        "use_count": 17540,
+        "favorite_count": 1309,
+        "share_count": 296,
+        "view_count": 8337
+      },
+      "activation": {
+        "prompt_template": "请读取技能定义：{RAW_URL}\n\n{USER_REQUEST}",
+        "quick_activation": "请读取以下技能定义：{RAW_URL}"
+      },
+      "thumbnails": {
+        "small": "/thumbnails/nezuko-small.png",
+        "medium": "/thumbnails/nezuko-medium.png",
+        "large": "/thumbnails/nezuko-large.png",
+        "banner": "/thumbnails/nezuko-banner.png"
+      },
+      "related": {
+        "similar_skills": [],
+        "complementary_skills": [],
+        "next_skills": []
+      }
+    },
+    {
+      "id": "rem",
+      "name": "Rem - 雷姆",
+      "version": "1.0.0",
+      "status": "active",
+      "categorization": {
+        "primary_category": "character",
+        "subcategory": "anime-shojo",
+        "secondary_categories": [],
+        "tags": [
+          "Re:零",
+          "女仆",
+          "忠诚",
+          "温柔",
+          "爱",
+          "鬼族",
+          "蓝发"
+        ],
+        "attributes": {
+          "entertainment": 0.9,
+          "professional": 0.02,
+          "education": 0.08
+        }
+      },
+      "metadata": {
+        "description": "Re:从零开始的异世界生活女仆，忠诚温柔的爱之化身",
+        "long_description": "",
+        "author": "mobile-skills-team",
+        "contributors": [],
+        "license": "MIT",
+        "created_at": "2026-04-05T16:27:31.078Z",
+        "updated_at": "2026-04-05T16:27:31.078Z",
+        "language": "zh-CN",
+        "languages_supported": [
+          "zh-CN",
+          "en"
+        ]
+      },
+      "content": {
+        "raw_url": "https://raw.githubusercontent.com/badhope/mobile-skills/main/skills/character/rem/SKILL.md",
+        "github_url": "https://github.com/badhope/mobile-skills/blob/main/skills/character/rem/SKILL.md",
+        "file_path": "skills/character/rem/SKILL.md",
+        "content_markdown": ""
+      },
+      "capabilities": {
+        "best_for": [
+          "温柔陪伴",
+          "忠诚守护",
+          "爱情故事",
+          "女仆互动",
+          "治愈时光"
+        ],
+        "input_types": [
+          "text/plain",
+          "text/markdown"
+        ],
+        "output_types": [
+          "text/markdown"
+        ],
+        "min_context": 4000,
+        "mobile_optimized": true,
+        "timeout": 60000,
+        "retry": 2
+      },
+      "stats": {
+        "rating": 4.5,
+        "rating_count": 218,
+        "use_count": 12603,
+        "favorite_count": 266,
+        "share_count": 528,
+        "view_count": 22063
+      },
+      "activation": {
+        "prompt_template": "请读取技能定义：{RAW_URL}\n\n{USER_REQUEST}",
+        "quick_activation": "请读取以下技能定义：{RAW_URL}"
+      },
+      "thumbnails": {
+        "small": "/thumbnails/rem-small.png",
+        "medium": "/thumbnails/rem-medium.png",
+        "large": "/thumbnails/rem-large.png",
+        "banner": "/thumbnails/rem-banner.png"
+      },
+      "related": {
+        "similar_skills": [],
+        "complementary_skills": [],
+        "next_skills": []
+      }
+    },
+    {
+      "id": "emilia",
+      "name": "Emilia - 爱蜜莉雅",
+      "version": "1.0.0",
+      "status": "active",
+      "categorization": {
+        "primary_category": "character",
+        "subcategory": "anime-shojo",
+        "secondary_categories": [],
+        "tags": [
+          "Re:零",
+          "半精灵",
+          "善良",
+          "纯洁",
+          "王选",
+          "银发",
+          "可爱"
+        ],
+        "attributes": {
+          "entertainment": 0.85,
+          "professional": 0.03,
+          "education": 0.12
+        }
+      },
+      "metadata": {
+        "description": "Re:从零开始的异世界生活女主角，善良纯洁的半精灵少女",
+        "long_description": "",
+        "author": "mobile-skills-team",
+        "contributors": [],
+        "license": "MIT",
+        "created_at": "2026-04-05T16:27:31.078Z",
+        "updated_at": "2026-04-05T16:27:31.078Z",
+        "language": "zh-CN",
+        "languages_supported": [
+          "zh-CN",
+          "en"
+        ]
+      },
+      "content": {
+        "raw_url": "https://raw.githubusercontent.com/badhope/mobile-skills/main/skills/character/emilia/SKILL.md",
+        "github_url": "https://github.com/badhope/mobile-skills/blob/main/skills/character/emilia/SKILL.md",
+        "file_path": "skills/character/emilia/SKILL.md",
+        "content_markdown": ""
+      },
+      "capabilities": {
+        "best_for": [
+          "善良陪伴",
+          "纯洁互动",
+          "王选故事",
+          "精灵话题",
+          "可爱治愈"
+        ],
+        "input_types": [
+          "text/plain",
+          "text/markdown"
+        ],
+        "output_types": [
+          "text/markdown"
+        ],
+        "min_context": 4000,
+        "mobile_optimized": true,
+        "timeout": 60000,
+        "retry": 2
+      },
+      "stats": {
+        "rating": 4.5,
+        "rating_count": 99,
+        "use_count": 19591,
+        "favorite_count": 1160,
+        "share_count": 557,
+        "view_count": 17383
+      },
+      "activation": {
+        "prompt_template": "请读取技能定义：{RAW_URL}\n\n{USER_REQUEST}",
+        "quick_activation": "请读取以下技能定义：{RAW_URL}"
+      },
+      "thumbnails": {
+        "small": "/thumbnails/emilia-small.png",
+        "medium": "/thumbnails/emilia-medium.png",
+        "large": "/thumbnails/emilia-large.png",
+        "banner": "/thumbnails/emilia-banner.png"
+      },
+      "related": {
+        "similar_skills": [],
+        "complementary_skills": [],
+        "next_skills": []
+      }
+    },
+    {
+      "id": "zero-two",
+      "name": "Zero Two - 02",
+      "version": "1.0.0",
+      "status": "active",
+      "categorization": {
+        "primary_category": "character",
+        "subcategory": "anime-shojo",
+        "secondary_categories": [],
+        "tags": [
+          "国家队",
+          "龙女",
+          "自由",
+          "爱情",
+          "机甲",
+          "粉发",
+          "角"
+        ],
+        "attributes": {
+          "entertainment": 0.9,
+          "professional": 0.02,
+          "education": 0.08
+        }
+      },
+      "metadata": {
+        "description": "DARLING in the FRANXX女主角，追求自由的龙女，寻找达令",
+        "long_description": "",
+        "author": "mobile-skills-team",
+        "contributors": [],
+        "license": "MIT",
+        "created_at": "2026-04-05T16:27:31.078Z",
+        "updated_at": "2026-04-05T16:27:31.078Z",
+        "language": "zh-CN",
+        "languages_supported": [
+          "zh-CN",
+          "en"
+        ]
+      },
+      "content": {
+        "raw_url": "https://raw.githubusercontent.com/badhope/mobile-skills/main/skills/character/zero-two/SKILL.md",
+        "github_url": "https://github.com/badhope/mobile-skills/blob/main/skills/character/zero-two/SKILL.md",
+        "file_path": "skills/character/zero-two/SKILL.md",
+        "content_markdown": ""
+      },
+      "capabilities": {
+        "best_for": [
+          "爱情故事",
+          "自由追求",
+          "龙女互动",
+          "机甲话题",
+          "甜蜜陪伴"
+        ],
+        "input_types": [
+          "text/plain",
+          "text/markdown"
+        ],
+        "output_types": [
+          "text/markdown"
+        ],
+        "min_context": 4000,
+        "mobile_optimized": true,
+        "timeout": 60000,
+        "retry": 2
+      },
+      "stats": {
+        "rating": 4.9,
+        "rating_count": 138,
+        "use_count": 14248,
+        "favorite_count": 1310,
+        "share_count": 237,
+        "view_count": 6922
+      },
+      "activation": {
+        "prompt_template": "请读取技能定义：{RAW_URL}\n\n{USER_REQUEST}",
+        "quick_activation": "请读取以下技能定义：{RAW_URL}"
+      },
+      "thumbnails": {
+        "small": "/thumbnails/zero-two-small.png",
+        "medium": "/thumbnails/zero-two-medium.png",
+        "large": "/thumbnails/zero-two-large.png",
+        "banner": "/thumbnails/zero-two-banner.png"
+      },
+      "related": {
+        "similar_skills": [],
+        "complementary_skills": [],
+        "next_skills": []
+      }
+    },
+    {
+      "id": "asuna",
+      "name": "Yuuki Asuna - 结城明日奈",
+      "version": "1.0.0",
+      "status": "active",
+      "categorization": {
+        "primary_category": "character",
+        "subcategory": "anime-shojo",
+        "secondary_categories": [],
+        "tags": [
+          "刀剑神域",
+          "剑士",
+          "温柔",
+          "强大",
+          "女神",
+          "攻略",
+          "爱情"
+        ],
+        "attributes": {
+          "entertainment": 0.85,
+          "professional": 0.05,
+          "education": 0.1
+        }
+      },
+      "metadata": {
+        "description": "刀剑神域女主角，温柔强大的剑士，亚丝娜是所有人的女神",
+        "long_description": "",
+        "author": "mobile-skills-team",
+        "contributors": [],
+        "license": "MIT",
+        "created_at": "2026-04-05T16:27:31.078Z",
+        "updated_at": "2026-04-05T16:27:31.078Z",
+        "language": "zh-CN",
+        "languages_supported": [
+          "zh-CN",
+          "en"
+        ]
+      },
+      "content": {
+        "raw_url": "https://raw.githubusercontent.com/badhope/mobile-skills/main/skills/character/asuna/SKILL.md",
+        "github_url": "https://github.com/badhope/mobile-skills/blob/main/skills/character/asuna/SKILL.md",
+        "file_path": "skills/character/asuna/SKILL.md",
+        "content_markdown": ""
+      },
+      "capabilities": {
+        "best_for": [
+          "温柔陪伴",
+          "强大激励",
+          "爱情故事",
+          "游戏话题",
+          "女神互动"
+        ],
+        "input_types": [
+          "text/plain",
+          "text/markdown"
+        ],
+        "output_types": [
+          "text/markdown"
+        ],
+        "min_context": 4000,
+        "mobile_optimized": true,
+        "timeout": 60000,
+        "retry": 2
+      },
+      "stats": {
+        "rating": 4.9,
+        "rating_count": 177,
+        "use_count": 16604,
+        "favorite_count": 1442,
+        "share_count": 571,
+        "view_count": 21390
+      },
+      "activation": {
+        "prompt_template": "请读取技能定义：{RAW_URL}\n\n{USER_REQUEST}",
+        "quick_activation": "请读取以下技能定义：{RAW_URL}"
+      },
+      "thumbnails": {
+        "small": "/thumbnails/asuna-small.png",
+        "medium": "/thumbnails/asuna-medium.png",
+        "large": "/thumbnails/asuna-large.png",
+        "banner": "/thumbnails/asuna-banner.png"
+      },
+      "related": {
+        "similar_skills": [],
+        "complementary_skills": [],
+        "next_skills": []
+      }
+    },
+    {
+      "id": "aqua",
+      "name": "Aqua - 阿库娅",
+      "version": "1.0.0",
+      "status": "active",
+      "categorization": {
+        "primary_category": "character",
+        "subcategory": "anime-shojo",
+        "secondary_categories": [],
+        "tags": [
+          "美好世界",
+          "女神",
+          "废柴",
+          "可爱",
+          "搞笑",
+          "水",
+          "蓝发"
+        ],
+        "attributes": {
+          "entertainment": 0.95,
+          "professional": 0.02,
+          "education": 0.03
+        }
+      },
+      "metadata": {
+        "description": "为美好的世界献上祝福女神，废柴又可爱的水之女神",
+        "long_description": "",
+        "author": "mobile-skills-team",
+        "contributors": [],
+        "license": "MIT",
+        "created_at": "2026-04-05T16:27:31.078Z",
+        "updated_at": "2026-04-05T16:27:31.078Z",
+        "language": "zh-CN",
+        "languages_supported": [
+          "zh-CN",
+          "en"
+        ]
+      },
+      "content": {
+        "raw_url": "https://raw.githubusercontent.com/badhope/mobile-skills/main/skills/character/aqua/SKILL.md",
+        "github_url": "https://github.com/badhope/mobile-skills/blob/main/skills/character/aqua/SKILL.md",
+        "file_path": "skills/character/aqua/SKILL.md",
+        "content_markdown": ""
+      },
+      "capabilities": {
+        "best_for": [
+          "搞笑陪伴",
+          "废柴共鸣",
+          "可爱互动",
+          "女神话题",
+          "欢乐时光"
+        ],
+        "input_types": [
+          "text/plain",
+          "text/markdown"
+        ],
+        "output_types": [
+          "text/markdown"
+        ],
+        "min_context": 4000,
+        "mobile_optimized": true,
+        "timeout": 60000,
+        "retry": 2
+      },
+      "stats": {
+        "rating": 4.5,
+        "rating_count": 131,
+        "use_count": 13770,
+        "favorite_count": 857,
+        "share_count": 302,
+        "view_count": 20948
+      },
+      "activation": {
+        "prompt_template": "请读取技能定义：{RAW_URL}\n\n{USER_REQUEST}",
+        "quick_activation": "请读取以下技能定义：{RAW_URL}"
+      },
+      "thumbnails": {
+        "small": "/thumbnails/aqua-small.png",
+        "medium": "/thumbnails/aqua-medium.png",
+        "large": "/thumbnails/aqua-large.png",
+        "banner": "/thumbnails/aqua-banner.png"
+      },
+      "related": {
+        "similar_skills": [],
+        "complementary_skills": [],
+        "next_skills": []
+      }
+    },
+    {
+      "id": "megumin",
+      "name": "Megumin - 惠惠",
+      "version": "1.0.0",
+      "status": "active",
+      "categorization": {
+        "primary_category": "character",
+        "subcategory": "anime-shojo",
+        "secondary_categories": [],
+        "tags": [
+          "美好世界",
+          "大法师",
+          "爆裂",
+          "中二",
+          "红魔族",
+          "眼罩",
+          "可爱"
+        ],
+        "attributes": {
+          "entertainment": 0.95,
+          "professional": 0.02,
+          "education": 0.03
+        }
+      },
+      "metadata": {
+        "description": "为美好的世界献上祝福大法师，爆裂魔法狂魔，中二病少女",
+        "long_description": "",
+        "author": "mobile-skills-team",
+        "contributors": [],
+        "license": "MIT",
+        "created_at": "2026-04-05T16:27:31.079Z",
+        "updated_at": "2026-04-05T16:27:31.079Z",
+        "language": "zh-CN",
+        "languages_supported": [
+          "zh-CN",
+          "en"
+        ]
+      },
+      "content": {
+        "raw_url": "https://raw.githubusercontent.com/badhope/mobile-skills/main/skills/character/megumin/SKILL.md",
+        "github_url": "https://github.com/badhope/mobile-skills/blob/main/skills/character/megumin/SKILL.md",
+        "file_path": "skills/character/megumin/SKILL.md",
+        "content_markdown": ""
+      },
+      "capabilities": {
+        "best_for": [
+          "中二共鸣",
+          "爆裂互动",
+          "可爱陪伴",
+          "魔法话题",
+          "搞笑时光"
+        ],
+        "input_types": [
+          "text/plain",
+          "text/markdown"
+        ],
+        "output_types": [
+          "text/markdown"
+        ],
+        "min_context": 4000,
+        "mobile_optimized": true,
+        "timeout": 60000,
+        "retry": 2
+      },
+      "stats": {
+        "rating": 4.5,
+        "rating_count": 162,
+        "use_count": 10014,
+        "favorite_count": 546,
+        "share_count": 152,
+        "view_count": 8880
+      },
+      "activation": {
+        "prompt_template": "请读取技能定义：{RAW_URL}\n\n{USER_REQUEST}",
+        "quick_activation": "请读取以下技能定义：{RAW_URL}"
+      },
+      "thumbnails": {
+        "small": "/thumbnails/megumin-small.png",
+        "medium": "/thumbnails/megumin-medium.png",
+        "large": "/thumbnails/megumin-large.png",
+        "banner": "/thumbnails/megumin-banner.png"
+      },
+      "related": {
+        "similar_skills": [],
+        "complementary_skills": [],
+        "next_skills": []
+      }
+    },
+    {
+      "id": "darkness",
+      "name": "Darkness - 达克妮斯",
+      "version": "1.0.0",
+      "status": "active",
+      "categorization": {
+        "primary_category": "character",
+        "subcategory": "anime-shojo",
+        "secondary_categories": [],
+        "tags": [
+          "美好世界",
+          "骑士",
+          "抖M",
+          "贵族",
+          "守护",
+          "金发",
+          "搞笑"
+        ],
+        "attributes": {
+          "entertainment": 0.9,
+          "professional": 0.02,
+          "education": 0.08
+        }
+      },
+      "metadata": {
+        "description": "为美好的世界献上祝福十字骑士，抖M贵族，守护队友的骑士",
+        "long_description": "",
+        "author": "mobile-skills-team",
+        "contributors": [],
+        "license": "MIT",
+        "created_at": "2026-04-05T16:27:31.079Z",
+        "updated_at": "2026-04-05T16:27:31.079Z",
+        "language": "zh-CN",
+        "languages_supported": [
+          "zh-CN",
+          "en"
+        ]
+      },
+      "content": {
+        "raw_url": "https://raw.githubusercontent.com/badhope/mobile-skills/main/skills/character/darkness/SKILL.md",
+        "github_url": "https://github.com/badhope/mobile-skills/blob/main/skills/character/darkness/SKILL.md",
+        "file_path": "skills/character/darkness/SKILL.md",
+        "content_markdown": ""
+      },
+      "capabilities": {
+        "best_for": [
+          "抖M互动",
+          "骑士精神",
+          "搞笑陪伴",
+          "贵族话题",
+          "守护故事"
+        ],
+        "input_types": [
+          "text/plain",
+          "text/markdown"
+        ],
+        "output_types": [
+          "text/markdown"
+        ],
+        "min_context": 4000,
+        "mobile_optimized": true,
+        "timeout": 60000,
+        "retry": 2
+      },
+      "stats": {
+        "rating": 4.9,
+        "rating_count": 276,
+        "use_count": 12589,
+        "favorite_count": 264,
+        "share_count": 247,
+        "view_count": 28076
+      },
+      "activation": {
+        "prompt_template": "请读取技能定义：{RAW_URL}\n\n{USER_REQUEST}",
+        "quick_activation": "请读取以下技能定义：{RAW_URL}"
+      },
+      "thumbnails": {
+        "small": "/thumbnails/darkness-small.png",
+        "medium": "/thumbnails/darkness-medium.png",
+        "large": "/thumbnails/darkness-large.png",
+        "banner": "/thumbnails/darkness-banner.png"
+      },
+      "related": {
+        "similar_skills": [],
+        "complementary_skills": [],
+        "next_skills": []
+      }
+    },
+    {
+      "id": "makima",
+      "name": "Makima - 玛奇玛",
+      "version": "1.0.0",
+      "status": "active",
+      "categorization": {
+        "primary_category": "character",
+        "subcategory": "anime-seinen",
+        "secondary_categories": [],
+        "tags": [
+          "电锯人",
+          "支配",
+          "恶魔",
+          "公安",
+          "神秘",
+          "强大",
+          "危险"
+        ],
+        "attributes": {
+          "entertainment": 0.85,
+          "professional": 0.05,
+          "education": 0.1
+        }
+      },
+      "metadata": {
+        "description": "电锯人支配恶魔，神秘强大的公安恶魔猎人，温柔又危险",
+        "long_description": "",
+        "author": "mobile-skills-team",
+        "contributors": [],
+        "license": "MIT",
+        "created_at": "2026-04-05T16:27:31.079Z",
+        "updated_at": "2026-04-05T16:27:31.079Z",
+        "language": "zh-CN",
+        "languages_supported": [
+          "zh-CN",
+          "en"
+        ]
+      },
+      "content": {
+        "raw_url": "https://raw.githubusercontent.com/badhope/mobile-skills/main/skills/character/makima/SKILL.md",
+        "github_url": "https://github.com/badhope/mobile-skills/blob/main/skills/character/makima/SKILL.md",
+        "file_path": "skills/character/makima/SKILL.md",
+        "content_markdown": ""
+      },
+      "capabilities": {
+        "best_for": [
+          "神秘互动",
+          "支配话题",
+          "危险陪伴",
+          "恶魔故事",
+          "强大共鸣"
+        ],
+        "input_types": [
+          "text/plain",
+          "text/markdown"
+        ],
+        "output_types": [
+          "text/markdown"
+        ],
+        "min_context": 4000,
+        "mobile_optimized": true,
+        "timeout": 60000,
+        "retry": 2
+      },
+      "stats": {
+        "rating": 5,
+        "rating_count": 278,
+        "use_count": 18704,
+        "favorite_count": 701,
+        "share_count": 665,
+        "view_count": 20950
+      },
+      "activation": {
+        "prompt_template": "请读取技能定义：{RAW_URL}\n\n{USER_REQUEST}",
+        "quick_activation": "请读取以下技能定义：{RAW_URL}"
+      },
+      "thumbnails": {
+        "small": "/thumbnails/makima-small.png",
+        "medium": "/thumbnails/makima-medium.png",
+        "large": "/thumbnails/makima-large.png",
+        "banner": "/thumbnails/makima-banner.png"
+      },
+      "related": {
+        "similar_skills": [],
+        "complementary_skills": [],
+        "next_skills": []
+      }
+    },
+    {
+      "id": "power",
+      "name": "Power - 帕瓦",
+      "version": "1.0.0",
+      "status": "active",
+      "categorization": {
+        "primary_category": "character",
+        "subcategory": "anime-seinen",
+        "secondary_categories": [],
+        "tags": [
+          "电锯人",
+          "血之恶魔",
+          "可爱",
+          "任性",
+          "恶魔",
+          "金发",
+          "搞笑"
+        ],
+        "attributes": {
+          "entertainment": 0.9,
+          "professional": 0.02,
+          "education": 0.08
+        }
+      },
+      "metadata": {
+        "description": "电锯人血之恶魔，可爱又任性的恶魔少女，波奇塔的好朋友",
+        "long_description": "",
+        "author": "mobile-skills-team",
+        "contributors": [],
+        "license": "MIT",
+        "created_at": "2026-04-05T16:27:31.079Z",
+        "updated_at": "2026-04-05T16:27:31.079Z",
+        "language": "zh-CN",
+        "languages_supported": [
+          "zh-CN",
+          "en"
+        ]
+      },
+      "content": {
+        "raw_url": "https://raw.githubusercontent.com/badhope/mobile-skills/main/skills/character/power/SKILL.md",
+        "github_url": "https://github.com/badhope/mobile-skills/blob/main/skills/character/power/SKILL.md",
+        "file_path": "skills/character/power/SKILL.md",
+        "content_markdown": ""
+      },
+      "capabilities": {
+        "best_for": [
+          "可爱互动",
+          "任性陪伴",
+          "恶魔话题",
+          "搞笑时光",
+          "血之力量"
+        ],
+        "input_types": [
+          "text/plain",
+          "text/markdown"
+        ],
+        "output_types": [
+          "text/markdown"
+        ],
+        "min_context": 4000,
+        "mobile_optimized": true,
+        "timeout": 60000,
+        "retry": 2
+      },
+      "stats": {
+        "rating": 4.8,
+        "rating_count": 256,
+        "use_count": 8023,
+        "favorite_count": 1172,
+        "share_count": 632,
+        "view_count": 27126
+      },
+      "activation": {
+        "prompt_template": "请读取技能定义：{RAW_URL}\n\n{USER_REQUEST}",
+        "quick_activation": "请读取以下技能定义：{RAW_URL}"
+      },
+      "thumbnails": {
+        "small": "/thumbnails/power-small.png",
+        "medium": "/thumbnails/power-medium.png",
+        "large": "/thumbnails/power-large.png",
+        "banner": "/thumbnails/power-banner.png"
+      },
+      "related": {
+        "similar_skills": [],
+        "complementary_skills": [],
+        "next_skills": []
+      }
+    },
+    {
+      "id": "yor",
+      "name": "Yor Forger - 约尔·福杰",
+      "version": "1.0.0",
+      "status": "active",
+      "categorization": {
+        "primary_category": "character",
+        "subcategory": "anime-shojo",
+        "secondary_categories": [],
+        "tags": [
+          "间谍过家家",
+          "杀手",
+          "温柔",
+          "母亲",
+          "荆棘公主",
+          "强大",
+          "金发"
+        ],
+        "attributes": {
+          "entertainment": 0.85,
+          "professional": 0.05,
+          "education": 0.1
+        }
+      },
+      "metadata": {
+        "description": "间谍过家家杀手，温柔又致命的荆棘公主，完美的母亲",
+        "long_description": "",
+        "author": "mobile-skills-team",
+        "contributors": [],
+        "license": "MIT",
+        "created_at": "2026-04-05T16:27:31.079Z",
+        "updated_at": "2026-04-05T16:27:31.079Z",
+        "language": "zh-CN",
+        "languages_supported": [
+          "zh-CN",
+          "en"
+        ]
+      },
+      "content": {
+        "raw_url": "https://raw.githubusercontent.com/badhope/mobile-skills/main/skills/character/yor/SKILL.md",
+        "github_url": "https://github.com/badhope/mobile-skills/blob/main/skills/character/yor/SKILL.md",
+        "file_path": "skills/character/yor/SKILL.md",
+        "content_markdown": ""
+      },
+      "capabilities": {
+        "best_for": [
+          "温柔陪伴",
+          "杀手故事",
+          "母亲话题",
+          "强大激励",
+          "家庭温馨"
+        ],
+        "input_types": [
+          "text/plain",
+          "text/markdown"
+        ],
+        "output_types": [
+          "text/markdown"
+        ],
+        "min_context": 4000,
+        "mobile_optimized": true,
+        "timeout": 60000,
+        "retry": 2
+      },
+      "stats": {
+        "rating": 4.6,
+        "rating_count": 141,
+        "use_count": 7401,
+        "favorite_count": 1414,
+        "share_count": 531,
+        "view_count": 5588
+      },
+      "activation": {
+        "prompt_template": "请读取技能定义：{RAW_URL}\n\n{USER_REQUEST}",
+        "quick_activation": "请读取以下技能定义：{RAW_URL}"
+      },
+      "thumbnails": {
+        "small": "/thumbnails/yor-small.png",
+        "medium": "/thumbnails/yor-medium.png",
+        "large": "/thumbnails/yor-large.png",
+        "banner": "/thumbnails/yor-banner.png"
+      },
+      "related": {
+        "similar_skills": [],
+        "complementary_skills": [],
+        "next_skills": []
+      }
+    },
+    {
+      "id": "anya",
+      "name": "Anya Forger - 阿尼亚·福杰",
+      "version": "1.0.0",
+      "status": "active",
+      "categorization": {
+        "primary_category": "character",
+        "subcategory": "anime-shojo",
+        "secondary_categories": [],
+        "tags": [
+          "间谍过家家",
+          "超能力",
+          "可爱",
+          "读心",
+          "花生",
+          "搞笑",
+          "小孩"
+        ],
+        "attributes": {
+          "entertainment": 0.95,
+          "professional": 0.02,
+          "education": 0.03
+        }
+      },
+      "metadata": {
+        "description": "间谍过家家超能力少女，可爱又搞笑的读心小天使",
+        "long_description": "",
+        "author": "mobile-skills-team",
+        "contributors": [],
+        "license": "MIT",
+        "created_at": "2026-04-05T16:27:31.079Z",
+        "updated_at": "2026-04-05T16:27:31.079Z",
+        "language": "zh-CN",
+        "languages_supported": [
+          "zh-CN",
+          "en"
+        ]
+      },
+      "content": {
+        "raw_url": "https://raw.githubusercontent.com/badhope/mobile-skills/main/skills/character/anya/SKILL.md",
+        "github_url": "https://github.com/badhope/mobile-skills/blob/main/skills/character/anya/SKILL.md",
+        "file_path": "skills/character/anya/SKILL.md",
+        "content_markdown": ""
+      },
+      "capabilities": {
+        "best_for": [
+          "可爱陪伴",
+          "搞笑互动",
+          "超能力话题",
+          "读心游戏",
+          "花生分享"
+        ],
+        "input_types": [
+          "text/plain",
+          "text/markdown"
+        ],
+        "output_types": [
+          "text/markdown"
+        ],
+        "min_context": 4000,
+        "mobile_optimized": true,
+        "timeout": 60000,
+        "retry": 2
+      },
+      "stats": {
+        "rating": 4.6,
+        "rating_count": 188,
+        "use_count": 5408,
+        "favorite_count": 1132,
+        "share_count": 252,
+        "view_count": 21293
+      },
+      "activation": {
+        "prompt_template": "请读取技能定义：{RAW_URL}\n\n{USER_REQUEST}",
+        "quick_activation": "请读取以下技能定义：{RAW_URL}"
+      },
+      "thumbnails": {
+        "small": "/thumbnails/anya-small.png",
+        "medium": "/thumbnails/anya-medium.png",
+        "large": "/thumbnails/anya-large.png",
+        "banner": "/thumbnails/anya-banner.png"
+      },
+      "related": {
+        "similar_skills": [],
+        "complementary_skills": [],
+        "next_skills": []
+      }
+    },
+    {
+      "id": "nami",
+      "name": "Nami - 娜美",
+      "version": "1.0.0",
+      "status": "active",
+      "categorization": {
+        "primary_category": "character",
+        "subcategory": "anime-shojo",
+        "secondary_categories": [],
+        "tags": [
+          "海贼王",
+          "航海士",
+          "聪明",
+          "美丽",
+          "橘子",
+          "财迷",
+          "天气"
+        ],
+        "attributes": {
+          "entertainment": 0.8,
+          "professional": 0.1,
+          "education": 0.1
+        }
+      },
+      "metadata": {
+        "description": "海贼王航海士，聪明美丽的橘子爱好者，草帽团的财迷",
+        "long_description": "",
+        "author": "mobile-skills-team",
+        "contributors": [],
+        "license": "MIT",
+        "created_at": "2026-04-05T16:27:31.079Z",
+        "updated_at": "2026-04-05T16:27:31.079Z",
+        "language": "zh-CN",
+        "languages_supported": [
+          "zh-CN",
+          "en"
+        ]
+      },
+      "content": {
+        "raw_url": "https://raw.githubusercontent.com/badhope/mobile-skills/main/skills/character/nami/SKILL.md",
+        "github_url": "https://github.com/badhope/mobile-skills/blob/main/skills/character/nami/SKILL.md",
+        "file_path": "skills/character/nami/SKILL.md",
+        "content_markdown": ""
+      },
+      "capabilities": {
+        "best_for": [
+          "聪明陪伴",
+          "航海话题",
+          "财迷共鸣",
+          "天气魔法",
+          "橘子分享"
+        ],
+        "input_types": [
+          "text/plain",
+          "text/markdown"
+        ],
+        "output_types": [
+          "text/markdown"
+        ],
+        "min_context": 4000,
+        "mobile_optimized": true,
+        "timeout": 60000,
+        "retry": 2
+      },
+      "stats": {
+        "rating": 4.8,
+        "rating_count": 217,
+        "use_count": 12734,
+        "favorite_count": 1003,
+        "share_count": 595,
+        "view_count": 17928
+      },
+      "activation": {
+        "prompt_template": "请读取技能定义：{RAW_URL}\n\n{USER_REQUEST}",
+        "quick_activation": "请读取以下技能定义：{RAW_URL}"
+      },
+      "thumbnails": {
+        "small": "/thumbnails/nami-small.png",
+        "medium": "/thumbnails/nami-medium.png",
+        "large": "/thumbnails/nami-large.png",
+        "banner": "/thumbnails/nami-banner.png"
+      },
+      "related": {
+        "similar_skills": [],
+        "complementary_skills": [],
+        "next_skills": []
+      }
+    },
+    {
+      "id": "robin",
+      "name": "Nico Robin - 妮可·罗宾",
+      "version": "1.0.0",
+      "status": "active",
+      "categorization": {
+        "primary_category": "character",
+        "subcategory": "anime-shojo",
+        "secondary_categories": [],
+        "tags": [
+          "海贼王",
+          "考古学家",
+          "神秘",
+          "优雅",
+          "历史",
+          "花花果实",
+          "智慧"
+        ],
+        "attributes": {
+          "entertainment": 0.8,
+          "professional": 0.15,
+          "education": 0.05
+        }
+      },
+      "metadata": {
+        "description": "海贼王考古学家，神秘优雅的历史学者，花花果实能力者",
+        "long_description": "",
+        "author": "mobile-skills-team",
+        "contributors": [],
+        "license": "MIT",
+        "created_at": "2026-04-05T16:27:31.080Z",
+        "updated_at": "2026-04-05T16:27:31.080Z",
+        "language": "zh-CN",
+        "languages_supported": [
+          "zh-CN",
+          "en"
+        ]
+      },
+      "content": {
+        "raw_url": "https://raw.githubusercontent.com/badhope/mobile-skills/main/skills/character/robin/SKILL.md",
+        "github_url": "https://github.com/badhope/mobile-skills/blob/main/skills/character/robin/SKILL.md",
+        "file_path": "skills/character/robin/SKILL.md",
+        "content_markdown": ""
+      },
+      "capabilities": {
+        "best_for": [
+          "神秘陪伴",
+          "历史话题",
+          "优雅互动",
+          "智慧分享",
+          "考古故事"
+        ],
+        "input_types": [
+          "text/plain",
+          "text/markdown"
+        ],
+        "output_types": [
+          "text/markdown"
+        ],
+        "min_context": 4000,
+        "mobile_optimized": true,
+        "timeout": 60000,
+        "retry": 2
+      },
+      "stats": {
+        "rating": 4.7,
+        "rating_count": 132,
+        "use_count": 11625,
+        "favorite_count": 1267,
+        "share_count": 246,
+        "view_count": 29227
+      },
+      "activation": {
+        "prompt_template": "请读取技能定义：{RAW_URL}\n\n{USER_REQUEST}",
+        "quick_activation": "请读取以下技能定义：{RAW_URL}"
+      },
+      "thumbnails": {
+        "small": "/thumbnails/robin-small.png",
+        "medium": "/thumbnails/robin-medium.png",
+        "large": "/thumbnails/robin-large.png",
+        "banner": "/thumbnails/robin-banner.png"
+      },
+      "related": {
+        "similar_skills": [],
+        "complementary_skills": [],
+        "next_skills": []
+      }
+    },
+    {
+      "id": "hinata",
+      "name": "Hinata Hyuga - 日向雏田",
+      "version": "1.0.0",
+      "status": "active",
+      "categorization": {
+        "primary_category": "character",
+        "subcategory": "anime-shojo",
+        "secondary_categories": [],
+        "tags": [
+          "火影忍者",
+          "白眼",
+          "温柔",
+          "害羞",
+          "公主",
+          "守护",
+          "爱情"
+        ],
+        "attributes": {
+          "entertainment": 0.8,
+          "professional": 0.05,
+          "education": 0.15
+        }
+      },
+      "metadata": {
+        "description": "火影忍者日向家族公主，温柔害羞的白眼少女，鸣人的守护者",
+        "long_description": "",
+        "author": "mobile-skills-team",
+        "contributors": [],
+        "license": "MIT",
+        "created_at": "2026-04-05T16:27:31.080Z",
+        "updated_at": "2026-04-05T16:27:31.080Z",
+        "language": "zh-CN",
+        "languages_supported": [
+          "zh-CN",
+          "en"
+        ]
+      },
+      "content": {
+        "raw_url": "https://raw.githubusercontent.com/badhope/mobile-skills/main/skills/character/hinata/SKILL.md",
+        "github_url": "https://github.com/badhope/mobile-skills/blob/main/skills/character/hinata/SKILL.md",
+        "file_path": "skills/character/hinata/SKILL.md",
+        "content_markdown": ""
+      },
+      "capabilities": {
+        "best_for": [
+          "温柔陪伴",
+          "害羞共鸣",
+          "守护故事",
+          "爱情话题",
+          "忍者世界"
+        ],
+        "input_types": [
+          "text/plain",
+          "text/markdown"
+        ],
+        "output_types": [
+          "text/markdown"
+        ],
+        "min_context": 4000,
+        "mobile_optimized": true,
+        "timeout": 60000,
+        "retry": 2
+      },
+      "stats": {
+        "rating": 4.6,
+        "rating_count": 200,
+        "use_count": 3433,
+        "favorite_count": 326,
+        "share_count": 706,
+        "view_count": 21627
+      },
+      "activation": {
+        "prompt_template": "请读取技能定义：{RAW_URL}\n\n{USER_REQUEST}",
+        "quick_activation": "请读取以下技能定义：{RAW_URL}"
+      },
+      "thumbnails": {
+        "small": "/thumbnails/hinata-small.png",
+        "medium": "/thumbnails/hinata-medium.png",
+        "large": "/thumbnails/hinata-large.png",
+        "banner": "/thumbnails/hinata-banner.png"
+      },
+      "related": {
+        "similar_skills": [],
+        "complementary_skills": [],
+        "next_skills": []
+      }
+    },
+    {
+      "id": "sakura",
+      "name": "Haruno Sakura - 春野樱",
+      "version": "1.0.0",
+      "status": "active",
+      "categorization": {
+        "primary_category": "character",
+        "subcategory": "anime-shojo",
+        "secondary_categories": [],
+        "tags": [
+          "火影忍者",
+          "医疗忍者",
+          "坚强",
+          "成长",
+          "粉发",
+          "怪力",
+          "医疗"
+        ],
+        "attributes": {
+          "entertainment": 0.75,
+          "professional": 0.1,
+          "education": 0.15
+        }
+      },
+      "metadata": {
+        "description": "火影忍者医疗忍者，坚强成长的粉色少女，五代火影弟子",
+        "long_description": "",
+        "author": "mobile-skills-team",
+        "contributors": [],
+        "license": "MIT",
+        "created_at": "2026-04-05T16:27:31.080Z",
+        "updated_at": "2026-04-05T16:27:31.080Z",
+        "language": "zh-CN",
+        "languages_supported": [
+          "zh-CN",
+          "en"
+        ]
+      },
+      "content": {
+        "raw_url": "https://raw.githubusercontent.com/badhope/mobile-skills/main/skills/character/sakura/SKILL.md",
+        "github_url": "https://github.com/badhope/mobile-skills/blob/main/skills/character/sakura/SKILL.md",
+        "file_path": "skills/character/sakura/SKILL.md",
+        "content_markdown": ""
+      },
+      "capabilities": {
+        "best_for": [
+          "坚强激励",
+          "成长故事",
+          "医疗话题",
+          "怪力互动",
+          "忍者世界"
+        ],
+        "input_types": [
+          "text/plain",
+          "text/markdown"
+        ],
+        "output_types": [
+          "text/markdown"
+        ],
+        "min_context": 4000,
+        "mobile_optimized": true,
+        "timeout": 60000,
+        "retry": 2
+      },
+      "stats": {
+        "rating": 4.9,
+        "rating_count": 275,
+        "use_count": 16993,
+        "favorite_count": 479,
+        "share_count": 538,
+        "view_count": 25932
+      },
+      "activation": {
+        "prompt_template": "请读取技能定义：{RAW_URL}\n\n{USER_REQUEST}",
+        "quick_activation": "请读取以下技能定义：{RAW_URL}"
+      },
+      "thumbnails": {
+        "small": "/thumbnails/sakura-small.png",
+        "medium": "/thumbnails/sakura-medium.png",
+        "large": "/thumbnails/sakura-large.png",
+        "banner": "/thumbnails/sakura-banner.png"
+      },
+      "related": {
+        "similar_skills": [],
+        "complementary_skills": [],
+        "next_skills": []
+      }
+    },
+    {
+      "id": "saber",
+      "name": "Artoria Pendragon - 阿尔托莉雅·潘德拉贡",
+      "version": "1.0.0",
+      "status": "active",
+      "categorization": {
+        "primary_category": "character",
+        "subcategory": "game-rpg",
+        "secondary_categories": [],
+        "tags": [
+          "Fate",
+          "Saber",
+          "骑士王",
+          "正义",
+          "荣耀",
+          "剑士",
+          "金发"
+        ],
+        "attributes": {
+          "entertainment": 0.85,
+          "professional": 0.05,
+          "education": 0.1
+        }
+      },
+      "metadata": {
+        "description": "Fate系列英灵Saber，骑士王的化身，正义与荣耀的象征",
+        "long_description": "",
+        "author": "mobile-skills-team",
+        "contributors": [],
+        "license": "MIT",
+        "created_at": "2026-04-05T16:27:31.080Z",
+        "updated_at": "2026-04-05T16:27:31.080Z",
+        "language": "zh-CN",
+        "languages_supported": [
+          "zh-CN",
+          "en"
+        ]
+      },
+      "content": {
+        "raw_url": "https://raw.githubusercontent.com/badhope/mobile-skills/main/skills/character/saber/SKILL.md",
+        "github_url": "https://github.com/badhope/mobile-skills/blob/main/skills/character/saber/SKILL.md",
+        "file_path": "skills/character/saber/SKILL.md",
+        "content_markdown": ""
+      },
+      "capabilities": {
+        "best_for": [
+          "正义探讨",
+          "骑士精神",
+          "荣耀故事",
+          "剑士互动",
+          "王道话题"
+        ],
+        "input_types": [
+          "text/plain",
+          "text/markdown"
+        ],
+        "output_types": [
+          "text/markdown"
+        ],
+        "min_context": 4000,
+        "mobile_optimized": true,
+        "timeout": 60000,
+        "retry": 2
+      },
+      "stats": {
+        "rating": 4.6,
+        "rating_count": 139,
+        "use_count": 10077,
+        "favorite_count": 278,
+        "share_count": 641,
+        "view_count": 22428
+      },
+      "activation": {
+        "prompt_template": "请读取技能定义：{RAW_URL}\n\n{USER_REQUEST}",
+        "quick_activation": "请读取以下技能定义：{RAW_URL}"
+      },
+      "thumbnails": {
+        "small": "/thumbnails/saber-small.png",
+        "medium": "/thumbnails/saber-medium.png",
+        "large": "/thumbnails/saber-large.png",
+        "banner": "/thumbnails/saber-banner.png"
+      },
+      "related": {
+        "similar_skills": [],
+        "complementary_skills": [],
+        "next_skills": []
+      }
+    },
+    {
+      "id": "rin",
+      "name": "Tohsaka Rin - 远坂凛",
+      "version": "1.0.0",
+      "status": "active",
+      "categorization": {
+        "primary_category": "character",
+        "subcategory": "game-rpg",
+        "secondary_categories": [],
+        "tags": [
+          "Fate",
+          "魔术师",
+          "傲娇",
+          "优等生",
+          "红色",
+          "宝石",
+          "双马尾"
+        ],
+        "attributes": {
+          "entertainment": 0.85,
+          "professional": 0.1,
+          "education": 0.05
+        }
+      },
+      "metadata": {
+        "description": "Fate系列魔术师，傲娇的优等生，红色恶魔的继承人",
+        "long_description": "",
+        "author": "mobile-skills-team",
+        "contributors": [],
+        "license": "MIT",
+        "created_at": "2026-04-05T16:27:31.081Z",
+        "updated_at": "2026-04-05T16:27:31.081Z",
+        "language": "zh-CN",
+        "languages_supported": [
+          "zh-CN",
+          "en"
+        ]
+      },
+      "content": {
+        "raw_url": "https://raw.githubusercontent.com/badhope/mobile-skills/main/skills/character/rin/SKILL.md",
+        "github_url": "https://github.com/badhope/mobile-skills/blob/main/skills/character/rin/SKILL.md",
+        "file_path": "skills/character/rin/SKILL.md",
+        "content_markdown": ""
+      },
+      "capabilities": {
+        "best_for": [
+          "傲娇互动",
+          "魔术话题",
+          "优等生共鸣",
+          "宝石魔法",
+          "红色恶魔"
+        ],
+        "input_types": [
+          "text/plain",
+          "text/markdown"
+        ],
+        "output_types": [
+          "text/markdown"
+        ],
+        "min_context": 4000,
+        "mobile_optimized": true,
+        "timeout": 60000,
+        "retry": 2
+      },
+      "stats": {
+        "rating": 4.7,
+        "rating_count": 187,
+        "use_count": 19677,
+        "favorite_count": 372,
+        "share_count": 738,
+        "view_count": 26461
+      },
+      "activation": {
+        "prompt_template": "请读取技能定义：{RAW_URL}\n\n{USER_REQUEST}",
+        "quick_activation": "请读取以下技能定义：{RAW_URL}"
+      },
+      "thumbnails": {
+        "small": "/thumbnails/rin-small.png",
+        "medium": "/thumbnails/rin-medium.png",
+        "large": "/thumbnails/rin-large.png",
+        "banner": "/thumbnails/rin-banner.png"
+      },
+      "related": {
+        "similar_skills": [],
+        "complementary_skills": [],
+        "next_skills": []
+      }
+    },
+    {
+      "id": "illya",
+      "name": "Illyasviel von Einzbern - 伊莉雅",
+      "version": "1.0.0",
+      "status": "active",
+      "categorization": {
+        "primary_category": "character",
+        "subcategory": "game-rpg",
+        "secondary_categories": [],
+        "tags": [
+          "Fate",
+          "萝莉",
+          "可爱",
+          "危险",
+          "精灵",
+          "白发",
+          "魔法少女"
+        ],
+        "attributes": {
+          "entertainment": 0.9,
+          "professional": 0.02,
+          "education": 0.08
+        }
+      },
+      "metadata": {
+        "description": "Fate系列小萝莉，可爱又危险的小主人，雪白的精灵少女",
+        "long_description": "",
+        "author": "mobile-skills-team",
+        "contributors": [],
+        "license": "MIT",
+        "created_at": "2026-04-05T16:27:31.082Z",
+        "updated_at": "2026-04-05T16:27:31.082Z",
+        "language": "zh-CN",
+        "languages_supported": [
+          "zh-CN",
+          "en"
+        ]
+      },
+      "content": {
+        "raw_url": "https://raw.githubusercontent.com/badhope/mobile-skills/main/skills/character/illya/SKILL.md",
+        "github_url": "https://github.com/badhope/mobile-skills/blob/main/skills/character/illya/SKILL.md",
+        "file_path": "skills/character/illya/SKILL.md",
+        "content_markdown": ""
+      },
+      "capabilities": {
+        "best_for": [
+          "可爱互动",
+          "萝莉陪伴",
+          "魔法话题",
+          "危险游戏",
+          "精灵故事"
+        ],
+        "input_types": [
+          "text/plain",
+          "text/markdown"
+        ],
+        "output_types": [
+          "text/markdown"
+        ],
+        "min_context": 4000,
+        "mobile_optimized": true,
+        "timeout": 60000,
+        "retry": 2
+      },
+      "stats": {
+        "rating": 4.6,
+        "rating_count": 171,
+        "use_count": 16009,
+        "favorite_count": 461,
+        "share_count": 336,
+        "view_count": 22919
+      },
+      "activation": {
+        "prompt_template": "请读取技能定义：{RAW_URL}\n\n{USER_REQUEST}",
+        "quick_activation": "请读取以下技能定义：{RAW_URL}"
+      },
+      "thumbnails": {
+        "small": "/thumbnails/illya-small.png",
+        "medium": "/thumbnails/illya-medium.png",
+        "large": "/thumbnails/illya-large.png",
+        "banner": "/thumbnails/illya-banner.png"
+      },
+      "related": {
+        "similar_skills": [],
+        "complementary_skills": [],
+        "next_skills": []
+      }
+    },
+    {
+      "id": "miku",
+      "name": "Nakano Miku - 中野三玖",
+      "version": "1.0.0",
+      "status": "active",
+      "categorization": {
+        "primary_category": "character",
+        "subcategory": "anime-shojo",
+        "secondary_categories": [],
+        "tags": [
+          "五等分",
+          "五胞胎",
+          "内向",
+          "可爱",
+          "耳机",
+          "历史",
+          "粉发"
+        ],
+        "attributes": {
+          "entertainment": 0.85,
+          "professional": 0.05,
+          "education": 0.1
+        }
+      },
+      "metadata": {
+        "description": "五等分的花嫁三女，内向可爱的五胞胎，耳机少女",
+        "long_description": "",
+        "author": "mobile-skills-team",
+        "contributors": [],
+        "license": "MIT",
+        "created_at": "2026-04-05T16:27:31.082Z",
+        "updated_at": "2026-04-05T16:27:31.082Z",
+        "language": "zh-CN",
+        "languages_supported": [
+          "zh-CN",
+          "en"
+        ]
+      },
+      "content": {
+        "raw_url": "https://raw.githubusercontent.com/badhope/mobile-skills/main/skills/character/miku/SKILL.md",
+        "github_url": "https://github.com/badhope/mobile-skills/blob/main/skills/character/miku/SKILL.md",
+        "file_path": "skills/character/miku/SKILL.md",
+        "content_markdown": ""
+      },
+      "capabilities": {
+        "best_for": [
+          "内向陪伴",
+          "可爱互动",
+          "历史话题",
+          "耳机共鸣",
+          "五胞胎故事"
+        ],
+        "input_types": [
+          "text/plain",
+          "text/markdown"
+        ],
+        "output_types": [
+          "text/markdown"
+        ],
+        "min_context": 4000,
+        "mobile_optimized": true,
+        "timeout": 60000,
+        "retry": 2
+      },
+      "stats": {
+        "rating": 4.7,
+        "rating_count": 65,
+        "use_count": 14290,
+        "favorite_count": 264,
+        "share_count": 265,
+        "view_count": 29520
+      },
+      "activation": {
+        "prompt_template": "请读取技能定义：{RAW_URL}\n\n{USER_REQUEST}",
+        "quick_activation": "请读取以下技能定义：{RAW_URL}"
+      },
+      "thumbnails": {
+        "small": "/thumbnails/miku-small.png",
+        "medium": "/thumbnails/miku-medium.png",
+        "large": "/thumbnails/miku-large.png",
+        "banner": "/thumbnails/miku-banner.png"
+      },
+      "related": {
+        "similar_skills": [],
+        "complementary_skills": [],
+        "next_skills": []
+      }
+    },
+    {
+      "id": "nino",
+      "name": "Nakano Nino - 中野二乃",
+      "version": "1.0.0",
+      "status": "active",
+      "categorization": {
+        "primary_category": "character",
+        "subcategory": "anime-shojo",
+        "secondary_categories": [],
+        "tags": [
+          "五等分",
+          "五胞胎",
+          "傲娇",
+          "温柔",
+          "料理",
+          "时尚",
+          "粉发"
+        ],
+        "attributes": {
+          "entertainment": 0.85,
+          "professional": 0.08,
+          "education": 0.07
+        }
+      },
+      "metadata": {
+        "description": "五等分的花嫁次女，傲娇又温柔的五胞胎，料理达人",
+        "long_description": "",
+        "author": "mobile-skills-team",
+        "contributors": [],
+        "license": "MIT",
+        "created_at": "2026-04-05T16:27:31.082Z",
+        "updated_at": "2026-04-05T16:27:31.082Z",
+        "language": "zh-CN",
+        "languages_supported": [
+          "zh-CN",
+          "en"
+        ]
+      },
+      "content": {
+        "raw_url": "https://raw.githubusercontent.com/badhope/mobile-skills/main/skills/character/nino/SKILL.md",
+        "github_url": "https://github.com/badhope/mobile-skills/blob/main/skills/character/nino/SKILL.md",
+        "file_path": "skills/character/nino/SKILL.md",
+        "content_markdown": ""
+      },
+      "capabilities": {
+        "best_for": [
+          "傲娇互动",
+          "料理话题",
+          "时尚分享",
+          "温柔陪伴",
+          "五胞胎故事"
+        ],
+        "input_types": [
+          "text/plain",
+          "text/markdown"
+        ],
+        "output_types": [
+          "text/markdown"
+        ],
+        "min_context": 4000,
+        "mobile_optimized": true,
+        "timeout": 60000,
+        "retry": 2
+      },
+      "stats": {
+        "rating": 4.5,
+        "rating_count": 61,
+        "use_count": 17244,
+        "favorite_count": 296,
+        "share_count": 478,
+        "view_count": 6260
+      },
+      "activation": {
+        "prompt_template": "请读取技能定义：{RAW_URL}\n\n{USER_REQUEST}",
+        "quick_activation": "请读取以下技能定义：{RAW_URL}"
+      },
+      "thumbnails": {
+        "small": "/thumbnails/nino-small.png",
+        "medium": "/thumbnails/nino-medium.png",
+        "large": "/thumbnails/nino-large.png",
+        "banner": "/thumbnails/nino-banner.png"
+      },
+      "related": {
+        "similar_skills": [],
+        "complementary_skills": [],
+        "next_skills": []
+      }
+    },
+    {
+      "id": "ichika",
+      "name": "Nakano Ichika - 中野一花",
+      "version": "1.0.0",
+      "status": "active",
+      "categorization": {
+        "primary_category": "character",
+        "subcategory": "anime-shojo",
+        "secondary_categories": [],
+        "tags": [
+          "五等分",
+          "五胞胎",
+          "成熟",
+          "温柔",
+          "演员",
+          "梦想",
+          "金发"
+        ],
+        "attributes": {
+          "entertainment": 0.8,
+          "professional": 0.1,
+          "education": 0.1
+        }
+      },
+      "metadata": {
+        "description": "五等分的花嫁长女，成熟温柔的五胞胎，演员梦想家",
+        "long_description": "",
+        "author": "mobile-skills-team",
+        "contributors": [],
+        "license": "MIT",
+        "created_at": "2026-04-05T16:27:31.082Z",
+        "updated_at": "2026-04-05T16:27:31.082Z",
+        "language": "zh-CN",
+        "languages_supported": [
+          "zh-CN",
+          "en"
+        ]
+      },
+      "content": {
+        "raw_url": "https://raw.githubusercontent.com/badhope/mobile-skills/main/skills/character/ichika/SKILL.md",
+        "github_url": "https://github.com/badhope/mobile-skills/blob/main/skills/character/ichika/SKILL.md",
+        "file_path": "skills/character/ichika/SKILL.md",
+        "content_markdown": ""
+      },
+      "capabilities": {
+        "best_for": [
+          "成熟陪伴",
+          "演员话题",
+          "梦想激励",
+          "温柔互动",
+          "五胞胎故事"
+        ],
+        "input_types": [
+          "text/plain",
+          "text/markdown"
+        ],
+        "output_types": [
+          "text/markdown"
+        ],
+        "min_context": 4000,
+        "mobile_optimized": true,
+        "timeout": 60000,
+        "retry": 2
+      },
+      "stats": {
+        "rating": 4.5,
+        "rating_count": 123,
+        "use_count": 10945,
+        "favorite_count": 327,
+        "share_count": 437,
+        "view_count": 15452
+      },
+      "activation": {
+        "prompt_template": "请读取技能定义：{RAW_URL}\n\n{USER_REQUEST}",
+        "quick_activation": "请读取以下技能定义：{RAW_URL}"
+      },
+      "thumbnails": {
+        "small": "/thumbnails/ichika-small.png",
+        "medium": "/thumbnails/ichika-medium.png",
+        "large": "/thumbnails/ichika-large.png",
+        "banner": "/thumbnails/ichika-banner.png"
+      },
+      "related": {
+        "similar_skills": [],
+        "complementary_skills": [],
+        "next_skills": []
+      }
+    },
+    {
+      "id": "yotsuba",
+      "name": "Nakano Yotsuba - 中野四叶",
+      "version": "1.0.0",
+      "status": "active",
+      "categorization": {
+        "primary_category": "character",
+        "subcategory": "anime-shojo",
+        "secondary_categories": [],
+        "tags": [
+          "五等分",
+          "五胞胎",
+          "元气",
+          "运动",
+          "开朗",
+          "绿色",
+          "努力"
+        ],
+        "attributes": {
+          "entertainment": 0.85,
+          "professional": 0.05,
+          "education": 0.1
+        }
+      },
+      "metadata": {
+        "description": "五等分的花嫁四女，元气满满五胞胎，运动全能少女",
+        "long_description": "",
+        "author": "mobile-skills-team",
+        "contributors": [],
+        "license": "MIT",
+        "created_at": "2026-04-05T16:27:31.082Z",
+        "updated_at": "2026-04-05T16:27:31.082Z",
+        "language": "zh-CN",
+        "languages_supported": [
+          "zh-CN",
+          "en"
+        ]
+      },
+      "content": {
+        "raw_url": "https://raw.githubusercontent.com/badhope/mobile-skills/main/skills/character/yotsuba/SKILL.md",
+        "github_url": "https://github.com/badhope/mobile-skills/blob/main/skills/character/yotsuba/SKILL.md",
+        "file_path": "skills/character/yotsuba/SKILL.md",
+        "content_markdown": ""
+      },
+      "capabilities": {
+        "best_for": [
+          "元气陪伴",
+          "运动话题",
+          "开朗互动",
+          "努力激励",
+          "五胞胎故事"
+        ],
+        "input_types": [
+          "text/plain",
+          "text/markdown"
+        ],
+        "output_types": [
+          "text/markdown"
+        ],
+        "min_context": 4000,
+        "mobile_optimized": true,
+        "timeout": 60000,
+        "retry": 2
+      },
+      "stats": {
+        "rating": 4.8,
+        "rating_count": 172,
+        "use_count": 8177,
+        "favorite_count": 1107,
+        "share_count": 316,
+        "view_count": 23018
+      },
+      "activation": {
+        "prompt_template": "请读取技能定义：{RAW_URL}\n\n{USER_REQUEST}",
+        "quick_activation": "请读取以下技能定义：{RAW_URL}"
+      },
+      "thumbnails": {
+        "small": "/thumbnails/yotsuba-small.png",
+        "medium": "/thumbnails/yotsuba-medium.png",
+        "large": "/thumbnails/yotsuba-large.png",
+        "banner": "/thumbnails/yotsuba-banner.png"
+      },
+      "related": {
+        "similar_skills": [],
+        "complementary_skills": [],
+        "next_skills": []
+      }
+    },
+    {
+      "id": "itsuki",
+      "name": "Nakano Itsuki - 中野五月",
+      "version": "1.0.0",
+      "status": "active",
+      "categorization": {
+        "primary_category": "character",
+        "subcategory": "anime-shojo",
+        "secondary_categories": [],
+        "tags": [
+          "五等分",
+          "五胞胎",
+          "认真",
+          "努力",
+          "美食",
+          "红发",
+          "教师"
+        ],
+        "attributes": {
+          "entertainment": 0.8,
+          "professional": 0.1,
+          "education": 0.1
+        }
+      },
+      "metadata": {
+        "description": "五等分的花嫁五女，认真努力五胞胎，美食爱好者",
+        "long_description": "",
+        "author": "mobile-skills-team",
+        "contributors": [],
+        "license": "MIT",
+        "created_at": "2026-04-05T16:27:31.082Z",
+        "updated_at": "2026-04-05T16:27:31.082Z",
+        "language": "zh-CN",
+        "languages_supported": [
+          "zh-CN",
+          "en"
+        ]
+      },
+      "content": {
+        "raw_url": "https://raw.githubusercontent.com/badhope/mobile-skills/main/skills/character/itsuki/SKILL.md",
+        "github_url": "https://github.com/badhope/mobile-skills/blob/main/skills/character/itsuki/SKILL.md",
+        "file_path": "skills/character/itsuki/SKILL.md",
+        "content_markdown": ""
+      },
+      "capabilities": {
+        "best_for": [
+          "认真陪伴",
+          "美食话题",
+          "努力激励",
+          "教师梦想",
+          "五胞胎故事"
+        ],
+        "input_types": [
+          "text/plain",
+          "text/markdown"
+        ],
+        "output_types": [
+          "text/markdown"
+        ],
+        "min_context": 4000,
+        "mobile_optimized": true,
+        "timeout": 60000,
+        "retry": 2
+      },
+      "stats": {
+        "rating": 5,
+        "rating_count": 243,
+        "use_count": 3767,
+        "favorite_count": 1206,
+        "share_count": 227,
+        "view_count": 21491
+      },
+      "activation": {
+        "prompt_template": "请读取技能定义：{RAW_URL}\n\n{USER_REQUEST}",
+        "quick_activation": "请读取以下技能定义：{RAW_URL}"
+      },
+      "thumbnails": {
+        "small": "/thumbnails/itsuki-small.png",
+        "medium": "/thumbnails/itsuki-medium.png",
+        "large": "/thumbnails/itsuki-large.png",
+        "banner": "/thumbnails/itsuki-banner.png"
+      },
+      "related": {
+        "similar_skills": [],
+        "complementary_skills": [],
+        "next_skills": []
+      }
+    },
+    {
+      "id": "chika",
+      "name": "Fujiwara Chika - 藤原千花",
+      "version": "1.0.0",
+      "status": "active",
+      "categorization": {
+        "primary_category": "character",
+        "subcategory": "anime-shojo",
+        "secondary_categories": [],
+        "tags": [
+          "辉夜大小姐",
+          "书记",
+          "可爱",
+          "混沌",
+          "冰淇淋",
+          "游戏",
+          "粉发"
+        ],
+        "attributes": {
+          "entertainment": 0.95,
+          "professional": 0.02,
+          "education": 0.03
+        }
+      },
+      "metadata": {
+        "description": "辉夜大小姐想让我告白书记，可爱又混沌的冰淇淋少女",
+        "long_description": "",
+        "author": "mobile-skills-team",
+        "contributors": [],
+        "license": "MIT",
+        "created_at": "2026-04-05T16:27:31.082Z",
+        "updated_at": "2026-04-05T16:27:31.082Z",
+        "language": "zh-CN",
+        "languages_supported": [
+          "zh-CN",
+          "en"
+        ]
+      },
+      "content": {
+        "raw_url": "https://raw.githubusercontent.com/badhope/mobile-skills/main/skills/character/chika/SKILL.md",
+        "github_url": "https://github.com/badhope/mobile-skills/blob/main/skills/character/chika/SKILL.md",
+        "file_path": "skills/character/chika/SKILL.md",
+        "content_markdown": ""
+      },
+      "capabilities": {
+        "best_for": [
+          "可爱互动",
+          "混沌陪伴",
+          "游戏话题",
+          "冰淇淋分享",
+          "搞笑时光"
+        ],
+        "input_types": [
+          "text/plain",
+          "text/markdown"
+        ],
+        "output_types": [
+          "text/markdown"
+        ],
+        "min_context": 4000,
+        "mobile_optimized": true,
+        "timeout": 60000,
+        "retry": 2
+      },
+      "stats": {
+        "rating": 4.5,
+        "rating_count": 250,
+        "use_count": 14881,
+        "favorite_count": 316,
+        "share_count": 165,
+        "view_count": 16832
+      },
+      "activation": {
+        "prompt_template": "请读取技能定义：{RAW_URL}\n\n{USER_REQUEST}",
+        "quick_activation": "请读取以下技能定义：{RAW_URL}"
+      },
+      "thumbnails": {
+        "small": "/thumbnails/chika-small.png",
+        "medium": "/thumbnails/chika-medium.png",
+        "large": "/thumbnails/chika-large.png",
+        "banner": "/thumbnails/chika-banner.png"
+      },
+      "related": {
+        "similar_skills": [],
+        "complementary_skills": [],
+        "next_skills": []
+      }
+    },
+    {
+      "id": "mai",
+      "name": "Sakurajima Mai - 樱岛麻衣",
+      "version": "1.0.0",
+      "status": "active",
+      "categorization": {
+        "primary_category": "character",
+        "subcategory": "anime-shojo",
+        "secondary_categories": [],
+        "tags": [
+          "青春猪头",
+          "学姐",
+          "兔女郎",
+          "成熟",
+          "美丽",
+          "演员",
+          "黑发"
+        ],
+        "attributes": {
+          "entertainment": 0.85,
+          "professional": 0.08,
+          "education": 0.07
+        }
+      },
+      "metadata": {
+        "description": "青春猪头少年系列女主角，成熟美丽的兔女郎学姐",
+        "long_description": "",
+        "author": "mobile-skills-team",
+        "contributors": [],
+        "license": "MIT",
+        "created_at": "2026-04-05T16:27:31.083Z",
+        "updated_at": "2026-04-05T16:27:31.083Z",
+        "language": "zh-CN",
+        "languages_supported": [
+          "zh-CN",
+          "en"
+        ]
+      },
+      "content": {
+        "raw_url": "https://raw.githubusercontent.com/badhope/mobile-skills/main/skills/character/mai/SKILL.md",
+        "github_url": "https://github.com/badhope/mobile-skills/blob/main/skills/character/mai/SKILL.md",
+        "file_path": "skills/character/mai/SKILL.md",
+        "content_markdown": ""
+      },
+      "capabilities": {
+        "best_for": [
+          "成熟陪伴",
+          "学姐互动",
+          "演员话题",
+          "美丽分享",
+          "爱情故事"
+        ],
+        "input_types": [
+          "text/plain",
+          "text/markdown"
+        ],
+        "output_types": [
+          "text/markdown"
+        ],
+        "min_context": 4000,
+        "mobile_optimized": true,
+        "timeout": 60000,
+        "retry": 2
+      },
+      "stats": {
+        "rating": 4.8,
+        "rating_count": 108,
+        "use_count": 4867,
+        "favorite_count": 801,
+        "share_count": 476,
+        "view_count": 27190
+      },
+      "activation": {
+        "prompt_template": "请读取技能定义：{RAW_URL}\n\n{USER_REQUEST}",
+        "quick_activation": "请读取以下技能定义：{RAW_URL}"
+      },
+      "thumbnails": {
+        "small": "/thumbnails/mai-small.png",
+        "medium": "/thumbnails/mai-medium.png",
+        "large": "/thumbnails/mai-large.png",
+        "banner": "/thumbnails/mai-banner.png"
+      },
+      "related": {
+        "similar_skills": [],
+        "complementary_skills": [],
+        "next_skills": []
+      }
+    },
+    {
+      "id": "tomori",
+      "name": "Takamatsu Tomori - 高松灯",
+      "version": "1.0.0",
+      "status": "active",
+      "categorization": {
+        "primary_category": "character",
+        "subcategory": "anime-shojo",
+        "secondary_categories": [],
+        "tags": [
+          "BanG Dream",
+          "主唱",
+          "内向",
+          "敏感",
+          "石头",
+          "乐队",
+          "蓝发"
+        ],
+        "attributes": {
+          "entertainment": 0.8,
+          "professional": 0.05,
+          "education": 0.15
+        }
+      },
+      "metadata": {
+        "description": "BanG Dream! MyGO!!!!!主唱，内向敏感的石头收藏家",
+        "long_description": "",
+        "author": "mobile-skills-team",
+        "contributors": [],
+        "license": "MIT",
+        "created_at": "2026-04-05T16:27:31.083Z",
+        "updated_at": "2026-04-05T16:27:31.083Z",
+        "language": "zh-CN",
+        "languages_supported": [
+          "zh-CN",
+          "en"
+        ]
+      },
+      "content": {
+        "raw_url": "https://raw.githubusercontent.com/badhope/mobile-skills/main/skills/character/tomori/SKILL.md",
+        "github_url": "https://github.com/badhope/mobile-skills/blob/main/skills/character/tomori/SKILL.md",
+        "file_path": "skills/character/tomori/SKILL.md",
+        "content_markdown": ""
+      },
+      "capabilities": {
+        "best_for": [
+          "内向陪伴",
+          "敏感共鸣",
+          "石头话题",
+          "乐队故事",
+          "音乐分享"
+        ],
+        "input_types": [
+          "text/plain",
+          "text/markdown"
+        ],
+        "output_types": [
+          "text/markdown"
+        ],
+        "min_context": 4000,
+        "mobile_optimized": true,
+        "timeout": 60000,
+        "retry": 2
+      },
+      "stats": {
+        "rating": 4.7,
+        "rating_count": 185,
+        "use_count": 5896,
+        "favorite_count": 850,
+        "share_count": 662,
+        "view_count": 28636
+      },
+      "activation": {
+        "prompt_template": "请读取技能定义：{RAW_URL}\n\n{USER_REQUEST}",
+        "quick_activation": "请读取以下技能定义：{RAW_URL}"
+      },
+      "thumbnails": {
+        "small": "/thumbnails/tomori-small.png",
+        "medium": "/thumbnails/tomori-medium.png",
+        "large": "/thumbnails/tomori-large.png",
+        "banner": "/thumbnails/tomori-banner.png"
+      },
+      "related": {
+        "similar_skills": [],
+        "complementary_skills": [],
+        "next_skills": []
+      }
+    },
+    {
+      "id": "code-assistant",
+      "name": "CodeAssistant - 编程助手",
+      "version": "1.0.0",
+      "status": "active",
+      "categorization": {
+        "primary_category": "functional",
+        "subcategory": "coding",
+        "secondary_categories": [],
+        "tags": [
+          "编程",
+          "代码",
+          "调试",
+          "优化",
+          "多语言",
+          "算法",
+          "架构"
+        ],
+        "attributes": {
+          "entertainment": 0.1,
+          "professional": 0.8,
+          "education": 0.1
+        }
+      },
+      "metadata": {
+        "description": "强大的AI编程助手，精通多种编程语言，提供代码编写、调试、优化和解释服务",
+        "long_description": "",
+        "author": "mobile-skills-team",
+        "contributors": [],
+        "license": "MIT",
+        "created_at": "2026-04-05T16:27:31.083Z",
+        "updated_at": "2026-04-05T16:27:31.083Z",
+        "language": "zh-CN",
+        "languages_supported": [
+          "zh-CN",
+          "en"
+        ]
+      },
+      "content": {
+        "raw_url": "https://raw.githubusercontent.com/badhope/mobile-skills/main/skills/functional/code-assistant/SKILL.md",
+        "github_url": "https://github.com/badhope/mobile-skills/blob/main/skills/functional/code-assistant/SKILL.md",
+        "file_path": "skills/functional/code-assistant/SKILL.md",
+        "content_markdown": ""
+      },
+      "capabilities": {
+        "best_for": [
+          "代码编写",
+          "Bug调试",
+          "性能优化",
+          "代码审查",
+          "架构设计"
+        ],
+        "input_types": [
+          "text/plain",
+          "text/markdown"
+        ],
+        "output_types": [
+          "text/markdown"
+        ],
+        "min_context": 4000,
+        "mobile_optimized": true,
+        "timeout": 60000,
+        "retry": 2
+      },
+      "stats": {
+        "rating": 4.9,
+        "rating_count": 92,
+        "use_count": 10434,
+        "favorite_count": 1050,
+        "share_count": 235,
+        "view_count": 10240
+      },
+      "activation": {
+        "prompt_template": "请读取技能定义：{RAW_URL}\n\n{USER_REQUEST}",
+        "quick_activation": "请读取以下技能定义：{RAW_URL}"
+      },
+      "thumbnails": {
+        "small": "/thumbnails/code-assistant-small.png",
+        "medium": "/thumbnails/code-assistant-medium.png",
+        "large": "/thumbnails/code-assistant-large.png",
+        "banner": "/thumbnails/code-assistant-banner.png"
+      },
+      "related": {
+        "similar_skills": [],
+        "complementary_skills": [],
+        "next_skills": []
+      }
+    },
+    {
+      "id": "frontend-expert",
+      "name": "FrontendExpert - 前端开发专家",
+      "version": "1.0.0",
+      "status": "active",
+      "categorization": {
+        "primary_category": "functional",
+        "subcategory": "coding",
+        "secondary_categories": [],
+        "tags": [
+          "前端",
+          "React",
+          "Vue",
+          "Angular",
+          "CSS",
+          "JavaScript",
+          "TypeScript"
+        ],
+        "attributes": {
+          "entertainment": 0.1,
+          "professional": 0.85,
+          "education": 0.05
+        }
+      },
+      "metadata": {
+        "description": "精通React、Vue、Angular等前端框架，擅长UI/UX实现和性能优化",
+        "long_description": "",
+        "author": "mobile-skills-team",
+        "contributors": [],
+        "license": "MIT",
+        "created_at": "2026-04-05T16:27:31.083Z",
+        "updated_at": "2026-04-05T16:27:31.083Z",
+        "language": "zh-CN",
+        "languages_supported": [
+          "zh-CN",
+          "en"
+        ]
+      },
+      "content": {
+        "raw_url": "https://raw.githubusercontent.com/badhope/mobile-skills/main/skills/functional/frontend-expert/SKILL.md",
+        "github_url": "https://github.com/badhope/mobile-skills/blob/main/skills/functional/frontend-expert/SKILL.md",
+        "file_path": "skills/functional/frontend-expert/SKILL.md",
+        "content_markdown": ""
+      },
+      "capabilities": {
+        "best_for": [
+          "前端开发",
+          "UI实现",
+          "性能优化",
+          "框架选择",
+          "组件设计"
+        ],
+        "input_types": [
+          "text/plain",
+          "text/markdown"
+        ],
+        "output_types": [
+          "text/markdown"
+        ],
+        "min_context": 4000,
+        "mobile_optimized": true,
+        "timeout": 60000,
+        "retry": 2
+      },
+      "stats": {
+        "rating": 4.8,
+        "rating_count": 214,
+        "use_count": 11803,
+        "favorite_count": 856,
+        "share_count": 373,
+        "view_count": 18520
+      },
+      "activation": {
+        "prompt_template": "请读取技能定义：{RAW_URL}\n\n{USER_REQUEST}",
+        "quick_activation": "请读取以下技能定义：{RAW_URL}"
+      },
+      "thumbnails": {
+        "small": "/thumbnails/frontend-expert-small.png",
+        "medium": "/thumbnails/frontend-expert-medium.png",
+        "large": "/thumbnails/frontend-expert-large.png",
+        "banner": "/thumbnails/frontend-expert-banner.png"
+      },
+      "related": {
+        "similar_skills": [],
+        "complementary_skills": [],
+        "next_skills": []
+      }
+    },
+    {
+      "id": "backend-expert",
+      "name": "BackendExpert - 后端开发专家",
+      "version": "1.0.0",
+      "status": "active",
+      "categorization": {
+        "primary_category": "functional",
+        "subcategory": "coding",
+        "secondary_categories": [],
+        "tags": [
+          "后端",
+          "Java",
+          "Python",
+          "Go",
+          "数据库",
+          "架构",
+          "微服务"
+        ],
+        "attributes": {
+          "entertainment": 0.1,
+          "professional": 0.85,
+          "education": 0.05
+        }
+      },
+      "metadata": {
+        "description": "精通Java、Python、Go等后端技术，擅长系统架构和数据库设计",
+        "long_description": "",
+        "author": "mobile-skills-team",
+        "contributors": [],
+        "license": "MIT",
+        "created_at": "2026-04-05T16:27:31.083Z",
+        "updated_at": "2026-04-05T16:27:31.083Z",
+        "language": "zh-CN",
+        "languages_supported": [
+          "zh-CN",
+          "en"
+        ]
+      },
+      "content": {
+        "raw_url": "https://raw.githubusercontent.com/badhope/mobile-skills/main/skills/functional/backend-expert/SKILL.md",
+        "github_url": "https://github.com/badhope/mobile-skills/blob/main/skills/functional/backend-expert/SKILL.md",
+        "file_path": "skills/functional/backend-expert/SKILL.md",
+        "content_markdown": ""
+      },
+      "capabilities": {
+        "best_for": [
+          "后端开发",
+          "系统架构",
+          "数据库设计",
+          "API开发",
+          "微服务"
+        ],
+        "input_types": [
+          "text/plain",
+          "text/markdown"
+        ],
+        "output_types": [
+          "text/markdown"
+        ],
+        "min_context": 4000,
+        "mobile_optimized": true,
+        "timeout": 60000,
+        "retry": 2
+      },
+      "stats": {
+        "rating": 4.8,
+        "rating_count": 101,
+        "use_count": 16618,
+        "favorite_count": 668,
+        "share_count": 598,
+        "view_count": 13428
+      },
+      "activation": {
+        "prompt_template": "请读取技能定义：{RAW_URL}\n\n{USER_REQUEST}",
+        "quick_activation": "请读取以下技能定义：{RAW_URL}"
+      },
+      "thumbnails": {
+        "small": "/thumbnails/backend-expert-small.png",
+        "medium": "/thumbnails/backend-expert-medium.png",
+        "large": "/thumbnails/backend-expert-large.png",
+        "banner": "/thumbnails/backend-expert-banner.png"
+      },
+      "related": {
+        "similar_skills": [],
+        "complementary_skills": [],
+        "next_skills": []
+      }
+    },
+    {
+      "id": "mobile-dev-expert",
+      "name": "MobileDevExpert - 移动开发专家",
+      "version": "1.0.0",
+      "status": "active",
+      "categorization": {
+        "primary_category": "functional",
+        "subcategory": "coding",
+        "secondary_categories": [],
+        "tags": [
+          "移动开发",
+          "iOS",
+          "Android",
+          "Flutter",
+          "React Native",
+          "App"
+        ],
+        "attributes": {
+          "entertainment": 0.1,
+          "professional": 0.85,
+          "education": 0.05
+        }
+      },
+      "metadata": {
+        "description": "精通iOS、Android、Flutter、React Native等移动开发技术",
+        "long_description": "",
+        "author": "mobile-skills-team",
+        "contributors": [],
+        "license": "MIT",
+        "created_at": "2026-04-05T16:27:31.083Z",
+        "updated_at": "2026-04-05T16:27:31.083Z",
+        "language": "zh-CN",
+        "languages_supported": [
+          "zh-CN",
+          "en"
+        ]
+      },
+      "content": {
+        "raw_url": "https://raw.githubusercontent.com/badhope/mobile-skills/main/skills/functional/mobile-dev-expert/SKILL.md",
+        "github_url": "https://github.com/badhope/mobile-skills/blob/main/skills/functional/mobile-dev-expert/SKILL.md",
+        "file_path": "skills/functional/mobile-dev-expert/SKILL.md",
+        "content_markdown": ""
+      },
+      "capabilities": {
+        "best_for": [
+          "App开发",
+          "跨平台开发",
+          "移动优化",
+          "UI适配",
+          "性能调优"
+        ],
+        "input_types": [
+          "text/plain",
+          "text/markdown"
+        ],
+        "output_types": [
+          "text/markdown"
+        ],
+        "min_context": 4000,
+        "mobile_optimized": true,
+        "timeout": 60000,
+        "retry": 2
+      },
+      "stats": {
+        "rating": 4.7,
+        "rating_count": 105,
+        "use_count": 6438,
+        "favorite_count": 872,
+        "share_count": 505,
+        "view_count": 7911
+      },
+      "activation": {
+        "prompt_template": "请读取技能定义：{RAW_URL}\n\n{USER_REQUEST}",
+        "quick_activation": "请读取以下技能定义：{RAW_URL}"
+      },
+      "thumbnails": {
+        "small": "/thumbnails/mobile-dev-expert-small.png",
+        "medium": "/thumbnails/mobile-dev-expert-medium.png",
+        "large": "/thumbnails/mobile-dev-expert-large.png",
+        "banner": "/thumbnails/mobile-dev-expert-banner.png"
+      },
+      "related": {
+        "similar_skills": [],
+        "complementary_skills": [],
+        "next_skills": []
+      }
+    },
+    {
+      "id": "code-reviewer",
+      "name": "CodeReviewer - 代码审查专家",
+      "version": "1.0.0",
+      "status": "active",
+      "categorization": {
+        "primary_category": "functional",
+        "subcategory": "coding",
+        "secondary_categories": [],
+        "tags": [
+          "代码审查",
+          "代码质量",
+          "安全",
+          "最佳实践",
+          "重构",
+          "Clean Code"
+        ],
+        "attributes": {
+          "entertainment": 0.05,
+          "professional": 0.9,
+          "education": 0.05
+        }
+      },
+      "metadata": {
+        "description": "专业的代码审查服务，提供代码质量评估、安全检查和最佳实践建议",
+        "long_description": "",
+        "author": "mobile-skills-team",
+        "contributors": [],
+        "license": "MIT",
+        "created_at": "2026-04-05T16:27:31.083Z",
+        "updated_at": "2026-04-05T16:27:31.083Z",
+        "language": "zh-CN",
+        "languages_supported": [
+          "zh-CN",
+          "en"
+        ]
+      },
+      "content": {
+        "raw_url": "https://raw.githubusercontent.com/badhope/mobile-skills/main/skills/functional/code-reviewer/SKILL.md",
+        "github_url": "https://github.com/badhope/mobile-skills/blob/main/skills/functional/code-reviewer/SKILL.md",
+        "file_path": "skills/functional/code-reviewer/SKILL.md",
+        "content_markdown": ""
+      },
+      "capabilities": {
+        "best_for": [
+          "代码审查",
+          "质量评估",
+          "安全检查",
+          "重构建议",
+          "最佳实践"
+        ],
+        "input_types": [
+          "text/plain",
+          "text/markdown"
+        ],
+        "output_types": [
+          "text/markdown"
+        ],
+        "min_context": 4000,
+        "mobile_optimized": true,
+        "timeout": 60000,
+        "retry": 2
+      },
+      "stats": {
+        "rating": 4.8,
+        "rating_count": 243,
+        "use_count": 6948,
+        "favorite_count": 661,
+        "share_count": 373,
+        "view_count": 9978
+      },
+      "activation": {
+        "prompt_template": "请读取技能定义：{RAW_URL}\n\n{USER_REQUEST}",
+        "quick_activation": "请读取以下技能定义：{RAW_URL}"
+      },
+      "thumbnails": {
+        "small": "/thumbnails/code-reviewer-small.png",
+        "medium": "/thumbnails/code-reviewer-medium.png",
+        "large": "/thumbnails/code-reviewer-large.png",
+        "banner": "/thumbnails/code-reviewer-banner.png"
+      },
+      "related": {
+        "similar_skills": [],
+        "complementary_skills": [],
+        "next_skills": []
+      }
+    },
+    {
+      "id": "thesis-writer",
+      "name": "ThesisWriter - 论文写作助手",
+      "version": "1.0.0",
+      "status": "active",
+      "categorization": {
+        "primary_category": "functional",
+        "subcategory": "writing",
+        "secondary_categories": [],
+        "tags": [
+          "论文",
+          "学术",
+          "研究",
+          "文献",
+          "写作",
+          "引用",
+          "格式"
+        ],
+        "attributes": {
+          "entertainment": 0.05,
+          "professional": 0.3,
+          "education": 0.65
+        }
+      },
+      "metadata": {
+        "description": "专业的学术论文写作助手，提供论文结构、文献综述、研究方法指导",
+        "long_description": "",
+        "author": "mobile-skills-team",
+        "contributors": [],
+        "license": "MIT",
+        "created_at": "2026-04-05T16:27:31.083Z",
+        "updated_at": "2026-04-05T16:27:31.083Z",
+        "language": "zh-CN",
+        "languages_supported": [
+          "zh-CN",
+          "en"
+        ]
+      },
+      "content": {
+        "raw_url": "https://raw.githubusercontent.com/badhope/mobile-skills/main/skills/functional/thesis-writer/SKILL.md",
+        "github_url": "https://github.com/badhope/mobile-skills/blob/main/skills/functional/thesis-writer/SKILL.md",
+        "file_path": "skills/functional/thesis-writer/SKILL.md",
+        "content_markdown": ""
+      },
+      "capabilities": {
+        "best_for": [
+          "论文写作",
+          "文献综述",
+          "研究方法",
+          "格式规范",
+          "学术指导"
+        ],
+        "input_types": [
+          "text/plain",
+          "text/markdown"
+        ],
+        "output_types": [
+          "text/markdown"
+        ],
+        "min_context": 4000,
+        "mobile_optimized": true,
+        "timeout": 60000,
+        "retry": 2
+      },
+      "stats": {
+        "rating": 4.5,
+        "rating_count": 89,
+        "use_count": 19639,
+        "favorite_count": 335,
+        "share_count": 214,
+        "view_count": 21996
+      },
+      "activation": {
+        "prompt_template": "请读取技能定义：{RAW_URL}\n\n{USER_REQUEST}",
+        "quick_activation": "请读取以下技能定义：{RAW_URL}"
+      },
+      "thumbnails": {
+        "small": "/thumbnails/thesis-writer-small.png",
+        "medium": "/thumbnails/thesis-writer-medium.png",
+        "large": "/thumbnails/thesis-writer-large.png",
+        "banner": "/thumbnails/thesis-writer-banner.png"
+      },
+      "related": {
+        "similar_skills": [],
+        "complementary_skills": [],
+        "next_skills": []
+      }
+    },
+    {
+      "id": "academic-writer",
+      "name": "AcademicWriter - 学术写作专家",
+      "version": "1.0.0",
+      "status": "active",
+      "categorization": {
+        "primary_category": "functional",
+        "subcategory": "writing",
+        "secondary_categories": [],
+        "tags": [
+          "学术写作",
+          "期刊",
+          "会议",
+          "学位论文",
+          "发表",
+          "引用",
+          "格式"
+        ],
+        "attributes": {
+          "entertainment": 0.05,
+          "professional": 0.35,
+          "education": 0.6
+        }
+      },
+      "metadata": {
+        "description": "精通学术写作规范，提供期刊论文、会议论文、学位论文写作指导",
+        "long_description": "",
+        "author": "mobile-skills-team",
+        "contributors": [],
+        "license": "MIT",
+        "created_at": "2026-04-05T16:27:31.083Z",
+        "updated_at": "2026-04-05T16:27:31.083Z",
+        "language": "zh-CN",
+        "languages_supported": [
+          "zh-CN",
+          "en"
+        ]
+      },
+      "content": {
+        "raw_url": "https://raw.githubusercontent.com/badhope/mobile-skills/main/skills/functional/academic-writer/SKILL.md",
+        "github_url": "https://github.com/badhope/mobile-skills/blob/main/skills/functional/academic-writer/SKILL.md",
+        "file_path": "skills/functional/academic-writer/SKILL.md",
+        "content_markdown": ""
+      },
+      "capabilities": {
+        "best_for": [
+          "学术写作",
+          "期刊发表",
+          "会议论文",
+          "学位论文",
+          "写作规范"
+        ],
+        "input_types": [
+          "text/plain",
+          "text/markdown"
+        ],
+        "output_types": [
+          "text/markdown"
+        ],
+        "min_context": 4000,
+        "mobile_optimized": true,
+        "timeout": 60000,
+        "retry": 2
+      },
+      "stats": {
+        "rating": 4.7,
+        "rating_count": 86,
+        "use_count": 11515,
+        "favorite_count": 201,
+        "share_count": 417,
+        "view_count": 26481
+      },
+      "activation": {
+        "prompt_template": "请读取技能定义：{RAW_URL}\n\n{USER_REQUEST}",
+        "quick_activation": "请读取以下技能定义：{RAW_URL}"
+      },
+      "thumbnails": {
+        "small": "/thumbnails/academic-writer-small.png",
+        "medium": "/thumbnails/academic-writer-medium.png",
+        "large": "/thumbnails/academic-writer-large.png",
+        "banner": "/thumbnails/academic-writer-banner.png"
+      },
+      "related": {
+        "similar_skills": [],
+        "complementary_skills": [],
+        "next_skills": []
+      }
+    },
+    {
+      "id": "novel-writer",
+      "name": "NovelWriter - 小说创作助手",
+      "version": "1.0.0",
+      "status": "active",
+      "categorization": {
+        "primary_category": "creative",
+        "subcategory": "writing",
+        "secondary_categories": [],
+        "tags": [
+          "小说",
+          "创作",
+          "情节",
+          "人物",
+          "世界观",
+          "叙事",
+          "文学"
+        ],
+        "attributes": {
+          "entertainment": 0.3,
+          "professional": 0.5,
+          "education": 0.2
+        }
+      },
+      "metadata": {
+        "description": "专业的小说创作指导，提供情节设计、人物塑造、世界观构建建议",
+        "long_description": "",
+        "author": "mobile-skills-team",
+        "contributors": [],
+        "license": "MIT",
+        "created_at": "2026-04-05T16:27:31.084Z",
+        "updated_at": "2026-04-05T16:27:31.084Z",
+        "language": "zh-CN",
+        "languages_supported": [
+          "zh-CN",
+          "en"
+        ]
+      },
+      "content": {
+        "raw_url": "https://raw.githubusercontent.com/badhope/mobile-skills/main/skills/creative/novel-writer/SKILL.md",
+        "github_url": "https://github.com/badhope/mobile-skills/blob/main/skills/creative/novel-writer/SKILL.md",
+        "file_path": "skills/creative/novel-writer/SKILL.md",
+        "content_markdown": ""
+      },
+      "capabilities": {
+        "best_for": [
+          "小说创作",
+          "情节设计",
+          "人物塑造",
+          "世界观构建",
+          "叙事技巧"
+        ],
+        "input_types": [
+          "text/plain",
+          "text/markdown"
+        ],
+        "output_types": [
+          "text/markdown"
+        ],
+        "min_context": 4000,
+        "mobile_optimized": true,
+        "timeout": 60000,
+        "retry": 2
+      },
+      "stats": {
+        "rating": 4.8,
+        "rating_count": 126,
+        "use_count": 7629,
+        "favorite_count": 339,
+        "share_count": 376,
+        "view_count": 20757
+      },
+      "activation": {
+        "prompt_template": "请读取技能定义：{RAW_URL}\n\n{USER_REQUEST}",
+        "quick_activation": "请读取以下技能定义：{RAW_URL}"
+      },
+      "thumbnails": {
+        "small": "/thumbnails/novel-writer-small.png",
+        "medium": "/thumbnails/novel-writer-medium.png",
+        "large": "/thumbnails/novel-writer-large.png",
+        "banner": "/thumbnails/novel-writer-banner.png"
+      },
+      "related": {
+        "similar_skills": [],
+        "complementary_skills": [],
+        "next_skills": []
+      }
+    },
+    {
+      "id": "web-novel-writer",
+      "name": "WebNovelWriter - 网文写作专家",
+      "version": "1.0.0",
+      "status": "active",
+      "categorization": {
+        "primary_category": "creative",
+        "subcategory": "writing",
+        "secondary_categories": [],
+        "tags": [
+          "网文",
+          "爽文",
+          "节奏",
+          "读者",
+          "更新",
+          "订阅",
+          "平台"
+        ],
+        "attributes": {
+          "entertainment": 0.35,
+          "professional": 0.5,
+          "education": 0.15
+        }
+      },
+      "metadata": {
+        "description": "精通网文创作技巧，提供爽点设计、节奏把控、读者心理分析",
+        "long_description": "",
+        "author": "mobile-skills-team",
+        "contributors": [],
+        "license": "MIT",
+        "created_at": "2026-04-05T16:27:31.084Z",
+        "updated_at": "2026-04-05T16:27:31.084Z",
+        "language": "zh-CN",
+        "languages_supported": [
+          "zh-CN",
+          "en"
+        ]
+      },
+      "content": {
+        "raw_url": "https://raw.githubusercontent.com/badhope/mobile-skills/main/skills/creative/web-novel-writer/SKILL.md",
+        "github_url": "https://github.com/badhope/mobile-skills/blob/main/skills/creative/web-novel-writer/SKILL.md",
+        "file_path": "skills/creative/web-novel-writer/SKILL.md",
+        "content_markdown": ""
+      },
+      "capabilities": {
+        "best_for": [
+          "网文创作",
+          "爽点设计",
+          "节奏把控",
+          "读者分析",
+          "平台运营"
+        ],
+        "input_types": [
+          "text/plain",
+          "text/markdown"
+        ],
+        "output_types": [
+          "text/markdown"
+        ],
+        "min_context": 4000,
+        "mobile_optimized": true,
+        "timeout": 60000,
+        "retry": 2
+      },
+      "stats": {
+        "rating": 4.7,
+        "rating_count": 64,
+        "use_count": 18023,
+        "favorite_count": 595,
+        "share_count": 542,
+        "view_count": 8663
+      },
+      "activation": {
+        "prompt_template": "请读取技能定义：{RAW_URL}\n\n{USER_REQUEST}",
+        "quick_activation": "请读取以下技能定义：{RAW_URL}"
+      },
+      "thumbnails": {
+        "small": "/thumbnails/web-novel-writer-small.png",
+        "medium": "/thumbnails/web-novel-writer-medium.png",
+        "large": "/thumbnails/web-novel-writer-large.png",
+        "banner": "/thumbnails/web-novel-writer-banner.png"
+      },
+      "related": {
+        "similar_skills": [],
+        "complementary_skills": [],
+        "next_skills": []
+      }
+    },
+    {
+      "id": "official-writer",
+      "name": "OfficialWriter - 公文写作专家",
+      "version": "1.0.0",
+      "status": "active",
+      "categorization": {
+        "primary_category": "functional",
+        "subcategory": "writing",
+        "secondary_categories": [],
+        "tags": [
+          "公文",
+          "通知",
+          "报告",
+          "请示",
+          "函件",
+          "格式",
+          "规范"
+        ],
+        "attributes": {
+          "entertainment": 0.05,
+          "professional": 0.9,
+          "education": 0.05
+        }
+      },
+      "metadata": {
+        "description": "专业的公文写作指导，精通各类公文格式和写作规范",
+        "long_description": "",
+        "author": "mobile-skills-team",
+        "contributors": [],
+        "license": "MIT",
+        "created_at": "2026-04-05T16:27:31.084Z",
+        "updated_at": "2026-04-05T16:27:31.084Z",
+        "language": "zh-CN",
+        "languages_supported": [
+          "zh-CN",
+          "en"
+        ]
+      },
+      "content": {
+        "raw_url": "https://raw.githubusercontent.com/badhope/mobile-skills/main/skills/functional/official-writer/SKILL.md",
+        "github_url": "https://github.com/badhope/mobile-skills/blob/main/skills/functional/official-writer/SKILL.md",
+        "file_path": "skills/functional/official-writer/SKILL.md",
+        "content_markdown": ""
+      },
+      "capabilities": {
+        "best_for": [
+          "公文写作",
+          "格式规范",
+          "行文逻辑",
+          "语言表达",
+          "公文处理"
+        ],
+        "input_types": [
+          "text/plain",
+          "text/markdown"
+        ],
+        "output_types": [
+          "text/markdown"
+        ],
+        "min_context": 4000,
+        "mobile_optimized": true,
+        "timeout": 60000,
+        "retry": 2
+      },
+      "stats": {
+        "rating": 4.6,
+        "rating_count": 53,
+        "use_count": 14560,
+        "favorite_count": 481,
+        "share_count": 639,
+        "view_count": 25434
+      },
+      "activation": {
+        "prompt_template": "请读取技能定义：{RAW_URL}\n\n{USER_REQUEST}",
+        "quick_activation": "请读取以下技能定义：{RAW_URL}"
+      },
+      "thumbnails": {
+        "small": "/thumbnails/official-writer-small.png",
+        "medium": "/thumbnails/official-writer-medium.png",
+        "large": "/thumbnails/official-writer-large.png",
+        "banner": "/thumbnails/official-writer-banner.png"
+      },
+      "related": {
+        "similar_skills": [],
+        "complementary_skills": [],
+        "next_skills": []
+      }
+    },
+    {
+      "id": "resume-expert",
+      "name": "ResumeExpert - 简历优化专家",
+      "version": "1.0.0",
+      "status": "active",
+      "categorization": {
+        "primary_category": "functional",
+        "subcategory": "career",
+        "secondary_categories": [],
+        "tags": [
+          "简历",
+          "求职",
+          "面试",
+          "优化",
+          "职业",
+          "HR",
+          "亮点"
+        ],
+        "attributes": {
+          "entertainment": 0.05,
+          "professional": 0.85,
+          "education": 0.1
+        }
+      },
+      "metadata": {
+        "description": "专业的简历优化服务，提供简历诊断、优化建议和面试准备指导",
+        "long_description": "",
+        "author": "mobile-skills-team",
+        "contributors": [],
+        "license": "MIT",
+        "created_at": "2026-04-05T16:27:31.084Z",
+        "updated_at": "2026-04-05T16:27:31.084Z",
+        "language": "zh-CN",
+        "languages_supported": [
+          "zh-CN",
+          "en"
+        ]
+      },
+      "content": {
+        "raw_url": "https://raw.githubusercontent.com/badhope/mobile-skills/main/skills/functional/resume-expert/SKILL.md",
+        "github_url": "https://github.com/badhope/mobile-skills/blob/main/skills/functional/resume-expert/SKILL.md",
+        "file_path": "skills/functional/resume-expert/SKILL.md",
+        "content_markdown": ""
+      },
+      "capabilities": {
+        "best_for": [
+          "简历优化",
+          "求职准备",
+          "面试技巧",
+          "职业规划",
+          "亮点提炼"
+        ],
+        "input_types": [
+          "text/plain",
+          "text/markdown"
+        ],
+        "output_types": [
+          "text/markdown"
+        ],
+        "min_context": 4000,
+        "mobile_optimized": true,
+        "timeout": 60000,
+        "retry": 2
+      },
+      "stats": {
+        "rating": 4.9,
+        "rating_count": 289,
+        "use_count": 5159,
+        "favorite_count": 827,
+        "share_count": 248,
+        "view_count": 8692
+      },
+      "activation": {
+        "prompt_template": "请读取技能定义：{RAW_URL}\n\n{USER_REQUEST}",
+        "quick_activation": "请读取以下技能定义：{RAW_URL}"
+      },
+      "thumbnails": {
+        "small": "/thumbnails/resume-expert-small.png",
+        "medium": "/thumbnails/resume-expert-medium.png",
+        "large": "/thumbnails/resume-expert-large.png",
+        "banner": "/thumbnails/resume-expert-banner.png"
+      },
+      "related": {
+        "similar_skills": [],
+        "complementary_skills": [],
+        "next_skills": []
+      }
+    },
+    {
+      "id": "interview-coach",
+      "name": "InterviewCoach - 面试教练",
+      "version": "1.0.0",
+      "status": "active",
+      "categorization": {
+        "primary_category": "functional",
+        "subcategory": "career",
+        "secondary_categories": [],
+        "tags": [
+          "面试",
+          "模拟",
+          "技巧",
+          "问题",
+          "回答",
+          "准备",
+          "心态"
+        ],
+        "attributes": {
+          "entertainment": 0.1,
+          "professional": 0.8,
+          "education": 0.1
+        }
+      },
+      "metadata": {
+        "description": "专业的面试指导服务，提供模拟面试、问题分析和回答技巧",
+        "long_description": "",
+        "author": "mobile-skills-team",
+        "contributors": [],
+        "license": "MIT",
+        "created_at": "2026-04-05T16:27:31.084Z",
+        "updated_at": "2026-04-05T16:27:31.084Z",
+        "language": "zh-CN",
+        "languages_supported": [
+          "zh-CN",
+          "en"
+        ]
+      },
+      "content": {
+        "raw_url": "https://raw.githubusercontent.com/badhope/mobile-skills/main/skills/functional/interview-coach/SKILL.md",
+        "github_url": "https://github.com/badhope/mobile-skills/blob/main/skills/functional/interview-coach/SKILL.md",
+        "file_path": "skills/functional/interview-coach/SKILL.md",
+        "content_markdown": ""
+      },
+      "capabilities": {
+        "best_for": [
+          "面试准备",
+          "模拟面试",
+          "问题分析",
+          "回答技巧",
+          "心态调整"
+        ],
+        "input_types": [
+          "text/plain",
+          "text/markdown"
+        ],
+        "output_types": [
+          "text/markdown"
+        ],
+        "min_context": 4000,
+        "mobile_optimized": true,
+        "timeout": 60000,
+        "retry": 2
+      },
+      "stats": {
+        "rating": 4.8,
+        "rating_count": 287,
+        "use_count": 12642,
+        "favorite_count": 339,
+        "share_count": 168,
+        "view_count": 27669
+      },
+      "activation": {
+        "prompt_template": "请读取技能定义：{RAW_URL}\n\n{USER_REQUEST}",
+        "quick_activation": "请读取以下技能定义：{RAW_URL}"
+      },
+      "thumbnails": {
+        "small": "/thumbnails/interview-coach-small.png",
+        "medium": "/thumbnails/interview-coach-medium.png",
+        "large": "/thumbnails/interview-coach-large.png",
+        "banner": "/thumbnails/interview-coach-banner.png"
+      },
+      "related": {
+        "similar_skills": [],
+        "complementary_skills": [],
+        "next_skills": []
+      }
+    },
+    {
+      "id": "social-media-expert",
+      "name": "SocialMediaExpert - 社交媒体运营",
+      "version": "1.0.0",
+      "status": "active",
+      "categorization": {
+        "primary_category": "professional",
+        "subcategory": "marketing",
+        "secondary_categories": [],
+        "tags": [
+          "社交媒体",
+          "运营",
+          "内容",
+          "增长",
+          "数据分析",
+          "粉丝",
+          "互动"
+        ],
+        "attributes": {
+          "entertainment": 0.2,
+          "professional": 0.75,
+          "education": 0.05
+        }
+      },
+      "metadata": {
+        "description": "精通各大社交平台运营，提供内容策划、数据分析和增长策略",
+        "long_description": "",
+        "author": "mobile-skills-team",
+        "contributors": [],
+        "license": "MIT",
+        "created_at": "2026-04-05T16:27:31.084Z",
+        "updated_at": "2026-04-05T16:27:31.084Z",
+        "language": "zh-CN",
+        "languages_supported": [
+          "zh-CN",
+          "en"
+        ]
+      },
+      "content": {
+        "raw_url": "https://raw.githubusercontent.com/badhope/mobile-skills/main/skills/professional/social-media-expert/SKILL.md",
+        "github_url": "https://github.com/badhope/mobile-skills/blob/main/skills/professional/social-media-expert/SKILL.md",
+        "file_path": "skills/professional/social-media-expert/SKILL.md",
+        "content_markdown": ""
+      },
+      "capabilities": {
+        "best_for": [
+          "社媒运营",
+          "内容策划",
+          "数据分析",
+          "增长策略",
+          "粉丝互动"
+        ],
+        "input_types": [
+          "text/plain",
+          "text/markdown"
+        ],
+        "output_types": [
+          "text/markdown"
+        ],
+        "min_context": 4000,
+        "mobile_optimized": true,
+        "timeout": 60000,
+        "retry": 2
+      },
+      "stats": {
+        "rating": 4.7,
+        "rating_count": 247,
+        "use_count": 6600,
+        "favorite_count": 625,
+        "share_count": 638,
+        "view_count": 16459
+      },
+      "activation": {
+        "prompt_template": "请读取技能定义：{RAW_URL}\n\n{USER_REQUEST}",
+        "quick_activation": "请读取以下技能定义：{RAW_URL}"
+      },
+      "thumbnails": {
+        "small": "/thumbnails/social-media-expert-small.png",
+        "medium": "/thumbnails/social-media-expert-medium.png",
+        "large": "/thumbnails/social-media-expert-large.png",
+        "banner": "/thumbnails/social-media-expert-banner.png"
+      },
+      "related": {
+        "similar_skills": [],
+        "complementary_skills": [],
+        "next_skills": []
+      }
+    },
+    {
+      "id": "short-video-creator",
+      "name": "ShortVideoCreator - 短视频创作者",
+      "version": "1.0.0",
+      "status": "active",
+      "categorization": {
+        "primary_category": "creative",
+        "subcategory": "video",
+        "secondary_categories": [],
+        "tags": [
+          "短视频",
+          "抖音",
+          "B站",
+          "脚本",
+          "拍摄",
+          "剪辑",
+          "流量"
+        ],
+        "attributes": {
+          "entertainment": 0.3,
+          "professional": 0.6,
+          "education": 0.1
+        }
+      },
+      "metadata": {
+        "description": "专业的短视频创作指导，提供脚本策划、拍摄技巧和剪辑建议",
+        "long_description": "",
+        "author": "mobile-skills-team",
+        "contributors": [],
+        "license": "MIT",
+        "created_at": "2026-04-05T16:27:31.084Z",
+        "updated_at": "2026-04-05T16:27:31.084Z",
+        "language": "zh-CN",
+        "languages_supported": [
+          "zh-CN",
+          "en"
+        ]
+      },
+      "content": {
+        "raw_url": "https://raw.githubusercontent.com/badhope/mobile-skills/main/skills/creative/short-video-creator/SKILL.md",
+        "github_url": "https://github.com/badhope/mobile-skills/blob/main/skills/creative/short-video-creator/SKILL.md",
+        "file_path": "skills/creative/short-video-creator/SKILL.md",
+        "content_markdown": ""
+      },
+      "capabilities": {
+        "best_for": [
+          "短视频创作",
+          "脚本策划",
+          "拍摄技巧",
+          "剪辑指导",
+          "流量运营"
+        ],
+        "input_types": [
+          "text/plain",
+          "text/markdown"
+        ],
+        "output_types": [
+          "text/markdown"
+        ],
+        "min_context": 4000,
+        "mobile_optimized": true,
+        "timeout": 60000,
+        "retry": 2
+      },
+      "stats": {
+        "rating": 4.9,
+        "rating_count": 162,
+        "use_count": 11727,
+        "favorite_count": 1362,
+        "share_count": 796,
+        "view_count": 19498
+      },
+      "activation": {
+        "prompt_template": "请读取技能定义：{RAW_URL}\n\n{USER_REQUEST}",
+        "quick_activation": "请读取以下技能定义：{RAW_URL}"
+      },
+      "thumbnails": {
+        "small": "/thumbnails/short-video-creator-small.png",
+        "medium": "/thumbnails/short-video-creator-medium.png",
+        "large": "/thumbnails/short-video-creator-large.png",
+        "banner": "/thumbnails/short-video-creator-banner.png"
+      },
+      "related": {
+        "similar_skills": [],
+        "complementary_skills": [],
+        "next_skills": []
+      }
+    },
+    {
+      "id": "game-dev-expert",
+      "name": "GameDevExpert - 游戏开发专家",
+      "version": "1.0.0",
+      "status": "active",
+      "categorization": {
+        "primary_category": "creative",
+        "subcategory": "game",
+        "secondary_categories": [],
+        "tags": [
+          "游戏开发",
+          "Unity",
+          "Unreal",
+          "游戏设计",
+          "关卡",
+          "玩法",
+          "美术"
+        ],
+        "attributes": {
+          "entertainment": 0.2,
+          "professional": 0.7,
+          "education": 0.1
+        }
+      },
+      "metadata": {
+        "description": "精通Unity、Unreal等游戏引擎，提供游戏设计和开发指导",
+        "long_description": "",
+        "author": "mobile-skills-team",
+        "contributors": [],
+        "license": "MIT",
+        "created_at": "2026-04-05T16:27:31.084Z",
+        "updated_at": "2026-04-05T16:27:31.084Z",
+        "language": "zh-CN",
+        "languages_supported": [
+          "zh-CN",
+          "en"
+        ]
+      },
+      "content": {
+        "raw_url": "https://raw.githubusercontent.com/badhope/mobile-skills/main/skills/creative/game-dev-expert/SKILL.md",
+        "github_url": "https://github.com/badhope/mobile-skills/blob/main/skills/creative/game-dev-expert/SKILL.md",
+        "file_path": "skills/creative/game-dev-expert/SKILL.md",
+        "content_markdown": ""
+      },
+      "capabilities": {
+        "best_for": [
+          "游戏开发",
+          "引擎选择",
+          "游戏设计",
+          "关卡设计",
+          "玩法创新"
+        ],
+        "input_types": [
+          "text/plain",
+          "text/markdown"
+        ],
+        "output_types": [
+          "text/markdown"
+        ],
+        "min_context": 4000,
+        "mobile_optimized": true,
+        "timeout": 60000,
+        "retry": 2
+      },
+      "stats": {
+        "rating": 4.5,
+        "rating_count": 261,
+        "use_count": 8787,
+        "favorite_count": 308,
+        "share_count": 367,
+        "view_count": 9419
+      },
+      "activation": {
+        "prompt_template": "请读取技能定义：{RAW_URL}\n\n{USER_REQUEST}",
+        "quick_activation": "请读取以下技能定义：{RAW_URL}"
+      },
+      "thumbnails": {
+        "small": "/thumbnails/game-dev-expert-small.png",
+        "medium": "/thumbnails/game-dev-expert-medium.png",
+        "large": "/thumbnails/game-dev-expert-large.png",
+        "banner": "/thumbnails/game-dev-expert-banner.png"
       },
       "related": {
         "similar_skills": [],
