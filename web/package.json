@@ -1,12 +1,21 @@
 {
-  "name": "web",
-  "version": "0.1.0",
+  "name": "mobile-skills-web",
+  "version": "2.0.0",
+  "description": "Mobile Skills - AI Skill Ecosystem Platform Web Interface",
+  "author": "Mobile Skills Team",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/badhope/mobile-skills.git"
+  },
+  "homepage": "https://badhope.github.io/mobile-skills/",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "typecheck": "tsc --noEmit"
   },
   "dependencies": {
     "clsx": "^2.1.1",
@@ -29,5 +38,18 @@
     "eslint-config-next": "16.2.2",
     "tailwindcss": "^4",
     "typescript": "^5"
-  }
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "keywords": [
+    "ai",
+    "skills",
+    "ecosystem",
+    "platform",
+    "nextjs",
+    "react",
+    "tailwindcss",
+    "typescript"
+  ]
 }
