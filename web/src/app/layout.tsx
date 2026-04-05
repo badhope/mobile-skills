@@ -6,36 +6,40 @@ import Footer from "@/components/Footer";
 import MobileBottomNav from "@/components/MobileBottomNav";
 import BackToTop from "@/components/BackToTop";
 import { I18nProvider } from "@/components/I18nProvider";
+import { ToastProvider } from "@/components/Toast";
+import { APP_CONFIG } from "@/lib/constants";
 
 const inter = Inter({
   subsets: ["latin"],
   display: 'swap',
   preload: true,
+  variable: '--font-inter',
   fallback: ['system-ui', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'sans-serif'],
 });
 
 export const metadata: Metadata = {
   title: {
-    default: "Mobile Skills - AI Skill 生态系统",
-    template: "%s | Mobile Skills"
+    default: `${APP_CONFIG.name} - AI Skill 生态系统`,
+    template: `%s | ${APP_CONFIG.name}`
   },
-  description: "AI Skill 生态系统，提供丰富的 AI 角色和技能，让 AI 变得更有用、更有趣。",
+  description: `${APP_CONFIG.description}，提供丰富的 AI 角色和技能，让 AI 变得更有用、更有趣。`,
   keywords: ["AI", "Skills", "智能体", "角色扮演", "技能系统", "AI Agent", "Prompt Engineering"],
-  authors: [{ name: "Mobile Skills Team" }],
-  creator: "Mobile Skills Team",
-  publisher: "Mobile Skills",
-  metadataBase: new URL('https://badhope.github.io/mobile-skills'),
+  authors: [{ name: APP_CONFIG.author }],
+  creator: APP_CONFIG.author,
+  publisher: APP_CONFIG.name,
+  metadataBase: new URL(APP_CONFIG.url),
   openGraph: {
-    title: "Mobile Skills - AI Skill 生态系统",
-    description: "AI Skill 生态系统，提供丰富的 AI 角色和技能",
+    title: `${APP_CONFIG.name} - AI Skill 生态系统`,
+    description: `${APP_CONFIG.description}，提供丰富的 AI 角色和技能`,
     type: "website",
     locale: "zh_CN",
-    siteName: "Mobile Skills",
+    siteName: APP_CONFIG.name,
+    url: APP_CONFIG.url,
   },
   twitter: {
     card: "summary_large_image",
-    title: "Mobile Skills - AI Skill 生态系统",
-    description: "AI Skill 生态系统，提供丰富的 AI 角色和技能",
+    title: `${APP_CONFIG.name} - AI Skill 生态系统`,
+    description: `${APP_CONFIG.description}，提供丰富的 AI 角色和技能`,
   },
   robots: {
     index: true,
@@ -48,6 +52,11 @@ export const metadata: Metadata = {
       "max-snippet": -1,
     },
   },
+  icons: {
+    icon: '/favicon.svg',
+    apple: '/apple-touch-icon.png',
+  },
+  manifest: '/manifest.json',
 };
 
 export default function RootLayout({
@@ -56,10 +65,11 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="zh-CN" className={`${inter.className} h-full antialiased`} data-scroll-behavior="smooth" suppressHydrationWarning>
+    <html lang="zh-CN" className={`${inter.variable} h-full antialiased`} data-scroll-behavior="smooth" suppressHydrationWarning>
       <head>
         <meta name="theme-color" content="#4f46e5" />
         <meta name="color-scheme" content="light dark" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
         <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
         <link rel="manifest" href="/manifest.json" />
         <script
@@ -76,13 +86,15 @@ export default function RootLayout({
           }}
         />
       </head>
-      <body className="min-h-full flex flex-col bg-gray-50 dark:bg-gray-900 transition-colors duration-300">
+      <body className="min-h-full flex flex-col bg-gray-50 dark:bg-gray-900 transition-colors duration-300 font-sans">
         <I18nProvider>
-          <Navbar />
-          <main className="flex-1 pb-16 md:pb-0">{children}</main>
-          <Footer />
-          <MobileBottomNav />
-          <BackToTop />
+          <ToastProvider>
+            <Navbar />
+            <main className="flex-1 pb-16 md:pb-0">{children}</main>
+            <Footer />
+            <MobileBottomNav />
+            <BackToTop />
+          </ToastProvider>
         </I18nProvider>
       </body>
     </html>
