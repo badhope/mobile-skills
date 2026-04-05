@@ -1,20 +1,24 @@
 'use client';
 
-import { useState, useEffect, useCallback } from 'react';
+import { useState, useCallback, useMemo } from 'react';
+
+function getInitialFavorites(): string[] {
+  if (typeof window === 'undefined') {
+    return [];
+  }
+  const stored = localStorage.getItem('favorites');
+  if (stored) {
+    try {
+      return JSON.parse(stored);
+    } catch {
+      return [];
+    }
+  }
+  return [];
+}
 
 export function useFavorites() {
-  const [favorites, setFavorites] = useState<string[]>([]);
-
-  useEffect(() => {
-    const stored = localStorage.getItem('favorites');
-    if (stored) {
-      try {
-        setFavorites(JSON.parse(stored));
-      } catch (e) {
-        console.error('Failed to parse favorites:', e);
-      }
-    }
-  }, []);
+  const [favorites, setFavorites] = useState<string[]>(() => getInitialFavorites());
 
   const toggleFavorite = useCallback((skillId: string) => {
     setFavorites(prev => {
@@ -31,5 +35,25 @@ export function useFavorites() {
     return favorites.includes(skillId);
   }, [favorites]);
 
-  return { favorites, toggleFavorite, isFavorite };
+  const favoritesSet = useMemo(() => new Set(favorites), [favorites]);
+
+  const isFavoriteOptimized = useCallback((skillId: string) => {
+    return favoritesSet.has(skillId);
+  }, [favoritesSet]);
+
+  const clearFavorites = useCallback(() => {
+    setFavorites([]);
+    localStorage.removeItem('favorites');
+  }, []);
+
+  const favoritesCount = favorites.length;
+
+  return { 
+    favorites, 
+    toggleFavorite, 
+    isFavorite, 
+    isFavoriteOptimized,
+    clearFavorites,
+    favoritesCount
+  };
 }

@@ -1,59 +1,67 @@
 'use client';
 
-import { useState, useEffect } from 'react';
+import { useState, useMemo } from 'react';
 import Link from 'next/link';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 import rehypeHighlight from 'rehype-highlight';
-import type { Skill } from '@/types/skill';
+import type { Skill, SkillsData } from '@/types/skill';
+import skillsData from '@/skills-data.json';
+import { SoftwareApplicationJsonLd, BreadcrumbJsonLd } from '@/components/JsonLd';
+import {
+  getCategoryIcon,
+  getCategoryName,
+  getCategoryGradient
+} from '@/lib/categories';
 
-const CATEGORY_ICONS: Record<string, string> = {
-  functional: '🛠️',
-  professional: '💼',
-  creative: '🎨',
-  character: '🎭',
-  fiction: '📖'
-};
-
-const CATEGORY_NAMES: Record<string, string> = {
-  functional: '功能型',
-  professional: '专业型',
-  creative: '创意型',
-  character: '角色型',
-  fiction: '虚构世界'
-};
-
-const CATEGORY_GRADIENTS: Record<string, string> = {
-  functional: 'from-indigo-500 to-purple-600',
-  professional: 'from-pink-400 to-rose-500',
-  creative: 'from-cyan-400 to-cyan-500',
-  character: 'from-pink-400 to-yellow-300',
-  fiction: 'from-green-400 to-teal-400'
-};
+function getInitialFavorite(skillId: string): boolean {
+  if (typeof window === 'undefined') return false;
+  const favorites = JSON.parse(localStorage.getItem('favorite-skills') || '[]');
+  return favorites.includes(skillId);
+}
 
 export default function SkillClient({ skill }: { skill: Skill }) {
-  const [isFavorite, setIsFavorite] = useState(false);
+  const { skills } = skillsData as SkillsData;
+  const [isFavorite, setIsFavorite] = useState(() => getInitialFavorite(skill.id));
   const [copied, setCopied] = useState(false);
   const [showRawContent, setShowRawContent] = useState(false);
 
-  useEffect(() => {
-    const favorites = JSON.parse(localStorage.getItem('favorites') || '[]');
-    setIsFavorite(favorites.includes(skill.id));
-  }, [skill.id]);
-
   const category = skill.categorization.primary_category;
-  const icon = CATEGORY_ICONS[category] || '🧩';
-  const gradient = CATEGORY_GRADIENTS[category] || 'from-gray-500 to-gray-600';
-  const categoryName = CATEGORY_NAMES[category] || category;
+  const icon = getCategoryIcon(category);
+  const gradient = getCategoryGradient(category);
+  const categoryName = getCategoryName(category);
+  const skillTags = skill.categorization.tags;
+
+  const relatedSkills = useMemo(() => {
+    const sameCategory = skills.filter(
+      s => s.categorization.primary_category === category && s.id !== skill.id
+    );
+    
+    const withSimilarTags = skills.filter(s => {
+      if (s.id === skill.id) return false;
+      const commonTags = s.categorization.tags.filter(tag => 
+        skillTags.includes(tag)
+      );
+      return commonTags.length > 0;
+    });
+    
+    const combined = [...new Map(
+      [...sameCategory, ...withSimilarTags].map(s => [s.id, s])
+    ).values()];
+    
+    return combined
+      .sort((a, b) => b.stats.use_count - a.stats.use_count)
+      .slice(0, 6);
+  }, [skills, skill.id, category, skillTags]);
 
   const toggleFavorite = () => {
-    const favorites = JSON.parse(localStorage.getItem('favorites') || '[]');
+    const favorites = JSON.parse(localStorage.getItem('favorite-skills') || '[]');
     if (isFavorite) {
       const newFavorites = favorites.filter((id: string) => id !== skill.id);
-      localStorage.setItem('favorites', JSON.stringify(newFavorites));
+      localStorage.setItem('favorite-skills', JSON.stringify(newFavorites));
     } else {
       favorites.push(skill.id);
-      localStorage.setItem('favorites', JSON.stringify(favorites));
+      localStorage.setItem('favorite-skills', JSON.stringify(favorites));
     }
     setIsFavorite(!isFavorite);
   };
@@ -70,6 +78,34 @@ export default function SkillClient({ skill }: { skill: Skill }) {
 
   return (
     <div className="min-h-screen bg-gray-50">
+      <SoftwareApplicationJsonLd
+        name={skill.name}
+        description={skill.metadata.description}
+        url={`https://badhope.github.io/mobile-skills/skills/${skill.id}`}
+        applicationCategory="UtilitiesApplication"
+        operatingSystem="Any"
+        offers={{
+          '@type': 'Offer',
+          price: '0',
+          priceCurrency: 'USD',
+        }}
+        aggregateRating={{
+          '@type': 'AggregateRating',
+          ratingValue: skill.stats.rating,
+          ratingCount: skill.stats.rating_count,
+        }}
+        author={{
+          '@type': 'Organization',
+          name: skill.metadata.author,
+        }}
+      />
+      <BreadcrumbJsonLd
+        items={[
+          { name: '首页', url: 'https://badhope.github.io/mobile-skills/' },
+          { name: '技能', url: 'https://badhope.github.io/mobile-skills/skills' },
+          { name: skill.name, url: `https://badhope.github.io/mobile-skills/skills/${skill.id}` },
+        ]}
+      />
       <div className={`bg-gradient-to-br ${gradient} text-white py-16`}>
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <Link href="/skills" className="inline-flex items-center text-white/80 hover:text-white mb-6">
@@ -230,7 +266,7 @@ export default function SkillClient({ skill }: { skill: Skill }) {
                   remarkPlugins={[remarkGfm]}
                   rehypePlugins={[rehypeHighlight]}
                   components={{
-                    code({ node, inline, className, children, ...props }: any) {
+                    code({ inline, className, children, ...props }: React.HTMLAttributes<HTMLElement> & { inline?: boolean }) {
                       const match = /language-(\w+)/.exec(className || '');
                       return !inline && match ? (
                         <div className="relative">
@@ -254,6 +290,46 @@ export default function SkillClient({ skill }: { skill: Skill }) {
             )}
           </div>
         </div>
+
+        {relatedSkills.length > 0 && (
+          <div className="mt-8">
+            <h2 className="text-xl font-semibold text-gray-900 dark:text-white mb-6 flex items-center gap-2">
+              <span className="text-2xl">🔗</span>
+              相关技能推荐
+            </h2>
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+              {relatedSkills.map(related => (
+                <Link
+                  key={related.id}
+                  href={`/skills/${related.id}`}
+                  className="group bg-white dark:bg-gray-800 rounded-xl border border-gray-200 dark:border-gray-700 p-4 hover:shadow-lg hover:border-indigo-300 dark:hover:border-indigo-600 transition-all duration-300"
+                >
+                  <div className="flex items-start gap-3">
+                    <span className="text-2xl flex-shrink-0">
+                      {getCategoryIcon(related.categorization.primary_category)}
+                    </span>
+                    <div className="flex-1 min-w-0">
+                      <h3 className="font-semibold text-gray-900 dark:text-white group-hover:text-indigo-600 dark:group-hover:text-indigo-400 truncate">
+                        {related.name}
+                      </h3>
+                      <p className="text-sm text-gray-500 dark:text-gray-400 line-clamp-2 mt-1">
+                        {related.metadata.description}
+                      </p>
+                      <div className="flex items-center gap-2 mt-2">
+                        <span className="text-xs text-gray-400">
+                          ⭐ {related.stats.rating.toFixed(1)}
+                        </span>
+                        <span className="text-xs text-gray-400">
+                          👥 {related.stats.use_count.toLocaleString()}
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </Link>
+              ))}
+            </div>
+          </div>
+        )}
       </div>
     </div>
   );

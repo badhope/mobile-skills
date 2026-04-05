@@ -1,4 +1,3 @@
-import type { Metadata } from 'next';
 import SkillClient from './SkillClient';
 import type { SkillsData } from '@/types/skill';
 import skillsData from '@/skills-data.json';
@@ -38,9 +37,6 @@ export default async function SkillDetailPage({ params }: { params: Promise<{ id
         <div className="text-center">
           <div className="text-6xl mb-4">😕</div>
           <h2 className="text-2xl font-bold text-gray-900 mb-2">技能未找到</h2>
-          <a href="/skills" className="text-indigo-600 hover:text-indigo-700">
-            返回技能列表
-          </a>
         </div>
       </div>
     );

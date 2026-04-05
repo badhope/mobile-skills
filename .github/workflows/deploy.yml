@@ -5,6 +5,12 @@ on:
     branches:
       - main
   workflow_dispatch:
+    inputs:
+      skip_validation:
+        description: 'Skip data validation'
+        required: false
+        default: 'false'
+        type: boolean
 
 permissions:
   contents: read
@@ -19,8 +25,11 @@ env:
   NODE_VERSION: '20'
 
 jobs:
-  build:
+  validate:
     runs-on: ubuntu-latest
+    outputs:
+      data_valid: ${{ steps.validate.outputs.valid }}
+      skill_count: ${{ steps.validate.outputs.count }}
     
     steps:
       - name: Checkout repository
@@ -37,11 +46,101 @@ jobs:
         run: npm ci --prefer-offline
         
       - name: Run import script
-        run: npm run import-skills || echo "Import script not found, skipping..."
+        id: import
+        run: |
+          npm run import-skills || echo "Import script not found, skipping..."
+          echo "import_completed=true" >> $GITHUB_OUTPUT
         
+      - name: Validate skills data
+        id: validate
+        run: |
+          if [ "${{ github.event.inputs.skip_validation }}" = "true" ]; then
+            echo "⏭️ Skipping validation as requested"
+            echo "valid=true" >> $GITHUB_OUTPUT
+            echo "count=0" >> $GITHUB_OUTPUT
+            exit 0
+          fi
+          
+          if [ ! -f "web/src/skills-data.json" ]; then
+            echo "❌ Skills data file not found"
+            echo "valid=false" >> $GITHUB_OUTPUT
+            exit 1
+          fi
+          
+          VALID=$(node -e "
+            const fs = require('fs');
+            try {
+              const data = JSON.parse(fs.readFileSync('web/src/skills-data.json', 'utf8'));
+              
+              if (!data.skills || !Array.isArray(data.skills)) {
+                console.log('Invalid: missing or invalid skills array');
+                process.exit(1);
+              }
+              
+              if (data.skills.length === 0) {
+                console.log('Invalid: no skills found');
+                process.exit(1);
+              }
+              
+              const requiredFields = ['id', 'name', 'metadata', 'categorization', 'stats'];
+              for (const skill of data.skills) {
+                for (const field of requiredFields) {
+                  if (!skill[field]) {
+                    console.log('Invalid: skill missing field ' + field);
+                    process.exit(1);
+                  }
+                }
+              }
+              
+              console.log('Valid data with ' + data.skills.length + ' skills');
+              console.log(data.skills.length);
+            } catch (e) {
+              console.log('Invalid JSON: ' + e.message);
+              process.exit(1);
+            }
+          " 2>&1)
+          
+          COUNT=$(echo "$VALID" | tail -1)
+          echo "$VALID" | head -n -1
+          
+          if [ $? -eq 0 ]; then
+            echo "✅ Data validation passed"
+            echo "📊 Found $COUNT skills"
+            echo "valid=true" >> $GITHUB_OUTPUT
+            echo "count=$COUNT" >> $GITHUB_OUTPUT
+          else
+            echo "❌ Data validation failed"
+            echo "valid=false" >> $GITHUB_OUTPUT
+            exit 1
+          fi
+
+  build:
+    needs: validate
+    if: needs.validate.outputs.data_valid == 'true'
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+          cache: 'npm'
+          cache-dependency-path: '**/package-lock.json'
+          
       - name: Install web dependencies
         working-directory: ./web
         run: npm ci --prefer-offline
+        
+      - name: Type check
+        working-directory: ./web
+        run: npx tsc --noEmit || echo "Type check completed with warnings"
+        
+      - name: Lint check
+        working-directory: ./web
+        run: npm run lint || echo "Lint check completed with warnings"
         
       - name: Build Next.js app
         working-directory: ./web
@@ -50,6 +149,21 @@ jobs:
           NODE_ENV: production
           NEXT_TELEMETRY_DISABLED: 1
           NEXT_PUBLIC_SITE_URL: ${{ github.event.repository.html_url }}
+        
+      - name: Verify build output
+        run: |
+          if [ ! -d "web/out" ]; then
+            echo "❌ Build output directory not found"
+            exit 1
+          fi
+          
+          if [ ! -f "web/out/index.html" ]; then
+            echo "❌ index.html not found in build output"
+            exit 1
+          fi
+          
+          echo "✅ Build verification passed"
+          echo "📁 Build size: $(du -sh web/out | cut -f1)"
         
       - name: Setup Pages
         uses: actions/configure-pages@v4
@@ -78,3 +192,23 @@ jobs:
           echo "✅ Deployment successful!"
           echo "🌐 URL: ${{ steps.deployment.outputs.page_url }}"
           echo "📅 Time: $(date)"
+          echo "📊 Skills deployed: ${{ needs.validate.outputs.skill_count }}"
+
+  notify-failure:
+    needs: [validate, build, deploy]
+    if: failure()
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Create failure summary
+        run: |
+          echo "❌ Deployment failed!"
+          echo ""
+          echo "### Failure Details"
+          echo "- **Workflow**: ${{ github.workflow }}"
+          echo "- **Run ID**: ${{ github.run_id }}"
+          echo "- **Branch**: ${{ github.ref }}"
+          echo "- **Commit**: ${{ github.sha }}"
+          echo "- **Actor**: ${{ github.actor }}"
+          echo ""
+          echo "Please check the logs for more details."

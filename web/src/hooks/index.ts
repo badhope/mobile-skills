@@ -2,3 +2,6 @@ export { useFavorites } from './useFavorites';
 export { useSearch } from './useSearch';
 export { useMediaQuery, useIsMobile, useIsTablet, useIsDesktop } from './useMediaQuery';
 export { useLocalStorage } from './useLocalStorage';
+export { usePreferences, type UserPreferences } from './usePreferences';
+export { useI18n } from './useI18n';
+export { useNotifications } from './useNotifications';
