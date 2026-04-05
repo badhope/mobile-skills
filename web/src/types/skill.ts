@@ -62,7 +62,7 @@ export interface Skill {
 
 export interface CategoryInfo {
   count: number;
-  skills: string[];
+  skills?: string[];
 }
 
 export interface Category {
