@@ -14,7 +14,9 @@ const CATEGORY_INFO: Record<string, { icon: string; color: string; gradient: str
   professional: { icon: '💼', color: 'bg-pink-500', gradient: 'from-pink-500 to-rose-500' },
   creative: { icon: '🎨', color: 'bg-cyan-500', gradient: 'from-cyan-500 to-blue-500' },
   character: { icon: '🎭', color: 'bg-pink-400', gradient: 'from-pink-400 to-purple-400' },
-  fiction: { icon: '📖', color: 'bg-green-500', gradient: 'from-green-500 to-emerald-500' }
+  fiction: { icon: '📖', color: 'bg-green-500', gradient: 'from-green-500 to-emerald-500' },
+  tool: { icon: '🔧', color: 'bg-violet-500', gradient: 'from-violet-400 to-purple-500' },
+  game: { icon: '🎮', color: 'bg-rose-500', gradient: 'from-rose-400 to-pink-500' }
 };
 
 export default function Home() {
@@ -59,7 +61,9 @@ export default function Home() {
     professional: t('skills.professional'),
     creative: t('skills.creative'),
     character: t('skills.character'),
-    fiction: t('skills.fiction')
+    fiction: t('skills.fiction'),
+    tool: t('skills.tool'),
+    game: t('skills.game')
   };
 
   return (
@@ -132,7 +136,7 @@ export default function Home() {
             <CategoryGridSkeleton count={5} />
           ) : (
             <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-3 sm:gap-4">
-              {Object.entries(categories).map(([key, category], index) => {
+              {Object.entries(categories).map(([key, cat], index) => {
                 const info = CATEGORY_INFO[key] || { icon: '🧩', color: 'bg-gray-500', gradient: 'from-gray-500 to-gray-600' };
                 const categorySkills = skills.filter(s => s.categorization.primary_category === key);
                 return (
@@ -145,7 +149,7 @@ export default function Home() {
                     <div className={`w-12 h-12 sm:w-16 sm:h-16 rounded-full flex items-center justify-center mx-auto mb-3 sm:mb-4 bg-gradient-to-br ${info.gradient} group-hover:scale-110 transition-transform duration-300`}>
                       <span className="text-2xl sm:text-3xl">{info.icon}</span>
                     </div>
-                    <h3 className="font-semibold text-gray-900 dark:text-white mb-1 text-sm sm:text-base">{categoryNames[key] || key}</h3>
+                    <h3 className="font-semibold text-gray-900 dark:text-white mb-1 text-sm sm:text-base">{categoryNames[key]}</h3>
                     <p className="text-xs sm:text-sm text-gray-500 dark:text-gray-400">{categorySkills.length} {t('home.skillsCount')}</p>
                   </Link>
                 );

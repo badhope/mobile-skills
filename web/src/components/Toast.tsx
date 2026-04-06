@@ -92,11 +92,7 @@ function ToastItem({ toast, onRemove }: { toast: Toast; onRemove: (id: string) =
 
 export function ToastProvider({ children }: { children: React.ReactNode }) {
   const [toasts, setToasts] = useState<Toast[]>([]);
-  const [mounted, setMounted] = useState(false);
-
-  useEffect(() => {
-    setMounted(true);
-  }, []);
+  const mounted = typeof window !== 'undefined';
 
   const addToast = useCallback((toast: Omit<Toast, 'id'>) => {
     const id = `toast-${Date.now()}-${Math.random().toString(36).slice(2, 9)}`;

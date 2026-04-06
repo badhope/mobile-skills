@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useEffect, useCallback, useMemo } from 'react';
+import { useState, useMemo, useCallback } from 'react';
 import type { Skill, SkillsData } from '@/types/skill';
 import skillsData from '@/skills-data.json';
 import { LRUCache, debounce, formatRelativeTime } from '@/lib/performance';
@@ -26,8 +26,6 @@ export interface UseSkillsResult {
 
 export function useSkills(options: UseSkillsOptions = {}): UseSkillsResult {
   const { category, searchQuery = '', sortBy = 'popular', limit } = options;
-  const [isLoading, setIsLoading] = useState(false);
-  const [error, setError] = useState<string | null>(null);
 
   const data = skillsData as SkillsData;
   const allSkills = data.skills;
@@ -95,8 +93,8 @@ export function useSkills(options: UseSkillsOptions = {}): UseSkillsResult {
     skills: filteredAndSortedSkills,
     allSkills,
     categories,
-    isLoading,
-    error,
+    isLoading: false,
+    error: null,
     totalCount: allSkills.length,
     filteredCount: filteredAndSortedSkills.length,
   };
@@ -110,9 +108,6 @@ export interface UseSkillResult {
 }
 
 export function useSkill(skillId: string): UseSkillResult {
-  const [isLoading, setIsLoading] = useState(true);
-  const [error, setError] = useState<string | null>(null);
-
   const data = skillsData as SkillsData;
 
   const skill = useMemo(() => {
@@ -129,18 +124,13 @@ export function useSkill(skillId: string): UseSkillResult {
     return sameCategory.slice(0, 4);
   }, [skill, data.skills]);
 
-  useEffect(() => {
-    setIsLoading(false);
-    if (skillId && !skill) {
-      setError('Skill not found');
-    } else {
-      setError(null);
-    }
+  const error = useMemo(() => {
+    return skillId && !skill ? 'Skill not found' : null;
   }, [skillId, skill]);
 
   return {
     skill,
-    isLoading,
+    isLoading: false,
     error,
     relatedSkills,
   };

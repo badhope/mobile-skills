@@ -153,6 +153,34 @@ export const CATEGORY_CONFIG = {
       'sales': { icon: '💼', name: { 'zh-CN': '销售技巧', 'en-US': 'Sales' } },
       'hr': { icon: '👥', name: { 'zh-CN': '人力资源', 'en-US': 'HR' } }
     }
+  },
+  tool: {
+    icon: '🔧',
+    name: { 'zh-CN': '工具类', 'en-US': 'Tools' },
+    gradient: 'from-violet-400 to-purple-500',
+    color: '#a78bfa, #8b5cf6',
+    description: { 'zh-CN': '实用工具与辅助技能', 'en-US': 'Utility and assistant tools' },
+    subcategories: {
+      'code-assistant': { icon: '💻', name: { 'zh-CN': '编程助手', 'en-US': 'Code Assistant' } },
+      'writing-tool': { icon: '✍️', name: { 'zh-CN': '写作工具', 'en-US': 'Writing Tool' } },
+      'data-tool': { icon: '📊', name: { 'zh-CN': '数据工具', 'en-US': 'Data Tool' } },
+      'design-tool': { icon: '🎨', name: { 'zh-CN': '设计工具', 'en-US': 'Design Tool' } },
+      'productivity-tool': { icon: '⚡', name: { 'zh-CN': '效率工具', 'en-US': 'Productivity Tool' } }
+    }
+  },
+  game: {
+    icon: '🎮',
+    name: { 'zh-CN': '游戏互动', 'en-US': 'Games' },
+    gradient: 'from-rose-400 to-pink-500',
+    color: '#fb7185, #ec4899',
+    description: { 'zh-CN': 'AI驱动的互动游戏', 'en-US': 'AI-powered interactive games' },
+    subcategories: {
+      'werewolf': { icon: '🐺', name: { 'zh-CN': '狼人杀', 'en-US': 'Werewolf' } },
+      'rpg': { icon: '⚔️', name: { 'zh-CN': '角色扮演', 'en-US': 'RPG' } },
+      'strategy': { icon: '🎯', name: { 'zh-CN': '策略游戏', 'en-US': 'Strategy' } },
+      'simulation': { icon: '🏰', name: { 'zh-CN': '模拟游戏', 'en-US': 'Simulation' } },
+      'interactive-story': { icon: '📖', name: { 'zh-CN': '互动故事', 'en-US': 'Interactive Story' } }
+    }
   }
 } as const;
 

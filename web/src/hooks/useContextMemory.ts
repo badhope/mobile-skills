@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useEffect, useCallback } from 'react';
+import { useState, useCallback } from 'react';
 
 interface ConversationMessage {
   id: string;
@@ -31,31 +31,38 @@ const STORAGE_KEY = 'mobile-skills-context-memory';
 const MAX_CONVERSATIONS = 50;
 const MAX_MESSAGES_PER_CONVERSATION = 200;
 
-export function useContextMemory() {
-  const [state, setState] = useState<ContextMemoryState>({
+function getInitialState(): ContextMemoryState {
+  if (typeof window === 'undefined') {
+    return {
+      conversations: [],
+      activeConversationId: null,
+      isLoaded: false,
+    };
+  }
+
+  try {
+    const stored = localStorage.getItem(STORAGE_KEY);
+    if (stored) {
+      const parsed = JSON.parse(stored);
+      return {
+        conversations: parsed.conversations || [],
+        activeConversationId: parsed.activeConversationId || null,
+        isLoaded: true,
+      };
+    }
+  } catch (error) {
+    console.error('Error loading context memory:', error);
+  }
+
+  return {
     conversations: [],
     activeConversationId: null,
-    isLoaded: false,
-  });
+    isLoaded: true,
+  };
+}
 
-  useEffect(() => {
-    try {
-      const stored = localStorage.getItem(STORAGE_KEY);
-      if (stored) {
-        const parsed = JSON.parse(stored);
-        setState({
-          conversations: parsed.conversations || [],
-          activeConversationId: parsed.activeConversationId || null,
-          isLoaded: true,
-        });
-      } else {
-        setState(prev => ({ ...prev, isLoaded: true }));
-      }
-    } catch (error) {
-      console.error('Error loading context memory:', error);
-      setState(prev => ({ ...prev, isLoaded: true }));
-    }
-  }, []);
+export function useContextMemory() {
+  const [state, setState] = useState<ContextMemoryState>(getInitialState);
 
   const saveToStorage = useCallback((newState: ContextMemoryState) => {
     try {
